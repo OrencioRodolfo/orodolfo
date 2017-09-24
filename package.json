@@ -4,12 +4,13 @@
   "description": "My personal page",
   "main": "server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server/app"
   },
   "author": "orenciorodolfo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "jest": "^21.1.0"
   }
 }
