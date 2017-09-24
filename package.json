@@ -2,10 +2,10 @@
   "name": "orago",
   "version": "1.0.0",
   "description": "My personal page",
-  "main": "server/app.js",
+  "main": "src/server/app.js",
   "scripts": {
     "test": "jest",
-    "start": "node src/server/app",
+    "start": "node --experimental-modules src/server/app.mjs",
     "lint": "eslint src/**/*.js"
   },
   "author": "orenciorodolfo",
