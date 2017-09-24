@@ -5,11 +5,15 @@
   "main": "server/app.js",
   "scripts": {
     "test": "jest",
-    "start": "node server/app"
+    "start": "node src/server/app",
+    "lint": "eslint src/**/*.js"
   },
   "author": "orenciorodolfo",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
     "express": "^4.15.4",
     "jest": "^21.1.0"
   }
