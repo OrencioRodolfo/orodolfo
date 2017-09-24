@@ -3,15 +3,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const src = './src/client';
 
-module.exports = {
+const config = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
     `${src}/js/index.js`,
   ],
   output: {
-    path: path.resolve('public/js'),
-    filename: 'app.js',
+    path: path.resolve('public'),
+    filename: 'js/app.js',
   },
   module: {
     loaders: [
@@ -26,7 +24,20 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: `${src}/index.html`,
       filename: 'index.html',
-      inject: 'body',
     }),
   ],
 };
+
+console.log('====================================');
+console.log(process.env.NODE_ENV);
+console.log('====================================');
+
+if (process.env.NODE_ENV !== 'production') {
+  config.entry = [
+    'webpack-dev-server/client?http://localhost:8080',
+    'webpack/hot/only-dev-server',
+    ...config.entry,
+  ];
+}
+
+module.exports = config;
