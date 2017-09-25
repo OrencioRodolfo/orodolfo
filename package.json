@@ -31,7 +31,9 @@
     "jest": "^21.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.8.2"
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.7.1"
   }
 }

@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const src = './src/client';
@@ -28,15 +29,16 @@ const config = {
   ],
 };
 
-console.log('====================================');
-console.log(process.env.NODE_ENV);
-console.log('====================================');
-
 if (process.env.NODE_ENV !== 'production') {
   config.entry = [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
     ...config.entry,
+  ];
+} else {
+  config.plugins = [
+    new webpack.optimize.UglifyJsPlugin(),
+    ...config.plugins,
   ];
 }
 
