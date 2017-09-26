@@ -30,6 +30,7 @@ const config = {
 };
 
 if (process.env.NODE_ENV !== 'production') {
+  config.devtool = 'source-map';
   config.entry = [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
