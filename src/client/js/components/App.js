@@ -1,8 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const H1 = styled.div`
+  color: red;
+`;
 
 const App = () => (
   <div style={{ textAlign: 'center' }}>
-    <h1>Hello World</h1>
+    <H1>Hello World</H1>
   </div>
 );
 
