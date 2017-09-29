@@ -21,23 +21,10 @@ ShallowWrapper {
     "props": Object {
       "children": <Container>
         <styled.section>
-          <span>
+          <styled.span>
             @orenciorodolfo
-          </span>
-          <styled.div>
-            <Button
-              icon="github fa-2x"
-            />
-            <Button
-              icon="linkedin fa-2x"
-            />
-            <Button
-              icon="twitter fa-2x"
-            />
-            <Button
-              icon="facebook fa-2x"
-            />
-          </styled.div>
+          </styled.span>
+          <Social />
         </styled.section>
       </Container>,
     },
@@ -48,23 +35,10 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <styled.section>
-          <span>
+          <styled.span>
             @orenciorodolfo
-          </span>
-          <styled.div>
-            <Button
-              icon="github fa-2x"
-            />
-            <Button
-              icon="linkedin fa-2x"
-            />
-            <Button
-              icon="twitter fa-2x"
-            />
-            <Button
-              icon="facebook fa-2x"
-            />
-          </styled.div>
+          </styled.span>
+          <Social />
         </styled.section>,
       },
       "ref": null,
@@ -74,23 +48,10 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <span>
+            <styled.span>
               @orenciorodolfo
-            </span>,
-            <styled.div>
-              <Button
-                icon="github fa-2x"
-              />
-              <Button
-                icon="linkedin fa-2x"
-              />
-              <Button
-                icon="twitter fa-2x"
-              />
-              <Button
-                icon="facebook fa-2x"
-              />
-            </styled.div>,
+            </styled.span>,
+            <Social />,
           ],
         },
         "ref": null,
@@ -98,81 +59,21 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
               "children": "@orenciorodolfo",
             },
             "ref": null,
             "rendered": "@orenciorodolfo",
-            "type": "span",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <Button
-                  icon="github fa-2x"
-                />,
-                <Button
-                  icon="linkedin fa-2x"
-                />,
-                <Button
-                  icon="twitter fa-2x"
-                />,
-                <Button
-                  icon="facebook fa-2x"
-                />,
-              ],
-            },
+            "nodeType": "function",
+            "props": Object {},
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "function",
-                "props": Object {
-                  "icon": "github fa-2x",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "function",
-                "props": Object {
-                  "icon": "linkedin fa-2x",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "function",
-                "props": Object {
-                  "icon": "twitter fa-2x",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "function",
-                "props": Object {
-                  "icon": "facebook fa-2x",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-            ],
+            "rendered": null,
             "type": [Function],
           },
         ],
@@ -190,23 +91,10 @@ ShallowWrapper {
       "props": Object {
         "children": <Container>
           <styled.section>
-            <span>
+            <styled.span>
               @orenciorodolfo
-            </span>
-            <styled.div>
-              <Button
-                icon="github fa-2x"
-              />
-              <Button
-                icon="linkedin fa-2x"
-              />
-              <Button
-                icon="twitter fa-2x"
-              />
-              <Button
-                icon="facebook fa-2x"
-              />
-            </styled.div>
+            </styled.span>
+            <Social />
           </styled.section>
         </Container>,
       },
@@ -217,23 +105,10 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": <styled.section>
-            <span>
+            <styled.span>
               @orenciorodolfo
-            </span>
-            <styled.div>
-              <Button
-                icon="github fa-2x"
-              />
-              <Button
-                icon="linkedin fa-2x"
-              />
-              <Button
-                icon="twitter fa-2x"
-              />
-              <Button
-                icon="facebook fa-2x"
-              />
-            </styled.div>
+            </styled.span>
+            <Social />
           </styled.section>,
         },
         "ref": null,
@@ -243,23 +118,10 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <span>
+              <styled.span>
                 @orenciorodolfo
-              </span>,
-              <styled.div>
-                <Button
-                  icon="github fa-2x"
-                />
-                <Button
-                  icon="linkedin fa-2x"
-                />
-                <Button
-                  icon="twitter fa-2x"
-                />
-                <Button
-                  icon="facebook fa-2x"
-                />
-              </styled.div>,
+              </styled.span>,
+              <Social />,
             ],
           },
           "ref": null,
@@ -267,81 +129,21 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
                 "children": "@orenciorodolfo",
               },
               "ref": null,
               "rendered": "@orenciorodolfo",
-              "type": "span",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
-                  <Button
-                    icon="github fa-2x"
-                  />,
-                  <Button
-                    icon="linkedin fa-2x"
-                  />,
-                  <Button
-                    icon="twitter fa-2x"
-                  />,
-                  <Button
-                    icon="facebook fa-2x"
-                  />,
-                ],
-              },
+              "nodeType": "function",
+              "props": Object {},
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "function",
-                  "props": Object {
-                    "icon": "github fa-2x",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "function",
-                  "props": Object {
-                    "icon": "linkedin fa-2x",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "function",
-                  "props": Object {
-                    "icon": "twitter fa-2x",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "function",
-                  "props": Object {
-                    "icon": "facebook fa-2x",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-              ],
+              "rendered": null,
               "type": [Function],
             },
           ],
