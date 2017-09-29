@@ -10,9 +10,6 @@ function contrast(background = 'light', type = 'primary') {
 }
 
 function textSetting(level) {
-  console.log('====================================');
-  console.log(textSettings);
-  console.log('====================================');
   return textSettings[level];
 }
 
