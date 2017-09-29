@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Pill = styled.div`
-  border-right: 1px solid white;
-  padding-right: 5px;
-  margin-right: 5px;
+  padding: 3px 10px;
+  background: ${props => props.theme.color('background', 'light')};
+  border-right: 1px solid ${props => props.theme.color('background')};
 `;
 
 const PillLeft = ({ children }) => (

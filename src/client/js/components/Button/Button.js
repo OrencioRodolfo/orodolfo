@@ -2,26 +2,26 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const Button = styled.button`
+const Btn = styled.button`
   border-radius: 3px;
-  padding: 5px 10px;
+  padding: 0;
   display: flex;
-  font-size: 22px;
-  background: grey;
-  color: white;
+  ${props => props.theme.textSetting('sm')}; // font size and line height
+  color: ${props => props.theme.contrast('light')};
+  border: 1px solid ${props => props.theme.color('background')};
 `;
 
-const PillRight = ({ children }) => (
-  <Button>
+const Button = ({ children }) => (
+  <Btn>
     { children }
-  </Button>
+  </Btn>
 );
 
-PillRight.propTypes = {
+Button.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object,
   ]).isRequired,
 };
 
-export default PillRight;
+export default Button;

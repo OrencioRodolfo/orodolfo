@@ -4,9 +4,9 @@ exports[`Must render a button 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <PillRight>
+  Symbol(enzyme.__unrendered__): <Button>
     My button
-  </PillRight>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -52,11 +52,11 @@ exports[`Must render a pill button 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <PillRight>
+  Symbol(enzyme.__unrendered__): <Button>
     <span>
       s
     </span>
-  </PillRight>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
