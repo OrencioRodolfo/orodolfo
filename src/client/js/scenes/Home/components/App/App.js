@@ -3,26 +3,29 @@ import styled, { ThemeProvider } from 'styled-components';
 import Button from '../../../../components/Button/Button';
 import PillLeft from '../../../../components/Button/PillLeft/PillLeft';
 import PillRight from '../../../../components/Button/PillRight/PillRight';
-import I from '../../../../components/Icon/Icon';
+import Icon from '../../../../components/Icon/Icon';
+import Container from '../../../../components/Container/Container';
+import Header from '../Header/Header';
 import * as theme from '../../../../theme';
 
-const H1 = styled.div`
-  color: red;
-`;
+
 const AppContainer = styled.div`
-  color: red;
+  font-family: ${props => props.theme.fontFamily('primary')};
 `;
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <AppContainer style={{ textAlign: 'center' }}>
-      <H1>Hello World</H1>
-      <Button>
-        <PillLeft>
-          <I icon="star" /> Star
-        </PillLeft>
-        <PillRight>0</PillRight>
-      </Button>
+    <AppContainer>
+      <Header />
+      <Container>
+        <Button>
+          <PillLeft>
+            <Icon icon="star" />
+            Star
+          </PillLeft>
+          <PillRight>0</PillRight>
+        </Button>
+      </Container>
     </AppContainer>
   </ThemeProvider>
 );

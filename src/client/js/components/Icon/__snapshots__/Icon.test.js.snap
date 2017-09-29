@@ -17,25 +17,25 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": null,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "className": "fa fa-star",
+      "className": "fa fa-star fa-2x",
     },
     "ref": null,
     "rendered": null,
-    "type": [Function],
+    "type": "i",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": null,
-      "nodeType": "class",
+      "nodeType": "host",
       "props": Object {
-        "className": "fa fa-star",
+        "className": "fa fa-star fa-2x",
       },
       "ref": null,
       "rendered": null,
-      "type": [Function],
+      "type": "i",
     },
   ],
   Symbol(enzyme.__options__): Object {
