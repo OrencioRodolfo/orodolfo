@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Must render a non empty container 1`] = `
+exports[`Container component Must render a non empty container 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -74,7 +74,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`Must render an empty container 1`] = `
+exports[`Container component Must render an empty container 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],

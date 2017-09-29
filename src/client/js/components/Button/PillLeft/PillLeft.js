@@ -5,6 +5,10 @@ import PropTypes from 'prop-types';
 const Pill = styled.div`
   padding: 3px 10px;
   border-right: 1px solid ${props => props.theme.color('background')};
+
+  > i {
+    margin-right: 5px;
+  }
 `;
 
 const PillLeft = ({ children }) => (
@@ -14,7 +18,7 @@ const PillLeft = ({ children }) => (
 );
 
 PillLeft.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.any.isRequired,
 };
 
 export default PillLeft;

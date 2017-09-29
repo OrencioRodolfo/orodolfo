@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Must render a button 1`] = `
+exports[`Button component Must render a button 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -48,7 +48,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`Must render a pill button 1`] = `
+exports[`Button component Must render a pill button 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
