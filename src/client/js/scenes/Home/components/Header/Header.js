@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Icon from '../../../../components/Icon/Icon';
 import Container from '../../../../components/Container/Container';
+import Social from '../Social/Social';
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color('foreground')};
@@ -13,26 +13,17 @@ const HeaderContent = styled.section`
   justify-content: space-between;
   align-items: center;
 `;
-const SocialIcons = styled.div`
-  > i {
-    margin: 0 10px;
-  }
-  > i:last-child {
-    margin: 0;
-  }
+
+const Tag = styled.span`
+  color: ${props => props.theme.contrast('dark', 'secondary')};
 `;
 
 const Header = () => (
   <HeaderWrapper>
     <Container>
       <HeaderContent>
-        <span>@orenciorodolfo</span>
-        <SocialIcons>
-          <Icon icon="github fa-2x" />
-          <Icon icon="linkedin fa-2x" />
-          <Icon icon="twitter fa-2x" />
-          <Icon icon="facebook fa-2x" />
-        </SocialIcons>
+        <Tag>@orenciorodolfo</Tag>
+        <Social />
       </HeaderContent>
     </Container>
   </HeaderWrapper>
