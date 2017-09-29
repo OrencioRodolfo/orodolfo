@@ -8,14 +8,14 @@ const Div = styled.div`
   margin: 0 auto;
 `;
 
-const Container = ({ children }) => (
-  <Div>
-    { children }
+const Container = props => (
+  <Div {...props}>
+    { props.children }
   </Div>
 );
 
 Container.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.any.isRequired,
 };
 
 Container.defaultProps = {
