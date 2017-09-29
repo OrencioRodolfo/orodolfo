@@ -23,7 +23,7 @@ const palettes = {
   background: {
     base: '#dadada',
     light: '#eff3f6',
-    lighter: '#fff',
+    lighter: '#fafbfc',
     dark: '#ababab',
     darker: '#676767',
   },
