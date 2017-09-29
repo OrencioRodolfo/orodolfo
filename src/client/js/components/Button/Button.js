@@ -7,7 +7,9 @@ const Btn = styled.button`
   padding: 0;
   display: flex;
   ${props => props.theme.textSetting('sm')}; // font size and line height
+  font-weight: ${props => props.theme.weight('semiBold')};
   color: ${props => props.theme.contrast('light')};
+  background: ${props => props.theme.color('background', 'light')};
   border: 1px solid ${props => props.theme.color('background')};
 `;
 

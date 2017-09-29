@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 const Pill = styled.div`
   padding: 3px 10px;
-  background: ${props => props.theme.color('background', 'light')};
   border-right: 1px solid ${props => props.theme.color('background')};
 `;
 
