@@ -1,10 +1,10 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import Button from '../../../../components/Button/Button';
-import PillLeft from '../../../../components/Button/PillLeft/PillLeft';
-import PillRight from '../../../../components/Button/PillRight/PillRight';
-import I from '../../../../components/Icon/Icon';
-import * as theme from '../../../../theme';
+import Button from '../Button/Button';
+import PillLeft from '../Button/PillLeft/PillLeft';
+import PillRight from '../Button/PillRight/PillRight';
+import I from '../Icon/Icon';
+import * as theme from '../../theme';
 
 const H1 = styled.div`
   color: red;
