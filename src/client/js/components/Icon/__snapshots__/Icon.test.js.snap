@@ -19,7 +19,7 @@ ShallowWrapper {
     "key": null,
     "nodeType": "host",
     "props": Object {
-      "className": "fa fa-star fa-2x",
+      "className": "fa fa-star",
     },
     "ref": null,
     "rendered": null,
@@ -31,7 +31,7 @@ ShallowWrapper {
       "key": null,
       "nodeType": "host",
       "props": Object {
-        "className": "fa fa-star fa-2x",
+        "className": "fa fa-star",
       },
       "ref": null,
       "rendered": null,
