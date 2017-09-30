@@ -3,13 +3,6 @@ import { shallow } from 'enzyme';
 import Restricited from './Restricited';
 
 describe('Restricited container component', () => {
-  it('Must render an empty container', () => {
-    const wrapper = shallow(
-      <Restricited />,
-    );
-    expect(wrapper).toMatchSnapshot();
-  });
-
   it('Must render a non empty container', () => {
     const wrapper = shallow(
       <Restricited>
