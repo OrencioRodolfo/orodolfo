@@ -1,24 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from '../../../../components/Container/Container';
+import RestricitedContainer from '../../../../components/Containers/Restricited/Restricited';
+import SpaceBwContainer from '../../../../components/Containers/SpaceBetween/SpaceBetween';
 import Social from '../Social/Social';
 
 const ContentWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-top: 1px solid ${props => props.theme.color('background')};
   padding: 20px 0;
 `;
 
 const Footer = () => (
   <footer>
-    <Container>
+    <RestricitedContainer>
       <ContentWrapper>
-        <span>orenciorodolfo@gmail.com</span>
-        <Social />
+        <SpaceBwContainer>
+          <span>orenciorodolfo@gmail.com</span>
+          <Social />
+        </SpaceBwContainer>
       </ContentWrapper>
-    </Container>
+    </RestricitedContainer>
   </footer>
 );
 

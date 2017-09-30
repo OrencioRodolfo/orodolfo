@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Container from './Container';
+import Restricited from './Restricited';
 
-describe('Container component', () => {
+describe('Restricited container component', () => {
   it('Must render an empty container', () => {
     const wrapper = shallow(
-      <Container />,
+      <Restricited />,
     );
     expect(wrapper).toMatchSnapshot();
   });
 
   it('Must render a non empty container', () => {
     const wrapper = shallow(
-      <Container>
+      <Restricited>
         <p>Some content</p>
-      </Container>,
+      </Restricited>,
     );
     expect(wrapper).toMatchSnapshot();
   });
