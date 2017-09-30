@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from '../../../../components/Link/Link';
 import RestricitedContainer from '../../../../components/Containers/Restricited/Restricited';
 import SpaceBwContainer from '../../../../components/Containers/SpaceBetween/SpaceBetween';
 import Social from '../Social/Social';
@@ -14,7 +15,12 @@ const Footer = () => (
     <RestricitedContainer>
       <ContentWrapper>
         <SpaceBwContainer>
-          <span>orenciorodolfo@gmail.com</span>
+          <Link
+            url="mailto:orenciorodolfo@gmail.com"
+            className="link"
+          >
+            orenciorodolfo@gmail.com
+          </Link>
           <Social />
         </SpaceBwContainer>
       </ContentWrapper>
