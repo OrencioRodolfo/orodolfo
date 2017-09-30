@@ -19,6 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Link
+          className=""
           url="https://github.com/OrencioRodolfo"
         >
           <Button
@@ -26,6 +27,7 @@ ShallowWrapper {
           />
         </Link>,
         <Link
+          className=""
           url="https://www.linkedin.com/in/rodolfo-goncalves"
         >
           <Button
@@ -33,6 +35,7 @@ ShallowWrapper {
           />
         </Link>,
         <Link
+          className=""
           url="https://twitter.com/orenciorodolfo"
         >
           <Button
@@ -40,6 +43,7 @@ ShallowWrapper {
           />
         </Link>,
         <Link
+          className=""
           url="https://www.facebook.com/orenciorodolfo"
         >
           <Button
@@ -58,6 +62,7 @@ ShallowWrapper {
           "children": <Button
             icon="github fa-2x"
           />,
+          "className": "",
           "url": "https://github.com/OrencioRodolfo",
         },
         "ref": null,
@@ -82,6 +87,7 @@ ShallowWrapper {
           "children": <Button
             icon="linkedin fa-2x"
           />,
+          "className": "",
           "url": "https://www.linkedin.com/in/rodolfo-goncalves",
         },
         "ref": null,
@@ -106,6 +112,7 @@ ShallowWrapper {
           "children": <Button
             icon="twitter fa-2x"
           />,
+          "className": "",
           "url": "https://twitter.com/orenciorodolfo",
         },
         "ref": null,
@@ -130,6 +137,7 @@ ShallowWrapper {
           "children": <Button
             icon="facebook fa-2x"
           />,
+          "className": "",
           "url": "https://www.facebook.com/orenciorodolfo",
         },
         "ref": null,
@@ -157,6 +165,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Link
+            className=""
             url="https://github.com/OrencioRodolfo"
           >
             <Button
@@ -164,6 +173,7 @@ ShallowWrapper {
             />
           </Link>,
           <Link
+            className=""
             url="https://www.linkedin.com/in/rodolfo-goncalves"
           >
             <Button
@@ -171,6 +181,7 @@ ShallowWrapper {
             />
           </Link>,
           <Link
+            className=""
             url="https://twitter.com/orenciorodolfo"
           >
             <Button
@@ -178,6 +189,7 @@ ShallowWrapper {
             />
           </Link>,
           <Link
+            className=""
             url="https://www.facebook.com/orenciorodolfo"
           >
             <Button
@@ -196,6 +208,7 @@ ShallowWrapper {
             "children": <Button
               icon="github fa-2x"
             />,
+            "className": "",
             "url": "https://github.com/OrencioRodolfo",
           },
           "ref": null,
@@ -220,6 +233,7 @@ ShallowWrapper {
             "children": <Button
               icon="linkedin fa-2x"
             />,
+            "className": "",
             "url": "https://www.linkedin.com/in/rodolfo-goncalves",
           },
           "ref": null,
@@ -244,6 +258,7 @@ ShallowWrapper {
             "children": <Button
               icon="twitter fa-2x"
             />,
+            "className": "",
             "url": "https://twitter.com/orenciorodolfo",
           },
           "ref": null,
@@ -268,6 +283,7 @@ ShallowWrapper {
             "children": <Button
               icon="facebook fa-2x"
             />,
+            "className": "",
             "url": "https://www.facebook.com/orenciorodolfo",
           },
           "ref": null,

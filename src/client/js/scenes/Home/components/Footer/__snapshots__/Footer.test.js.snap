@@ -20,9 +20,12 @@ ShallowWrapper {
       "children": <Container>
         <styled.div>
           <Container>
-            <span>
+            <Link
+              className="link"
+              url="mailto:orenciorodolfo@gmail.com"
+            >
               orenciorodolfo@gmail.com
-            </span>
+            </Link>
             <Social />
           </Container>
         </styled.div>
@@ -36,9 +39,12 @@ ShallowWrapper {
       "props": Object {
         "children": <styled.div>
           <Container>
-            <span>
+            <Link
+              className="link"
+              url="mailto:orenciorodolfo@gmail.com"
+            >
               orenciorodolfo@gmail.com
-            </span>
+            </Link>
             <Social />
           </Container>
         </styled.div>,
@@ -50,9 +56,12 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": <Container>
-            <span>
+            <Link
+              className="link"
+              url="mailto:orenciorodolfo@gmail.com"
+            >
               orenciorodolfo@gmail.com
-            </span>
+            </Link>
             <Social />
           </Container>,
         },
@@ -63,9 +72,12 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": Array [
-              <span>
+              <Link
+                className="link"
+                url="mailto:orenciorodolfo@gmail.com"
+              >
                 orenciorodolfo@gmail.com
-              </span>,
+              </Link>,
               <Social />,
             ],
           },
@@ -74,13 +86,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "orenciorodolfo@gmail.com",
+                "className": "link",
+                "url": "mailto:orenciorodolfo@gmail.com",
               },
               "ref": null,
               "rendered": "orenciorodolfo@gmail.com",
-              "type": "span",
+              "type": [Function],
             },
             Object {
               "instance": null,
@@ -109,9 +123,12 @@ ShallowWrapper {
         "children": <Container>
           <styled.div>
             <Container>
-              <span>
+              <Link
+                className="link"
+                url="mailto:orenciorodolfo@gmail.com"
+              >
                 orenciorodolfo@gmail.com
-              </span>
+              </Link>
               <Social />
             </Container>
           </styled.div>
@@ -125,9 +142,12 @@ ShallowWrapper {
         "props": Object {
           "children": <styled.div>
             <Container>
-              <span>
+              <Link
+                className="link"
+                url="mailto:orenciorodolfo@gmail.com"
+              >
                 orenciorodolfo@gmail.com
-              </span>
+              </Link>
               <Social />
             </Container>
           </styled.div>,
@@ -139,9 +159,12 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": <Container>
-              <span>
+              <Link
+                className="link"
+                url="mailto:orenciorodolfo@gmail.com"
+              >
                 orenciorodolfo@gmail.com
-              </span>
+              </Link>
               <Social />
             </Container>,
           },
@@ -152,9 +175,12 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": Array [
-                <span>
+                <Link
+                  className="link"
+                  url="mailto:orenciorodolfo@gmail.com"
+                >
                   orenciorodolfo@gmail.com
-                </span>,
+                </Link>,
                 <Social />,
               ],
             },
@@ -163,13 +189,15 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": null,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
                   "children": "orenciorodolfo@gmail.com",
+                  "className": "link",
+                  "url": "mailto:orenciorodolfo@gmail.com",
                 },
                 "ref": null,
                 "rendered": "orenciorodolfo@gmail.com",
-                "type": "span",
+                "type": [Function],
               },
               Object {
                 "instance": null,

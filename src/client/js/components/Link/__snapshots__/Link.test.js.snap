@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Link
+    className=""
     url="sample"
   >
     Sample
@@ -22,6 +23,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": "Sample",
+      "className": "",
       "href": "sample",
       "rel": "noreferrer noopener",
       "target": "_blank",
@@ -37,6 +39,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": "Sample",
+        "className": "",
         "href": "sample",
         "rel": "noreferrer noopener",
         "target": "_blank",
