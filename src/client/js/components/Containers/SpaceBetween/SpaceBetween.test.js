@@ -3,13 +3,6 @@ import { shallow } from 'enzyme';
 import SpaceBw from './SpaceBetween';
 
 describe('Space between container component', () => {
-  it('Must render an empty container', () => {
-    const wrapper = shallow(
-      <SpaceBw />,
-    );
-    expect(wrapper).toMatchSnapshot();
-  });
-
   it('Must render a non empty container', () => {
     const wrapper = shallow(
       <SpaceBw>
