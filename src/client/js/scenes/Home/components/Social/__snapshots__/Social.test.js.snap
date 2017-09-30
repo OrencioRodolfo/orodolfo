@@ -18,18 +18,34 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Button
-          icon="github fa-2x"
-        />,
-        <Button
-          icon="linkedin fa-2x"
-        />,
-        <Button
-          icon="twitter fa-2x"
-        />,
-        <Button
-          icon="facebook fa-2x"
-        />,
+        <Link
+          url="https://github.com/OrencioRodolfo"
+        >
+          <Button
+            icon="github fa-2x"
+          />
+        </Link>,
+        <Link
+          url="https://www.linkedin.com/in/rodolfo-goncalves"
+        >
+          <Button
+            icon="linkedin fa-2x"
+          />
+        </Link>,
+        <Link
+          url="https://twitter.com/orenciorodolfo"
+        >
+          <Button
+            icon="twitter fa-2x"
+          />
+        </Link>,
+        <Link
+          url="https://www.facebook.com/orenciorodolfo"
+        >
+          <Button
+            icon="facebook fa-2x"
+          />
+        </Link>,
       ],
     },
     "ref": null,
@@ -39,10 +55,23 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "icon": "github fa-2x",
+          "children": <Button
+            icon="github fa-2x"
+          />,
+          "url": "https://github.com/OrencioRodolfo",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "github fa-2x",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": [Function],
       },
       Object {
@@ -50,10 +79,23 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "icon": "linkedin fa-2x",
+          "children": <Button
+            icon="linkedin fa-2x"
+          />,
+          "url": "https://www.linkedin.com/in/rodolfo-goncalves",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "linkedin fa-2x",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": [Function],
       },
       Object {
@@ -61,10 +103,23 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "icon": "twitter fa-2x",
+          "children": <Button
+            icon="twitter fa-2x"
+          />,
+          "url": "https://twitter.com/orenciorodolfo",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "twitter fa-2x",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": [Function],
       },
       Object {
@@ -72,10 +127,23 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "icon": "facebook fa-2x",
+          "children": <Button
+            icon="facebook fa-2x"
+          />,
+          "url": "https://www.facebook.com/orenciorodolfo",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "facebook fa-2x",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": [Function],
       },
     ],
@@ -88,18 +156,34 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Button
-            icon="github fa-2x"
-          />,
-          <Button
-            icon="linkedin fa-2x"
-          />,
-          <Button
-            icon="twitter fa-2x"
-          />,
-          <Button
-            icon="facebook fa-2x"
-          />,
+          <Link
+            url="https://github.com/OrencioRodolfo"
+          >
+            <Button
+              icon="github fa-2x"
+            />
+          </Link>,
+          <Link
+            url="https://www.linkedin.com/in/rodolfo-goncalves"
+          >
+            <Button
+              icon="linkedin fa-2x"
+            />
+          </Link>,
+          <Link
+            url="https://twitter.com/orenciorodolfo"
+          >
+            <Button
+              icon="twitter fa-2x"
+            />
+          </Link>,
+          <Link
+            url="https://www.facebook.com/orenciorodolfo"
+          >
+            <Button
+              icon="facebook fa-2x"
+            />
+          </Link>,
         ],
       },
       "ref": null,
@@ -109,10 +193,23 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "icon": "github fa-2x",
+            "children": <Button
+              icon="github fa-2x"
+            />,
+            "url": "https://github.com/OrencioRodolfo",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "github fa-2x",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
         Object {
@@ -120,10 +217,23 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "icon": "linkedin fa-2x",
+            "children": <Button
+              icon="linkedin fa-2x"
+            />,
+            "url": "https://www.linkedin.com/in/rodolfo-goncalves",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "linkedin fa-2x",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
         Object {
@@ -131,10 +241,23 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "icon": "twitter fa-2x",
+            "children": <Button
+              icon="twitter fa-2x"
+            />,
+            "url": "https://twitter.com/orenciorodolfo",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "twitter fa-2x",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
         Object {
@@ -142,10 +265,23 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "icon": "facebook fa-2x",
+            "children": <Button
+              icon="facebook fa-2x"
+            />,
+            "url": "https://www.facebook.com/orenciorodolfo",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "facebook fa-2x",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
       ],

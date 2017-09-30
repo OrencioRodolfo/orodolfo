@@ -5,7 +5,7 @@ import App from './App';
 describe('App component', () => {
   it('Must render properly', () => {
     const container = shallow(
-      <App />
+      <App />,
     );
 
     expect(container).toMatchSnapshot();
