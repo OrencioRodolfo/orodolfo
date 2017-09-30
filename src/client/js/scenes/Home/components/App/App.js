@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import Container from '../../../../components/Container/Container';
+import RestrictedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import Footer from '../Footer/Footer';
@@ -24,7 +24,7 @@ const App = () => (
     <AppContainer>
       <Header />
       <Subhead />
-      <Container className="main-container">Rodolfo Gonçalves</Container>
+      <RestrictedContainer className="main-container">Rodolfo Gonçalves</RestrictedContainer>
       <Footer />
     </AppContainer>
   </ThemeProvider>
