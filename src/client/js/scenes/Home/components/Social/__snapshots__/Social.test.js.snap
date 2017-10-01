@@ -1,10 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Social icons component Must render properly 1`] = `
+exports[`Social icons component Must render a list of social links with icons 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Social />,
+  Symbol(enzyme.__unrendered__): <Social
+    social={
+      Array [
+        Object {
+          "network": "facebook",
+          "url": "https://www.facebook.com/orenciorodolfo",
+        },
+        Object {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/in/rodolfo-goncalves",
+        },
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -20,34 +33,18 @@ ShallowWrapper {
       "children": Array [
         <Link
           className=""
-          url="https://github.com/OrencioRodolfo"
+          url="https://www.facebook.com/orenciorodolfo"
         >
-          <Button
-            icon="github fa-2x"
+          <Icon
+            icon="facebook fa-2x"
           />
         </Link>,
         <Link
           className=""
           url="https://www.linkedin.com/in/rodolfo-goncalves"
         >
-          <Button
+          <Icon
             icon="linkedin fa-2x"
-          />
-        </Link>,
-        <Link
-          className=""
-          url="https://twitter.com/orenciorodolfo"
-        >
-          <Button
-            icon="twitter fa-2x"
-          />
-        </Link>,
-        <Link
-          className=""
-          url="https://www.facebook.com/orenciorodolfo"
-        >
-          <Button
-            icon="facebook fa-2x"
           />
         </Link>,
       ],
@@ -56,85 +53,10 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": null,
+        "key": "facebook",
         "nodeType": "function",
         "props": Object {
-          "children": <Button
-            icon="github fa-2x"
-          />,
-          "className": "",
-          "url": "https://github.com/OrencioRodolfo",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "icon": "github fa-2x",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "function",
-        "props": Object {
-          "children": <Button
-            icon="linkedin fa-2x"
-          />,
-          "className": "",
-          "url": "https://www.linkedin.com/in/rodolfo-goncalves",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "icon": "linkedin fa-2x",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "function",
-        "props": Object {
-          "children": <Button
-            icon="twitter fa-2x"
-          />,
-          "className": "",
-          "url": "https://twitter.com/orenciorodolfo",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "icon": "twitter fa-2x",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "function",
-        "props": Object {
-          "children": <Button
+          "children": <Icon
             icon="facebook fa-2x"
           />,
           "className": "",
@@ -154,6 +76,31 @@ ShallowWrapper {
         },
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": "linkedin",
+        "nodeType": "function",
+        "props": Object {
+          "children": <Icon
+            icon="linkedin fa-2x"
+          />,
+          "className": "",
+          "url": "https://www.linkedin.com/in/rodolfo-goncalves",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "linkedin fa-2x",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
     ],
     "type": [Function],
   },
@@ -166,34 +113,18 @@ ShallowWrapper {
         "children": Array [
           <Link
             className=""
-            url="https://github.com/OrencioRodolfo"
+            url="https://www.facebook.com/orenciorodolfo"
           >
-            <Button
-              icon="github fa-2x"
+            <Icon
+              icon="facebook fa-2x"
             />
           </Link>,
           <Link
             className=""
             url="https://www.linkedin.com/in/rodolfo-goncalves"
           >
-            <Button
+            <Icon
               icon="linkedin fa-2x"
-            />
-          </Link>,
-          <Link
-            className=""
-            url="https://twitter.com/orenciorodolfo"
-          >
-            <Button
-              icon="twitter fa-2x"
-            />
-          </Link>,
-          <Link
-            className=""
-            url="https://www.facebook.com/orenciorodolfo"
-          >
-            <Button
-              icon="facebook fa-2x"
             />
           </Link>,
         ],
@@ -202,85 +133,10 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": null,
+          "key": "facebook",
           "nodeType": "function",
           "props": Object {
-            "children": <Button
-              icon="github fa-2x"
-            />,
-            "className": "",
-            "url": "https://github.com/OrencioRodolfo",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "function",
-            "props": Object {
-              "icon": "github fa-2x",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "children": <Button
-              icon="linkedin fa-2x"
-            />,
-            "className": "",
-            "url": "https://www.linkedin.com/in/rodolfo-goncalves",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "function",
-            "props": Object {
-              "icon": "linkedin fa-2x",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "children": <Button
-              icon="twitter fa-2x"
-            />,
-            "className": "",
-            "url": "https://twitter.com/orenciorodolfo",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "function",
-            "props": Object {
-              "icon": "twitter fa-2x",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "children": <Button
+            "children": <Icon
               icon="facebook fa-2x"
             />,
             "className": "",
@@ -300,7 +156,80 @@ ShallowWrapper {
           },
           "type": [Function],
         },
+        Object {
+          "instance": null,
+          "key": "linkedin",
+          "nodeType": "function",
+          "props": Object {
+            "children": <Icon
+              icon="linkedin fa-2x"
+            />,
+            "className": "",
+            "url": "https://www.linkedin.com/in/rodolfo-goncalves",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "linkedin fa-2x",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
       ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Social icons component Must render an empty list properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Social
+    social={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [],
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [],
+      },
+      "ref": null,
+      "rendered": Array [],
       "type": [Function],
     },
   ],

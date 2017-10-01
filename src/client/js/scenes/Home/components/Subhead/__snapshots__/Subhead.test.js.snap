@@ -24,7 +24,7 @@ ShallowWrapper {
           </span>
           <Button>
             <PillLeft>
-              <Button
+              <Icon
                 icon="star"
               />
               Star
@@ -48,7 +48,7 @@ ShallowWrapper {
           </span>
           <Button>
             <PillLeft>
-              <Button
+              <Icon
                 icon="star"
               />
               Star
@@ -71,7 +71,7 @@ ShallowWrapper {
             </span>,
             <Button>
               <PillLeft>
-                <Button
+                <Icon
                   icon="star"
                 />
                 Star
@@ -102,7 +102,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <PillLeft>
-                  <Button
+                  <Icon
                     icon="star"
                   />
                   Star
@@ -120,7 +120,7 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": Array [
-                    <Button
+                    <Icon
                       icon="star"
                     />,
                     "Star",
@@ -177,7 +177,7 @@ ShallowWrapper {
             </span>
             <Button>
               <PillLeft>
-                <Button
+                <Icon
                   icon="star"
                 />
                 Star
@@ -201,7 +201,7 @@ ShallowWrapper {
             </span>
             <Button>
               <PillLeft>
-                <Button
+                <Icon
                   icon="star"
                 />
                 Star
@@ -224,7 +224,7 @@ ShallowWrapper {
               </span>,
               <Button>
                 <PillLeft>
-                  <Button
+                  <Icon
                     icon="star"
                   />
                   Star
@@ -255,7 +255,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <PillLeft>
-                    <Button
+                    <Icon
                       icon="star"
                     />
                     Star
@@ -273,7 +273,7 @@ ShallowWrapper {
                   "nodeType": "function",
                   "props": Object {
                     "children": Array [
-                      <Button
+                      <Icon
                         icon="star"
                       />,
                       "Star",

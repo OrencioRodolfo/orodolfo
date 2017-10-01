@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import Icon from '../../../../components/Icon/Icon';
 import Link from '../../../../components/Link/Link';
 
@@ -12,21 +14,37 @@ const Wrapper = styled.div`
   }
 `;
 
-const Social = () => (
-  <Wrapper>
-    <Link url="https://github.com/OrencioRodolfo">
-      <Icon icon="github fa-2x" />
-    </Link>
-    <Link url="https://www.linkedin.com/in/rodolfo-goncalves">
-      <Icon icon="linkedin fa-2x" />
-    </Link>
-    <Link url="https://twitter.com/orenciorodolfo">
-      <Icon icon="twitter fa-2x" />
-    </Link>
-    <Link url="https://www.facebook.com/orenciorodolfo">
-      <Icon icon="facebook fa-2x" />
-    </Link>
-  </Wrapper>
-);
+class Social extends Component {
+  renderListItem() {
+    return this.props.social.map(social => (
+      <Link key={social.network} url={social.url}>
+        <Icon icon={`${social.network} fa-2x`} />
+      </Link>
+    ));
+  }
 
-export default Social;
+  render() {
+    return (
+      <Wrapper>
+        {this.renderListItem()}
+      </Wrapper>
+    );
+  }
+}
+
+Social.propTypes = {
+  social: PropTypes.array.isRequired,
+};
+
+function mapStateToProps(state) {
+  return {
+    social: state.about ? state.about.social : [],
+  };
+}
+
+export default connect(mapStateToProps)(Social);
+
+export {
+  mapStateToProps,
+  Social,
+};
