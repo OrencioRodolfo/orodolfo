@@ -11,7 +11,7 @@ import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import Footer from '../Footer/Footer';
 
-const AppContainer = styled.div`
+const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@ const AppContainer = styled.div`
 `;
 
 
-class App extends Component {
+class Home extends Component {
   componentDidMount() {
     fetch('http://localhost:3000/about')
       .then(response => response.json())
@@ -36,17 +36,17 @@ class App extends Component {
 
   render() {
     return (
-      <AppContainer>
+      <HomeContainer>
         <Header />
         <Subhead />
         <RestrictedContainer className="main-container">Rodolfo Gonçalves</RestrictedContainer>
         <Footer />
-      </AppContainer>
+      </HomeContainer>
     );
   }
 }
 
-App.propTypes = {
+Home.propTypes = {
   getAbout: PropTypes.func.isRequired,
 };
 
@@ -62,4 +62,4 @@ function matchDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(App);
+export default connect(mapStateToProps, matchDispatchToProps)(Home);
