@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = ({ icon }) => (
+const Icon = ({ icon }) => (
   <i className={`fa fa-${icon}`} />
 );
 
-Button.propTypes = {
+Icon.propTypes = {
   icon: PropTypes.string.isRequired,
 };
 
-export default Button;
+export default Icon;

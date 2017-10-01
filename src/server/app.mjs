@@ -1,13 +1,12 @@
 import express from 'express';
-
-
+import cors from 'cors';
 import routes from './routes.mjs';
 
 const app = express();
 
-
 app.set('port', (process.env.PORT || 3000));
 
+app.use(cors());
 app.use('/', express.static(`${process.cwd()}/public`));
 app.get('/', (req, res) => res.sendFile(`${process.cwd()}/../index.html`));
 

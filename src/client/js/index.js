@@ -1,9 +1,24 @@
 /* eslint global-require: 0 */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './scenes/Home/components/App/App';
+import { ThemeProvider } from 'styled-components';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import App from './scenes/Home/components/App/App';
+import * as theme from './theme';
+import reducers from './reducers';
+
+const store = createStore(reducers);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </Provider>,
+  document.getElementById('root'),
+);
 
 if (module.hot) {
   module.hot.accept('./scenes/Home/components/App/App.js', () => {
