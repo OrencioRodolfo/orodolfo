@@ -50,16 +50,14 @@ Home.propTypes = {
   getAbout: PropTypes.func.isRequired,
 };
 
-function mapStateToProps(state) {
-  return {
-    about: state.about,
-  };
-}
-
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({
     getAbout,
   }, dispatch);
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(Home);
+export default connect(null, matchDispatchToProps)(Home);
+
+export {
+  Home,
+};

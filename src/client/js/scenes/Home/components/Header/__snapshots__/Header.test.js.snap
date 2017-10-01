@@ -24,7 +24,7 @@ ShallowWrapper {
           <styled.span>
             @orenciorodolfo
           </styled.span>
-          <Social />
+          <Connect(Social) />
         </Container>
       </Container>,
     },
@@ -38,7 +38,7 @@ ShallowWrapper {
           <styled.span>
             @orenciorodolfo
           </styled.span>
-          <Social />
+          <Connect(Social) />
         </Container>,
       },
       "ref": null,
@@ -51,7 +51,7 @@ ShallowWrapper {
             <styled.span>
               @orenciorodolfo
             </styled.span>,
-            <Social />,
+            <Connect(Social) />,
           ],
         },
         "ref": null,
@@ -70,7 +70,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {},
             "ref": null,
             "rendered": null,
@@ -94,7 +94,7 @@ ShallowWrapper {
             <styled.span>
               @orenciorodolfo
             </styled.span>
-            <Social />
+            <Connect(Social) />
           </Container>
         </Container>,
       },
@@ -108,7 +108,7 @@ ShallowWrapper {
             <styled.span>
               @orenciorodolfo
             </styled.span>
-            <Social />
+            <Connect(Social) />
           </Container>,
         },
         "ref": null,
@@ -121,7 +121,7 @@ ShallowWrapper {
               <styled.span>
                 @orenciorodolfo
               </styled.span>,
-              <Social />,
+              <Connect(Social) />,
             ],
           },
           "ref": null,
@@ -140,7 +140,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {},
               "ref": null,
               "rendered": null,

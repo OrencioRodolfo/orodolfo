@@ -26,7 +26,7 @@ ShallowWrapper {
             >
               orenciorodolfo@gmail.com
             </Link>
-            <Social />
+            <Connect(Social) />
           </Container>
         </styled.div>
       </Container>,
@@ -45,7 +45,7 @@ ShallowWrapper {
             >
               orenciorodolfo@gmail.com
             </Link>
-            <Social />
+            <Connect(Social) />
           </Container>
         </styled.div>,
       },
@@ -62,7 +62,7 @@ ShallowWrapper {
             >
               orenciorodolfo@gmail.com
             </Link>
-            <Social />
+            <Connect(Social) />
           </Container>,
         },
         "ref": null,
@@ -78,7 +78,7 @@ ShallowWrapper {
               >
                 orenciorodolfo@gmail.com
               </Link>,
-              <Social />,
+              <Connect(Social) />,
             ],
           },
           "ref": null,
@@ -99,7 +99,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {},
               "ref": null,
               "rendered": null,
@@ -129,7 +129,7 @@ ShallowWrapper {
               >
                 orenciorodolfo@gmail.com
               </Link>
-              <Social />
+              <Connect(Social) />
             </Container>
           </styled.div>
         </Container>,
@@ -148,7 +148,7 @@ ShallowWrapper {
               >
                 orenciorodolfo@gmail.com
               </Link>
-              <Social />
+              <Connect(Social) />
             </Container>
           </styled.div>,
         },
@@ -165,7 +165,7 @@ ShallowWrapper {
               >
                 orenciorodolfo@gmail.com
               </Link>
-              <Social />
+              <Connect(Social) />
             </Container>,
           },
           "ref": null,
@@ -181,7 +181,7 @@ ShallowWrapper {
                 >
                   orenciorodolfo@gmail.com
                 </Link>,
-                <Social />,
+                <Connect(Social) />,
               ],
             },
             "ref": null,
@@ -202,7 +202,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": null,
-                "nodeType": "function",
+                "nodeType": "class",
                 "props": Object {},
                 "ref": null,
                 "rendered": null,
