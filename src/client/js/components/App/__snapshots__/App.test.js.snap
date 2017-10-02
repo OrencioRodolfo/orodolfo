@@ -4,7 +4,18 @@ exports[`App component Must render properly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <App
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -31,11 +42,12 @@ ShallowWrapper {
         <Connect(Home) />
       </ThemeProvider>,
       "store": Object {
+        "clearActions": [Function],
         "dispatch": [Function],
+        "getActions": [Function],
         "getState": [Function],
         "replaceReducer": [Function],
         "subscribe": [Function],
-        Symbol(observable): [Function],
       },
     },
     "ref": null,
@@ -87,11 +99,12 @@ ShallowWrapper {
           <Connect(Home) />
         </ThemeProvider>,
         "store": Object {
+          "clearActions": [Function],
           "dispatch": [Function],
+          "getActions": [Function],
           "getState": [Function],
           "replaceReducer": [Function],
           "subscribe": [Function],
-          Symbol(observable): [Function],
         },
       },
       "ref": null,
