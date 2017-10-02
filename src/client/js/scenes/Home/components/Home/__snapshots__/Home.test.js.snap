@@ -27,7 +27,6 @@ ShallowWrapper {
           <p>
             
           </p>
-          <Navigation />
         </Container>,
         <Footer />,
       ],
@@ -57,36 +56,22 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "children": Array [
-            <p>
-              
-            </p>,
-            <Navigation />,
-          ],
+          "children": <p>
+            
+          </p>,
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "host",
-            "props": Object {
-              "children": "",
-            },
-            "ref": null,
-            "rendered": "",
-            "type": "p",
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
           },
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
+          "ref": null,
+          "rendered": "",
+          "type": "p",
+        },
         "type": [Function],
       },
       Object {
@@ -114,7 +99,6 @@ ShallowWrapper {
             <p>
               
             </p>
-            <Navigation />
           </Container>,
           <Footer />,
         ],
@@ -144,36 +128,22 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              <p>
-                
-              </p>,
-              <Navigation />,
-            ],
+            "children": <p>
+              
+            </p>,
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "host",
-              "props": Object {
-                "children": "",
-              },
-              "ref": null,
-              "rendered": "",
-              "type": "p",
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
             },
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
+            "ref": null,
+            "rendered": "",
+            "type": "p",
+          },
           "type": [Function],
         },
         Object {
