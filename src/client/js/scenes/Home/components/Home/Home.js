@@ -10,7 +10,6 @@ import RestrictedContainer from '../../../../components/Containers/Restricited/R
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import Footer from '../Footer/Footer';
-import Navigation from '../Navigation/Navigation';
 
 const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
@@ -36,7 +35,6 @@ class Home extends Component {
         <Subhead />
         <RestrictedContainer>
           <p>{this.props.description}</p>
-          <Navigation />
         </RestrictedContainer>
         <Footer />
       </HomeContainer>
