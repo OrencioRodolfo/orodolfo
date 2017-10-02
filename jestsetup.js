@@ -7,6 +7,7 @@ global.shallow = shallow;
 global.render = render;
 global.mount = mount;
 global.fetch = fetch;
+global.API_URL = 'http://www.sample.com';
 
 configure({ adapter: new Adapter() });
 
