@@ -10,18 +10,13 @@ import RestrictedContainer from '../../../../components/Containers/Restricited/R
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import Footer from '../Footer/Footer';
+import Navigation from '../Navigation/Navigation';
 
 const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
   display: flex;
   flex-direction: column;
   height: 100vh;
-  
-  > .main-container {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-  }
 `;
 
 
@@ -39,7 +34,10 @@ class Home extends Component {
       <HomeContainer>
         <Header />
         <Subhead />
-        <RestrictedContainer className="main-container">Rodolfo Gonçalves</RestrictedContainer>
+        <RestrictedContainer>
+          <p>{this.props.description}</p>
+          <Navigation />
+        </RestrictedContainer>
         <Footer />
       </HomeContainer>
     );
@@ -48,6 +46,7 @@ class Home extends Component {
 
 Home.propTypes = {
   getAbout: PropTypes.func.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 function matchDispatchToProps(dispatch) {
@@ -56,7 +55,13 @@ function matchDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-export default connect(null, matchDispatchToProps)(Home);
+function mapStateToProps(state) {
+  return {
+    description: state.about ? state.about.description : '',
+  };
+}
+
+export default connect(mapStateToProps, matchDispatchToProps)(Home);
 
 export {
   Home,

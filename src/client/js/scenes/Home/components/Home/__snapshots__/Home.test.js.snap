@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Home
+    description=""
     getAbout={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -22,10 +23,11 @@ ShallowWrapper {
       "children": Array [
         <Header />,
         <Subhead />,
-        <Container
-          className="main-container"
-        >
-          Rodolfo Gonçalves
+        <Container>
+          <p>
+            
+          </p>
+          <Navigation />
         </Container>,
         <Footer />,
       ],
@@ -55,11 +57,36 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "children": "Rodolfo Gonçalves",
-          "className": "main-container",
+          "children": Array [
+            <p>
+              
+            </p>,
+            <Navigation />,
+          ],
         },
         "ref": null,
-        "rendered": "Rodolfo Gonçalves",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
       Object {
@@ -83,10 +110,11 @@ ShallowWrapper {
         "children": Array [
           <Header />,
           <Subhead />,
-          <Container
-            className="main-container"
-          >
-            Rodolfo Gonçalves
+          <Container>
+            <p>
+              
+            </p>
+            <Navigation />
           </Container>,
           <Footer />,
         ],
@@ -116,11 +144,36 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "children": "Rodolfo Gonçalves",
-            "className": "main-container",
+            "children": Array [
+              <p>
+                
+              </p>,
+              <Navigation />,
+            ],
           },
           "ref": null,
-          "rendered": "Rodolfo Gonçalves",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {
