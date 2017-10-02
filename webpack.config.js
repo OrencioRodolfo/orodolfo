@@ -6,6 +6,7 @@ const src = './src/client';
 
 const config = {
   entry: [
+    'react-hot-loader/patch',
     `${src}/js/index.js`,
   ],
   output: {
