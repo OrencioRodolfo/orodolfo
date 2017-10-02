@@ -27,7 +27,7 @@ const HomeContainer = styled.div`
 
 class Home extends Component {
   componentDidMount() {
-    fetch('http://localhost:3000/about')
+    fetch(`${API_URL}/about`)
       .then(response => response.json())
       .then((response) => {
         this.props.getAbout(response);
