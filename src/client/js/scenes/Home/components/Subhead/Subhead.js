@@ -6,6 +6,7 @@ import Button from '../../../../components/Button/Button';
 import PillLeft from '../../../../components/Button/PillLeft/PillLeft';
 import PillRight from '../../../../components/Button/PillRight/PillRight';
 import Icon from '../../../../components/Icon/Icon';
+import Link from '../../../../components/Link/Link';
 
 const Wrapper = styled.div`
   padding: 30px 0;
@@ -28,8 +29,12 @@ const Container = styled.div`
 
     button {
       position: absolute;
-      right: 15px;
+      right: 12px;
     }
+  `}
+
+  ${media.iphone`
+    justify-content: flex-start;
   `}
 `;
 
@@ -37,7 +42,7 @@ const Subhead = () => (
   <Wrapper>
     <RestricitedContainer>
       <Container>
-        <spann>orodolfo / me</spann>
+        <Link url="https://github.com/OrencioRodolfo/orodolfo">OrencioRodolfo/orodolfo</Link>
         <Button>
           <PillLeft>
             <Icon icon="star" />
