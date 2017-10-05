@@ -23,10 +23,12 @@ ShallowWrapper {
       "children": Array [
         <Header />,
         <Subhead />,
-        <Container>
-          <p>
+        <Container
+          className="grow"
+        >
+          <styled.p>
             
-          </p>
+          </styled.p>
         </Container>,
         <Footer />,
       ],
@@ -56,21 +58,22 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "children": <p>
+          "children": <styled.p>
             
-          </p>,
+          </styled.p>,
+          "className": "grow",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": null,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": "",
           },
           "ref": null,
           "rendered": "",
-          "type": "p",
+          "type": [Function],
         },
         "type": [Function],
       },
@@ -95,10 +98,12 @@ ShallowWrapper {
         "children": Array [
           <Header />,
           <Subhead />,
-          <Container>
-            <p>
+          <Container
+            className="grow"
+          >
+            <styled.p>
               
-            </p>
+            </styled.p>
           </Container>,
           <Footer />,
         ],
@@ -128,21 +133,22 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "children": <p>
+            "children": <styled.p>
               
-            </p>,
+            </styled.p>,
+            "className": "grow",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": null,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
               "children": "",
             },
             "ref": null,
             "rendered": "",
-            "type": "p",
+            "type": [Function],
           },
           "type": [Function],
         },

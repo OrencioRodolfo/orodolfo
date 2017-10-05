@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import { getAbout } from '../../../../actions';
+import { media } from '../../../../theme/style-utils';
 import RestrictedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
@@ -16,6 +17,16 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
+
+  .grow {
+    flex-grow: 1;
+  }
+`;
+
+const Desc = styled.p`
+  ${media.phone`
+    display: none;
+  `}
 `;
 
 
@@ -33,8 +44,8 @@ class Home extends Component {
       <HomeContainer>
         <Header />
         <Subhead />
-        <RestrictedContainer>
-          <p>{this.props.description}</p>
+        <RestrictedContainer className="grow">
+          <Desc>{this.props.description}</Desc>
         </RestrictedContainer>
         <Footer />
       </HomeContainer>

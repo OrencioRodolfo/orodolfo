@@ -11,7 +11,7 @@
     "test": "jest",
     "start": "node --experimental-modules src/server/app.mjs",
     "start-dev": "nodemon --experimental-modules src/server/app.mjs",
-    "start-client": "webpack-dev-server --hot",
+    "start-client": "webpack-dev-server --hot --host 0.0.0.0",
     "lint": "eslint src/**/*.js src/**/*.mjs",
     "build": "webpack"
   },

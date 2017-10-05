@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { media } from '../../../../theme/style-utils';
 import RestricitedContainer from '../../../../components/Containers/Restricited/Restricited';
-import SpaceBwContainer from '../../../../components/Containers/SpaceBetween/SpaceBetween';
 import Button from '../../../../components/Button/Button';
 import PillLeft from '../../../../components/Button/PillLeft/PillLeft';
 import PillRight from '../../../../components/Button/PillRight/PillRight';
@@ -9,14 +9,35 @@ import Icon from '../../../../components/Icon/Icon';
 
 const Wrapper = styled.div`
   padding: 30px 0;
-  background: ${props => props.theme.color('background', 'lighter')};
+  background-color: ${props => props.theme.color('background', 'lighter')};
+  
+  ${media.phone`
+    position: relative;
+    background-color: ${props => props.theme.color('foreground')};
+    color: ${props => props.theme.contrast('dark')};
+  `}
+`;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  ${media.phone`
+    justify-content: center;
+
+    button {
+      position: absolute;
+      right: 5px;
+    }
+  `}
 `;
 
 const Subhead = () => (
   <Wrapper>
     <RestricitedContainer>
-      <SpaceBwContainer>
-        <span>orodolfo / me</span>
+      <Container>
+        <spann>orodolfo / me</spann>
         <Button>
           <PillLeft>
             <Icon icon="star" />
@@ -24,7 +45,7 @@ const Subhead = () => (
           </PillLeft>
           <PillRight>0</PillRight>
         </Button>
-      </SpaceBwContainer>
+      </Container>
     </RestricitedContainer>
   </Wrapper>
 );
