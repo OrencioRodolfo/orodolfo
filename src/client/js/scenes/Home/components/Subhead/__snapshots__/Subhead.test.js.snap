@@ -19,9 +19,12 @@ ShallowWrapper {
     "props": Object {
       "children": <Container>
         <styled.div>
-          <spann>
-            orodolfo / me
-          </spann>
+          <Link
+            className=""
+            url="https://github.com/OrencioRodolfo/orodolfo"
+          >
+            OrencioRodolfo/orodolfo
+          </Link>
           <Button>
             <PillLeft>
               <Icon
@@ -43,9 +46,12 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <styled.div>
-          <spann>
-            orodolfo / me
-          </spann>
+          <Link
+            className=""
+            url="https://github.com/OrencioRodolfo/orodolfo"
+          >
+            OrencioRodolfo/orodolfo
+          </Link>
           <Button>
             <PillLeft>
               <Icon
@@ -66,9 +72,12 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <spann>
-              orodolfo / me
-            </spann>,
+            <Link
+              className=""
+              url="https://github.com/OrencioRodolfo/orodolfo"
+            >
+              OrencioRodolfo/orodolfo
+            </Link>,
             <Button>
               <PillLeft>
                 <Icon
@@ -87,13 +96,15 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "children": "orodolfo / me",
+              "children": "OrencioRodolfo/orodolfo",
+              "className": "",
+              "url": "https://github.com/OrencioRodolfo/orodolfo",
             },
             "ref": null,
-            "rendered": "orodolfo / me",
-            "type": "spann",
+            "rendered": "OrencioRodolfo/orodolfo",
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -172,9 +183,12 @@ ShallowWrapper {
       "props": Object {
         "children": <Container>
           <styled.div>
-            <spann>
-              orodolfo / me
-            </spann>
+            <Link
+              className=""
+              url="https://github.com/OrencioRodolfo/orodolfo"
+            >
+              OrencioRodolfo/orodolfo
+            </Link>
             <Button>
               <PillLeft>
                 <Icon
@@ -196,9 +210,12 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": <styled.div>
-            <spann>
-              orodolfo / me
-            </spann>
+            <Link
+              className=""
+              url="https://github.com/OrencioRodolfo/orodolfo"
+            >
+              OrencioRodolfo/orodolfo
+            </Link>
             <Button>
               <PillLeft>
                 <Icon
@@ -219,9 +236,12 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <spann>
-                orodolfo / me
-              </spann>,
+              <Link
+                className=""
+                url="https://github.com/OrencioRodolfo/orodolfo"
+              >
+                OrencioRodolfo/orodolfo
+              </Link>,
               <Button>
                 <PillLeft>
                   <Icon
@@ -240,13 +260,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "children": "orodolfo / me",
+                "children": "OrencioRodolfo/orodolfo",
+                "className": "",
+                "url": "https://github.com/OrencioRodolfo/orodolfo",
               },
               "ref": null,
-              "rendered": "orodolfo / me",
-              "type": "spann",
+              "rendered": "OrencioRodolfo/orodolfo",
+              "type": [Function],
             },
             Object {
               "instance": null,
