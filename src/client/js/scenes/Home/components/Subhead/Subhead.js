@@ -28,7 +28,7 @@ const Container = styled.div`
 
     button {
       position: absolute;
-      right: 5px;
+      right: 15px;
     }
   `}
 `;

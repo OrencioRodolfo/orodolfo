@@ -16,7 +16,7 @@ const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 
   .grow {
     flex-grow: 1;
