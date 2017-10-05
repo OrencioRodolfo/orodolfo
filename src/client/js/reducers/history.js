@@ -1,11 +1,11 @@
-import { ABOUT_FETCHED } from '../types';
+import { HISTORY_FETCHED } from '../types';
 
 export default (state = null, action) => {
   switch (action.type) {
-    case ABOUT_FETCHED:
+    case HISTORY_FETCHED:
       return {
         ...state,
-        ...action.payload,
+        commits: action.payload,
       };
 
     default:

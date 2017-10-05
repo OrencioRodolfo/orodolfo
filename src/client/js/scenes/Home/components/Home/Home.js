@@ -10,6 +10,7 @@ import { media } from '../../../../theme/style-utils';
 import RestrictedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
+import CommitHistory from '../CommitHistory/CommitHistory';
 import Footer from '../Footer/Footer';
 
 const HomeContainer = styled.div`
@@ -46,6 +47,7 @@ class Home extends Component {
         <Subhead />
         <RestrictedContainer className="grow">
           <Desc>{this.props.description}</Desc>
+          <CommitHistory />
         </RestrictedContainer>
         <Footer />
       </HomeContainer>

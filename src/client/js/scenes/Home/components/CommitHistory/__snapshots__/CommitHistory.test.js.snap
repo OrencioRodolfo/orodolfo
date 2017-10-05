@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commit history component Must render a list of commits 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitHistory
+    commits={
+      Array [
+        Object {
+          "_id": "59d678d9f51fea02ea1209b7",
+          "date": "2016-06-04T23:00:00.000Z",
+          "description": "Description...",
+          "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+          "hashAlias": "d909438",
+          "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+          "title": "A title",
+        },
+        Object {
+          "_id": "59d678d9f51fea02ea1209b8",
+          "date": "2015-06-04T23:00:00.000Z",
+          "description": "Description...",
+          "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+          "hashAlias": "d909438",
+          "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+          "title": "A title",
+        },
+      ]
+    }
+    getHistory={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          A title
+        </li>,
+        <li>
+          A title
+        </li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "59d678d9f51fea02ea1209b7",
+        "nodeType": "host",
+        "props": Object {
+          "children": "A title",
+        },
+        "ref": null,
+        "rendered": "A title",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "59d678d9f51fea02ea1209b8",
+        "nodeType": "host",
+        "props": Object {
+          "children": "A title",
+        },
+        "ref": null,
+        "rendered": "A title",
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            A title
+          </li>,
+          <li>
+            A title
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "59d678d9f51fea02ea1209b7",
+          "nodeType": "host",
+          "props": Object {
+            "children": "A title",
+          },
+          "ref": null,
+          "rendered": "A title",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "59d678d9f51fea02ea1209b8",
+          "nodeType": "host",
+          "props": Object {
+            "children": "A title",
+          },
+          "ref": null,
+          "rendered": "A title",
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Commit history component Must render an empty list properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitHistory
+    commits={Array []}
+    getHistory={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
