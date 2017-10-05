@@ -3,11 +3,9 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Div = styled.div`
-  max-width: 1012px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 12px;
-  margin: 0 auto;
+  border-raius: 3px;
+  border: 1px solid ${props => props.theme.color('background')};
+  padding: 10px;
 `;
 
 const Container = props => (

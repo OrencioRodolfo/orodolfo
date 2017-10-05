@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import { getAbout } from '../../../../actions';
+import { media } from '../../../../theme/style-utils';
 import RestrictedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
@@ -16,12 +17,16 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  
-  > .main-container {
+
+  .grow {
     flex-grow: 1;
-    display: flex;
-    align-items: center;
   }
+`;
+
+const Desc = styled.p`
+  ${media.phone`
+    display: none;
+  `}
 `;
 
 
@@ -39,7 +44,9 @@ class Home extends Component {
       <HomeContainer>
         <Header />
         <Subhead />
-        <RestrictedContainer className="main-container">Rodolfo Gonçalves</RestrictedContainer>
+        <RestrictedContainer className="grow">
+          <Desc>{this.props.description}</Desc>
+        </RestrictedContainer>
         <Footer />
       </HomeContainer>
     );
@@ -48,6 +55,7 @@ class Home extends Component {
 
 Home.propTypes = {
   getAbout: PropTypes.func.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 function matchDispatchToProps(dispatch) {
@@ -56,7 +64,13 @@ function matchDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-export default connect(null, matchDispatchToProps)(Home);
+function mapStateToProps(state) {
+  return {
+    description: state.about ? state.about.description : '',
+  };
+}
+
+export default connect(mapStateToProps, matchDispatchToProps)(Home);
 
 export {
   Home,

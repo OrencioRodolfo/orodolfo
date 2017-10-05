@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Home
+    description=""
     getAbout={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -23,9 +24,11 @@ ShallowWrapper {
         <Header />,
         <Subhead />,
         <Container
-          className="main-container"
+          className="grow"
         >
-          Rodolfo Gonçalves
+          <styled.p>
+            
+          </styled.p>
         </Container>,
         <Footer />,
       ],
@@ -55,11 +58,23 @@ ShallowWrapper {
         "key": null,
         "nodeType": "function",
         "props": Object {
-          "children": "Rodolfo Gonçalves",
-          "className": "main-container",
+          "children": <styled.p>
+            
+          </styled.p>,
+          "className": "grow",
         },
         "ref": null,
-        "rendered": "Rodolfo Gonçalves",
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": [Function],
+        },
         "type": [Function],
       },
       Object {
@@ -84,9 +99,11 @@ ShallowWrapper {
           <Header />,
           <Subhead />,
           <Container
-            className="main-container"
+            className="grow"
           >
-            Rodolfo Gonçalves
+            <styled.p>
+              
+            </styled.p>
           </Container>,
           <Footer />,
         ],
@@ -116,11 +133,23 @@ ShallowWrapper {
           "key": null,
           "nodeType": "function",
           "props": Object {
-            "children": "Rodolfo Gonçalves",
-            "className": "main-container",
+            "children": <styled.p>
+              
+            </styled.p>,
+            "className": "grow",
           },
           "ref": null,
-          "rendered": "Rodolfo Gonçalves",
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": [Function],
+          },
           "type": [Function],
         },
         Object {

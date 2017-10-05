@@ -12,6 +12,7 @@
         /Header
         /Subhead
           /Tabs
+        /Nav
         /Footer
         /Social
       /services
@@ -20,7 +21,6 @@
       /CommitHistory
         /components
           /Wrapper
-          /Nav
             /NavItem
           /CommitHistory
             /Timeline

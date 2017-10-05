@@ -2,12 +2,19 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { media } from '../../../../theme/style-utils';
 import Icon from '../../../../components/Icon/Icon';
 import Link from '../../../../components/Link/Link';
 
 const Wrapper = styled.div`
   > a {
     margin: 0 10px;
+    
+    ${media.phone`
+      display: inline-block;
+      width: 45px;
+      text-align: center;
+    `}
   }
   > a:last-child {
     margin: 0;
