@@ -7,7 +7,7 @@ describe('Commits group component', () => {
     const wrapper = shallow(<CommitsGroup commits={[]} />);
     expect(wrapper).toMatchSnapshot();
   });
-  
+
   it('Must render list of commits', () => {
     const commits = [
       {
