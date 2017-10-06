@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 
 import { getAbout } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
-import RestrictedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import CommitHistory from '../CommitHistory/CommitHistory';
@@ -18,10 +17,19 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
+`;
 
-  .grow {
-    flex-grow: 1;
-  }
+const MainContent = styled.div`
+  max-width: 1012px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 12px;
+  margin: 0 auto;
+  flex-grow: 1;
+
+  ${media.phone`
+    padding: 0;
+  `}
 `;
 
 const Desc = styled.p`
@@ -45,10 +53,10 @@ class Home extends Component {
       <HomeContainer>
         <Header />
         <Subhead />
-        <RestrictedContainer className="grow">
+        <MainContent>
           <Desc>{this.props.description}</Desc>
           <CommitHistory />
-        </RestrictedContainer>
+        </MainContent>
         <Footer />
       </HomeContainer>
     );

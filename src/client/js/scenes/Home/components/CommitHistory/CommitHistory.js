@@ -11,18 +11,24 @@ import PillLeft from '../../../../components/Button/PillLeft/PillLeft';
 import PillRight from '../../../../components/Button/PillRight/PillRight';
 import Icon from '../../../../components/Icon/Icon';
 import Link from '../../../../components/Link/Link';
+import { media } from '../../../../theme/style-utils';
 
 const Ul = styled.ul`
   margin: 0;
   padding: 0;
-  border-radius: 4px;
   border: 1px solid ${props => props.theme.color('background')};
+  border-radius: 4px;
+
+  ${media.phone`
+    border-radius: 0;
+    border-right: 0;
+    border-left: 0;
+  `}
 `;
 
 const Li = styled.li`
   display: flex;
   list-style: none;
-  align-items: center;
   padding: 10px 5px;
 
   &:not(:last-child) {
@@ -31,6 +37,12 @@ const Li = styled.li`
 
   &:hover {
     background-color: ${props => props.theme.color('primary', 'lighter')};
+  }
+
+  button {
+    ${media.phone`
+      display: none;
+    `}
   }
 `;
 
@@ -43,16 +55,37 @@ const Img = styled.img`
   height: 50px;
   border-radius: 4px;
   margin-right: 10px;
+  
+  ${media.phone`
+    width: 20px;
+    height: 20px;
+  `}
 `;
 
 const Title = styled.span`
-  font-weight: ${props => props.theme.weight('bold')};
-  font-size: ${props => props.theme.textSetting('nr').fontSize};
+  font-weight: ${props => props.theme.weight('semiBold')};
+  font-size: ${props => props.theme.textSetting('sm').fontSize};
 `;
 
 const Desc = styled.p`
   margin: 0;
-  ${props => props.theme.textSetting('sm')};
+  ${props => props.theme.textSetting('xs')};
+`;
+
+const Author = styled.span`
+  ${props => props.theme.textSetting('xs')};
+  color: ${props => props.theme.contrast('light', 'secondary')};
+  float: left;
+`;
+
+const SmallHash = styled.span`
+  display: none;
+  color: ${props => props.theme.contrast('light', 'secondary')};
+  ${props => props.theme.textSetting('xs')};
+
+  ${media.phone`
+    display: block;
+  `}
 `;
 
 class CommitHistory extends Component {
@@ -71,6 +104,8 @@ class CommitHistory extends Component {
         <Body>
           <Title>{commit.title}</Title>
           <Desc>{commit.description}</Desc>
+          <Author>commited by {commit.author} </Author>
+          <SmallHash>&nbsp;- {commit.hashAlias}</SmallHash>
         </Body>
         <div>
           <Button light>

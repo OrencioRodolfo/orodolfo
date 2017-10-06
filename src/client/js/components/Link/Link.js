@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const A = styled.a`
   color: inherit;
+  text-decoration: none;
 
   &.link {
     color: ${props => props.theme.color()}

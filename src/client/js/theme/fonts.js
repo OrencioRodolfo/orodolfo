@@ -44,7 +44,7 @@ const textSettings = {
 
 // Font families
 const fontFamilies = {
-  primary: 'Open Sans',
+  primary: '-apple-system, BlinkMacSystemFont, sans-serif',
   secondary: 'Raleway',
 };
 
