@@ -1,6 +1,8 @@
-import { HISTORY_FETCHED } from '../types';
+import { HISTORY_FETCHED } from '../actions/types';
 
-export default (state = null, action) => {
+const INITIAL_STATE = { commits: [] };
+
+export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case HISTORY_FETCHED:
       return {

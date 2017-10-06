@@ -45,7 +45,7 @@ Social.propTypes = {
 
 function mapStateToProps(state) {
   return {
-    social: state.about ? state.about.social : [],
+    social: state.about.social,
   };
 }
 

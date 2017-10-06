@@ -68,7 +68,7 @@ function matchDispatchToProps(dispatch) {
 
 function mapStateToProps(state) {
   return {
-    description: state.about ? state.about.description : '',
+    description: state.about.description,
   };
 }
 

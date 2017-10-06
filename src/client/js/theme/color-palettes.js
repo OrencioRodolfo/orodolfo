@@ -2,7 +2,7 @@ const palettes = {
   primary: {
     base: '#0366d6',
     light: '#479bfb',
-    lighter: '#77b7ff',
+    lighter: '#f6fbff',
     dark: '#045cbf',
     darker: '#044b9a',
   },

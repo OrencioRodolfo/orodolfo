@@ -20,7 +20,7 @@ const Header = () => (
   <HeaderWrapper>
     <RestricitedContainer>
       <SpaceBwContainer>
-        <Tag>@orenciorodolfo</Tag>
+        <Tag>@ogoncalves</Tag>
         <Social />
       </SpaceBwContainer>
     </RestricitedContainer>

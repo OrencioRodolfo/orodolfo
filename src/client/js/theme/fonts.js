@@ -18,11 +18,11 @@ const baseLineHeight = `${baseFontSize}rem`;
 const textSettings = {
   xs: {
     fontSize: '.75rem',
-    lineHeight: `${baseLineHeight}rem`,
+    lineHeight: baseLineHeight,
   },
   sm: {
     fontSize: '.875rem',
-    lineHeight: `${baseLineHeight}rem`,
+    lineHeight: baseLineHeight,
   },
   nr: { // normal
     fontSize: '1rem',

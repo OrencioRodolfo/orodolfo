@@ -1,7 +1,7 @@
 import {
   ABOUT_FETCHED,
   HISTORY_FETCHED,
-} from '../types';
+} from './types';
 
 const getAbout = about => ({
   type: ABOUT_FETCHED,
