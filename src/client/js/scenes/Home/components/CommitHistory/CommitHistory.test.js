@@ -41,17 +41,14 @@ describe('Commit history component', () => {
   });
 
   describe('Commit history mapStateToProps function', () => {
-    const defaultState = { commits: null };
-
     it('Must return an object with an empty "commits" property', () => {
+      const defaultState = { history: { commits: [] } };
       const result = mapStateToProps(defaultState);
-      const expected = {
-        commits: [],
-      };
+      const expected = { commits: [] };
       expect(result).toEqual(expected);
     });
 
-    it('Must map the state "social" to the component\'s properties', () => {
+    it('Must map the state "commits" to the component\'s properties', () => {
       const result = mapStateToProps({ history: { commits } });
       const expected = {
         commits,

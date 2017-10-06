@@ -110,7 +110,7 @@ class CommitHistory extends Component {
         <div>
           <Button light>
             <PillLeft>
-              <Link className="link">{commit.hashAlias}</Link>
+              <Link url="" className="link">{commit.hashAlias}</Link>
             </PillLeft>
             <PillRight>
               <Icon icon="code" />

@@ -31,9 +31,12 @@ describe('Social icons component', () => {
   });
 
   describe('Social mapStateToProps function', () => {
-    const defaultState = { about: null };
-
     it('Must return an object with an empty "social" property', () => {
+      const defaultState = {
+        about: {
+          social: [],
+        },
+      };
       const result = mapStateToProps(defaultState);
       const expected = {
         social: [],

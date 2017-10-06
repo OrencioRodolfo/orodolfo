@@ -23,14 +23,12 @@ ShallowWrapper {
       "children": Array [
         <Header />,
         <Subhead />,
-        <Container
-          className="grow"
-        >
+        <styled.div>
           <styled.p>
             
           </styled.p>
           <Connect(CommitHistory) />
-        </Container>,
+        </styled.div>,
         <Footer />,
       ],
     },
@@ -57,7 +55,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": null,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": Array [
             <styled.p>
@@ -65,7 +63,6 @@ ShallowWrapper {
             </styled.p>,
             <Connect(CommitHistory) />,
           ],
-          "className": "grow",
         },
         "ref": null,
         "rendered": Array [
@@ -113,14 +110,12 @@ ShallowWrapper {
         "children": Array [
           <Header />,
           <Subhead />,
-          <Container
-            className="grow"
-          >
+          <styled.div>
             <styled.p>
               
             </styled.p>
             <Connect(CommitHistory) />
-          </Container>,
+          </styled.div>,
           <Footer />,
         ],
       },
@@ -147,7 +142,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": null,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <styled.p>
@@ -155,7 +150,6 @@ ShallowWrapper {
               </styled.p>,
               <Connect(CommitHistory) />,
             ],
-            "className": "grow",
           },
           "ref": null,
           "rendered": Array [
