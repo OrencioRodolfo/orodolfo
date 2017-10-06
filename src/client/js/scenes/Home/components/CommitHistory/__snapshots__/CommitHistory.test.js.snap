@@ -50,101 +50,41 @@ ShallowWrapper {
           <p>
             2016
           </p>
-          <styled.ul>
-            <styled.li>
-              <styled.img
-                alt="A title"
-                height="50px"
-                src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                width="50px"
-              />
-              <styled.div>
-                <styled.span>
-                  A title
-                </styled.span>
-                <styled.p>
-                  Description...
-                </styled.p>
-                <styled.span>
-                  commited by 
-                   
-                </styled.span>
-                <styled.span>
-                   - 
-                  d909438
-                </styled.span>
-              </styled.div>
-              <div>
-                <Button
-                  light={true}
-                >
-                  <PillLeft>
-                    <Link
-                      className="link"
-                      url=""
-                    >
-                      d909438
-                    </Link>
-                  </PillLeft>
-                  <PillRight>
-                    <Icon
-                      icon="code"
-                    />
-                  </PillRight>
-                </Button>
-              </div>
-            </styled.li>
-          </styled.ul>
+          <CommitGroup
+            commits={
+              Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2016-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
+              ]
+            }
+          />
         </div>,
         <div>
           <p>
             2015
           </p>
-          <styled.ul>
-            <styled.li>
-              <styled.img
-                alt="A title"
-                height="50px"
-                src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                width="50px"
-              />
-              <styled.div>
-                <styled.span>
-                  A title
-                </styled.span>
-                <styled.p>
-                  Description...
-                </styled.p>
-                <styled.span>
-                  commited by 
-                   
-                </styled.span>
-                <styled.span>
-                   - 
-                  d909438
-                </styled.span>
-              </styled.div>
-              <div>
-                <Button
-                  light={true}
-                >
-                  <PillLeft>
-                    <Link
-                      className="link"
-                      url=""
-                    >
-                      d909438
-                    </Link>
-                  </PillLeft>
-                  <PillRight>
-                    <Icon
-                      icon="code"
-                    />
-                  </PillRight>
-                </Button>
-              </div>
-            </styled.li>
-          </styled.ul>
+          <CommitGroup
+            commits={
+              Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2015-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
+              ]
+            }
+          />
         </div>,
       ],
     },
@@ -159,51 +99,21 @@ ShallowWrapper {
             <p>
               2016
             </p>,
-            <styled.ul>
-              <styled.li>
-                <styled.img
-                  alt="A title"
-                  height="50px"
-                  src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                  width="50px"
-                />
-                <styled.div>
-                  <styled.span>
-                    A title
-                  </styled.span>
-                  <styled.p>
-                    Description...
-                  </styled.p>
-                  <styled.span>
-                    commited by 
-                     
-                  </styled.span>
-                  <styled.span>
-                     - 
-                    d909438
-                  </styled.span>
-                </styled.div>
-                <div>
-                  <Button
-                    light={true}
-                  >
-                    <PillLeft>
-                      <Link
-                        className="link"
-                        url=""
-                      >
-                        d909438
-                      </Link>
-                    </PillLeft>
-                    <PillRight>
-                      <Icon
-                        icon="code"
-                      />
-                    </PillRight>
-                  </Button>
-                </div>
-              </styled.li>
-            </styled.ul>,
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2016-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />,
           ],
         },
         "ref": null,
@@ -222,314 +132,22 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": Array [
-                <styled.li>
-                  <styled.img
-                    alt="A title"
-                    height="50px"
-                    src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                    width="50px"
-                  />
-                  <styled.div>
-                    <styled.span>
-                      A title
-                    </styled.span>
-                    <styled.p>
-                      Description...
-                    </styled.p>
-                    <styled.span>
-                      commited by 
-                       
-                    </styled.span>
-                    <styled.span>
-                       - 
-                      d909438
-                    </styled.span>
-                  </styled.div>
-                  <div>
-                    <Button
-                      light={true}
-                    >
-                      <PillLeft>
-                        <Link
-                          className="link"
-                          url=""
-                        >
-                          d909438
-                        </Link>
-                      </PillLeft>
-                      <PillRight>
-                        <Icon
-                          icon="code"
-                        />
-                      </PillRight>
-                    </Button>
-                  </div>
-                </styled.li>,
+              "commits": Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2016-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
               ],
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "59d678d9f51fea02ea1209b7",
-                "nodeType": "class",
-                "props": Object {
-                  "children": Array [
-                    <styled.img
-                      alt="A title"
-                      height="50px"
-                      src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                      width="50px"
-                    />,
-                    <styled.div>
-                      <styled.span>
-                        A title
-                      </styled.span>
-                      <styled.p>
-                        Description...
-                      </styled.p>
-                      <styled.span>
-                        commited by 
-                         
-                      </styled.span>
-                      <styled.span>
-                         - 
-                        d909438
-                      </styled.span>
-                    </styled.div>,
-                    <div>
-                      <Button
-                        light={true}
-                      >
-                        <PillLeft>
-                          <Link
-                            className="link"
-                            url=""
-                          >
-                            d909438
-                          </Link>
-                        </PillLeft>
-                        <PillRight>
-                          <Icon
-                            icon="code"
-                          />
-                        </PillRight>
-                      </Button>
-                    </div>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "class",
-                    "props": Object {
-                      "alt": "A title",
-                      "height": "50px",
-                      "src": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-                      "width": "50px",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": Array [
-                        <styled.span>
-                          A title
-                        </styled.span>,
-                        <styled.p>
-                          Description...
-                        </styled.p>,
-                        <styled.span>
-                          commited by 
-                           
-                        </styled.span>,
-                        <styled.span>
-                           - 
-                          d909438
-                        </styled.span>,
-                      ],
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "A title",
-                        },
-                        "ref": null,
-                        "rendered": "A title",
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "Description...",
-                        },
-                        "ref": null,
-                        "rendered": "Description...",
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": Array [
-                            "commited by ",
-                            undefined,
-                            " ",
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "commited by ",
-                          undefined,
-                          " ",
-                        ],
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": Array [
-                            " - ",
-                            "d909438",
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          " - ",
-                          "d909438",
-                        ],
-                        "type": [Function],
-                      },
-                    ],
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": <Button
-                        light={true}
-                      >
-                        <PillLeft>
-                          <Link
-                            className="link"
-                            url=""
-                          >
-                            d909438
-                          </Link>
-                        </PillLeft>
-                        <PillRight>
-                          <Icon
-                            icon="code"
-                          />
-                        </PillRight>
-                      </Button>,
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": Array [
-                          <PillLeft>
-                            <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>
-                          </PillLeft>,
-                          <PillRight>
-                            <Icon
-                              icon="code"
-                            />
-                          </PillRight>,
-                        ],
-                        "light": true,
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "function",
-                          "props": Object {
-                            "children": <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>,
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": "d909438",
-                              "className": "link",
-                              "url": "",
-                            },
-                            "ref": null,
-                            "rendered": "d909438",
-                            "type": [Function],
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "function",
-                          "props": Object {
-                            "children": <Icon
-                              icon="code"
-                            />,
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "icon": "code",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": [Function],
-                        },
-                      ],
-                      "type": [Function],
-                    },
-                    "type": "div",
-                  },
-                ],
-                "type": [Function],
-              },
-            ],
+            "rendered": null,
             "type": [Function],
           },
         ],
@@ -544,51 +162,21 @@ ShallowWrapper {
             <p>
               2015
             </p>,
-            <styled.ul>
-              <styled.li>
-                <styled.img
-                  alt="A title"
-                  height="50px"
-                  src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                  width="50px"
-                />
-                <styled.div>
-                  <styled.span>
-                    A title
-                  </styled.span>
-                  <styled.p>
-                    Description...
-                  </styled.p>
-                  <styled.span>
-                    commited by 
-                     
-                  </styled.span>
-                  <styled.span>
-                     - 
-                    d909438
-                  </styled.span>
-                </styled.div>
-                <div>
-                  <Button
-                    light={true}
-                  >
-                    <PillLeft>
-                      <Link
-                        className="link"
-                        url=""
-                      >
-                        d909438
-                      </Link>
-                    </PillLeft>
-                    <PillRight>
-                      <Icon
-                        icon="code"
-                      />
-                    </PillRight>
-                  </Button>
-                </div>
-              </styled.li>
-            </styled.ul>,
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2015-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />,
           ],
         },
         "ref": null,
@@ -607,314 +195,22 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": Array [
-                <styled.li>
-                  <styled.img
-                    alt="A title"
-                    height="50px"
-                    src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                    width="50px"
-                  />
-                  <styled.div>
-                    <styled.span>
-                      A title
-                    </styled.span>
-                    <styled.p>
-                      Description...
-                    </styled.p>
-                    <styled.span>
-                      commited by 
-                       
-                    </styled.span>
-                    <styled.span>
-                       - 
-                      d909438
-                    </styled.span>
-                  </styled.div>
-                  <div>
-                    <Button
-                      light={true}
-                    >
-                      <PillLeft>
-                        <Link
-                          className="link"
-                          url=""
-                        >
-                          d909438
-                        </Link>
-                      </PillLeft>
-                      <PillRight>
-                        <Icon
-                          icon="code"
-                        />
-                      </PillRight>
-                    </Button>
-                  </div>
-                </styled.li>,
+              "commits": Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2015-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
               ],
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "59d678d9f51fea02ea1209b7",
-                "nodeType": "class",
-                "props": Object {
-                  "children": Array [
-                    <styled.img
-                      alt="A title"
-                      height="50px"
-                      src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                      width="50px"
-                    />,
-                    <styled.div>
-                      <styled.span>
-                        A title
-                      </styled.span>
-                      <styled.p>
-                        Description...
-                      </styled.p>
-                      <styled.span>
-                        commited by 
-                         
-                      </styled.span>
-                      <styled.span>
-                         - 
-                        d909438
-                      </styled.span>
-                    </styled.div>,
-                    <div>
-                      <Button
-                        light={true}
-                      >
-                        <PillLeft>
-                          <Link
-                            className="link"
-                            url=""
-                          >
-                            d909438
-                          </Link>
-                        </PillLeft>
-                        <PillRight>
-                          <Icon
-                            icon="code"
-                          />
-                        </PillRight>
-                      </Button>
-                    </div>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "class",
-                    "props": Object {
-                      "alt": "A title",
-                      "height": "50px",
-                      "src": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-                      "width": "50px",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": Array [
-                        <styled.span>
-                          A title
-                        </styled.span>,
-                        <styled.p>
-                          Description...
-                        </styled.p>,
-                        <styled.span>
-                          commited by 
-                           
-                        </styled.span>,
-                        <styled.span>
-                           - 
-                          d909438
-                        </styled.span>,
-                      ],
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "A title",
-                        },
-                        "ref": null,
-                        "rendered": "A title",
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "Description...",
-                        },
-                        "ref": null,
-                        "rendered": "Description...",
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": Array [
-                            "commited by ",
-                            undefined,
-                            " ",
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "commited by ",
-                          undefined,
-                          " ",
-                        ],
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": Array [
-                            " - ",
-                            "d909438",
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          " - ",
-                          "d909438",
-                        ],
-                        "type": [Function],
-                      },
-                    ],
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": <Button
-                        light={true}
-                      >
-                        <PillLeft>
-                          <Link
-                            className="link"
-                            url=""
-                          >
-                            d909438
-                          </Link>
-                        </PillLeft>
-                        <PillRight>
-                          <Icon
-                            icon="code"
-                          />
-                        </PillRight>
-                      </Button>,
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": Array [
-                          <PillLeft>
-                            <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>
-                          </PillLeft>,
-                          <PillRight>
-                            <Icon
-                              icon="code"
-                            />
-                          </PillRight>,
-                        ],
-                        "light": true,
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "function",
-                          "props": Object {
-                            "children": <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>,
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": "d909438",
-                              "className": "link",
-                              "url": "",
-                            },
-                            "ref": null,
-                            "rendered": "d909438",
-                            "type": [Function],
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "function",
-                          "props": Object {
-                            "children": <Icon
-                              icon="code"
-                            />,
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "icon": "code",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": [Function],
-                        },
-                      ],
-                      "type": [Function],
-                    },
-                    "type": "div",
-                  },
-                ],
-                "type": [Function],
-              },
-            ],
+            "rendered": null,
             "type": [Function],
           },
         ],
@@ -934,101 +230,41 @@ ShallowWrapper {
             <p>
               2016
             </p>
-            <styled.ul>
-              <styled.li>
-                <styled.img
-                  alt="A title"
-                  height="50px"
-                  src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                  width="50px"
-                />
-                <styled.div>
-                  <styled.span>
-                    A title
-                  </styled.span>
-                  <styled.p>
-                    Description...
-                  </styled.p>
-                  <styled.span>
-                    commited by 
-                     
-                  </styled.span>
-                  <styled.span>
-                     - 
-                    d909438
-                  </styled.span>
-                </styled.div>
-                <div>
-                  <Button
-                    light={true}
-                  >
-                    <PillLeft>
-                      <Link
-                        className="link"
-                        url=""
-                      >
-                        d909438
-                      </Link>
-                    </PillLeft>
-                    <PillRight>
-                      <Icon
-                        icon="code"
-                      />
-                    </PillRight>
-                  </Button>
-                </div>
-              </styled.li>
-            </styled.ul>
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2016-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />
           </div>,
           <div>
             <p>
               2015
             </p>
-            <styled.ul>
-              <styled.li>
-                <styled.img
-                  alt="A title"
-                  height="50px"
-                  src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                  width="50px"
-                />
-                <styled.div>
-                  <styled.span>
-                    A title
-                  </styled.span>
-                  <styled.p>
-                    Description...
-                  </styled.p>
-                  <styled.span>
-                    commited by 
-                     
-                  </styled.span>
-                  <styled.span>
-                     - 
-                    d909438
-                  </styled.span>
-                </styled.div>
-                <div>
-                  <Button
-                    light={true}
-                  >
-                    <PillLeft>
-                      <Link
-                        className="link"
-                        url=""
-                      >
-                        d909438
-                      </Link>
-                    </PillLeft>
-                    <PillRight>
-                      <Icon
-                        icon="code"
-                      />
-                    </PillRight>
-                  </Button>
-                </div>
-              </styled.li>
-            </styled.ul>
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2015-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />
           </div>,
         ],
       },
@@ -1043,51 +279,21 @@ ShallowWrapper {
               <p>
                 2016
               </p>,
-              <styled.ul>
-                <styled.li>
-                  <styled.img
-                    alt="A title"
-                    height="50px"
-                    src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                    width="50px"
-                  />
-                  <styled.div>
-                    <styled.span>
-                      A title
-                    </styled.span>
-                    <styled.p>
-                      Description...
-                    </styled.p>
-                    <styled.span>
-                      commited by 
-                       
-                    </styled.span>
-                    <styled.span>
-                       - 
-                      d909438
-                    </styled.span>
-                  </styled.div>
-                  <div>
-                    <Button
-                      light={true}
-                    >
-                      <PillLeft>
-                        <Link
-                          className="link"
-                          url=""
-                        >
-                          d909438
-                        </Link>
-                      </PillLeft>
-                      <PillRight>
-                        <Icon
-                          icon="code"
-                        />
-                      </PillRight>
-                    </Button>
-                  </div>
-                </styled.li>
-              </styled.ul>,
+              <CommitGroup
+                commits={
+                  Array [
+                    Object {
+                      "_id": "59d678d9f51fea02ea1209b7",
+                      "date": "2016-06-04T23:00:00.000Z",
+                      "description": "Description...",
+                      "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                      "hashAlias": "d909438",
+                      "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                      "title": "A title",
+                    },
+                  ]
+                }
+              />,
             ],
           },
           "ref": null,
@@ -1106,314 +312,22 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "children": Array [
-                  <styled.li>
-                    <styled.img
-                      alt="A title"
-                      height="50px"
-                      src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                      width="50px"
-                    />
-                    <styled.div>
-                      <styled.span>
-                        A title
-                      </styled.span>
-                      <styled.p>
-                        Description...
-                      </styled.p>
-                      <styled.span>
-                        commited by 
-                         
-                      </styled.span>
-                      <styled.span>
-                         - 
-                        d909438
-                      </styled.span>
-                    </styled.div>
-                    <div>
-                      <Button
-                        light={true}
-                      >
-                        <PillLeft>
-                          <Link
-                            className="link"
-                            url=""
-                          >
-                            d909438
-                          </Link>
-                        </PillLeft>
-                        <PillRight>
-                          <Icon
-                            icon="code"
-                          />
-                        </PillRight>
-                      </Button>
-                    </div>
-                  </styled.li>,
+                "commits": Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2016-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
                 ],
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": "59d678d9f51fea02ea1209b7",
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": Array [
-                      <styled.img
-                        alt="A title"
-                        height="50px"
-                        src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                        width="50px"
-                      />,
-                      <styled.div>
-                        <styled.span>
-                          A title
-                        </styled.span>
-                        <styled.p>
-                          Description...
-                        </styled.p>
-                        <styled.span>
-                          commited by 
-                           
-                        </styled.span>
-                        <styled.span>
-                           - 
-                          d909438
-                        </styled.span>
-                      </styled.div>,
-                      <div>
-                        <Button
-                          light={true}
-                        >
-                          <PillLeft>
-                            <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>
-                          </PillLeft>
-                          <PillRight>
-                            <Icon
-                              icon="code"
-                            />
-                          </PillRight>
-                        </Button>
-                      </div>,
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "class",
-                      "props": Object {
-                        "alt": "A title",
-                        "height": "50px",
-                        "src": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-                        "width": "50px",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "class",
-                      "props": Object {
-                        "children": Array [
-                          <styled.span>
-                            A title
-                          </styled.span>,
-                          <styled.p>
-                            Description...
-                          </styled.p>,
-                          <styled.span>
-                            commited by 
-                             
-                          </styled.span>,
-                          <styled.span>
-                             - 
-                            d909438
-                          </styled.span>,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "A title",
-                          },
-                          "ref": null,
-                          "rendered": "A title",
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "Description...",
-                          },
-                          "ref": null,
-                          "rendered": "Description...",
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": Array [
-                              "commited by ",
-                              undefined,
-                              " ",
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            "commited by ",
-                            undefined,
-                            " ",
-                          ],
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": Array [
-                              " - ",
-                              "d909438",
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            " - ",
-                            "d909438",
-                          ],
-                          "type": [Function],
-                        },
-                      ],
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <Button
-                          light={true}
-                        >
-                          <PillLeft>
-                            <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>
-                          </PillLeft>
-                          <PillRight>
-                            <Icon
-                              icon="code"
-                            />
-                          </PillRight>
-                        </Button>,
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "function",
-                        "props": Object {
-                          "children": Array [
-                            <PillLeft>
-                              <Link
-                                className="link"
-                                url=""
-                              >
-                                d909438
-                              </Link>
-                            </PillLeft>,
-                            <PillRight>
-                              <Icon
-                                icon="code"
-                              />
-                            </PillRight>,
-                          ],
-                          "light": true,
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": <Link
-                                className="link"
-                                url=""
-                              >
-                                d909438
-                              </Link>,
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": null,
-                              "key": null,
-                              "nodeType": "function",
-                              "props": Object {
-                                "children": "d909438",
-                                "className": "link",
-                                "url": "",
-                              },
-                              "ref": null,
-                              "rendered": "d909438",
-                              "type": [Function],
-                            },
-                            "type": [Function],
-                          },
-                          Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": <Icon
-                                icon="code"
-                              />,
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": null,
-                              "key": null,
-                              "nodeType": "function",
-                              "props": Object {
-                                "icon": "code",
-                              },
-                              "ref": null,
-                              "rendered": null,
-                              "type": [Function],
-                            },
-                            "type": [Function],
-                          },
-                        ],
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                  ],
-                  "type": [Function],
-                },
-              ],
+              "rendered": null,
               "type": [Function],
             },
           ],
@@ -1428,51 +342,21 @@ ShallowWrapper {
               <p>
                 2015
               </p>,
-              <styled.ul>
-                <styled.li>
-                  <styled.img
-                    alt="A title"
-                    height="50px"
-                    src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                    width="50px"
-                  />
-                  <styled.div>
-                    <styled.span>
-                      A title
-                    </styled.span>
-                    <styled.p>
-                      Description...
-                    </styled.p>
-                    <styled.span>
-                      commited by 
-                       
-                    </styled.span>
-                    <styled.span>
-                       - 
-                      d909438
-                    </styled.span>
-                  </styled.div>
-                  <div>
-                    <Button
-                      light={true}
-                    >
-                      <PillLeft>
-                        <Link
-                          className="link"
-                          url=""
-                        >
-                          d909438
-                        </Link>
-                      </PillLeft>
-                      <PillRight>
-                        <Icon
-                          icon="code"
-                        />
-                      </PillRight>
-                    </Button>
-                  </div>
-                </styled.li>
-              </styled.ul>,
+              <CommitGroup
+                commits={
+                  Array [
+                    Object {
+                      "_id": "59d678d9f51fea02ea1209b7",
+                      "date": "2015-06-04T23:00:00.000Z",
+                      "description": "Description...",
+                      "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                      "hashAlias": "d909438",
+                      "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                      "title": "A title",
+                    },
+                  ]
+                }
+              />,
             ],
           },
           "ref": null,
@@ -1491,314 +375,22 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "children": Array [
-                  <styled.li>
-                    <styled.img
-                      alt="A title"
-                      height="50px"
-                      src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                      width="50px"
-                    />
-                    <styled.div>
-                      <styled.span>
-                        A title
-                      </styled.span>
-                      <styled.p>
-                        Description...
-                      </styled.p>
-                      <styled.span>
-                        commited by 
-                         
-                      </styled.span>
-                      <styled.span>
-                         - 
-                        d909438
-                      </styled.span>
-                    </styled.div>
-                    <div>
-                      <Button
-                        light={true}
-                      >
-                        <PillLeft>
-                          <Link
-                            className="link"
-                            url=""
-                          >
-                            d909438
-                          </Link>
-                        </PillLeft>
-                        <PillRight>
-                          <Icon
-                            icon="code"
-                          />
-                        </PillRight>
-                      </Button>
-                    </div>
-                  </styled.li>,
+                "commits": Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2015-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
                 ],
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": "59d678d9f51fea02ea1209b7",
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": Array [
-                      <styled.img
-                        alt="A title"
-                        height="50px"
-                        src="https://avatars0.githubusercontent.com/u/4216535?v=4&s=72"
-                        width="50px"
-                      />,
-                      <styled.div>
-                        <styled.span>
-                          A title
-                        </styled.span>
-                        <styled.p>
-                          Description...
-                        </styled.p>
-                        <styled.span>
-                          commited by 
-                           
-                        </styled.span>
-                        <styled.span>
-                           - 
-                          d909438
-                        </styled.span>
-                      </styled.div>,
-                      <div>
-                        <Button
-                          light={true}
-                        >
-                          <PillLeft>
-                            <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>
-                          </PillLeft>
-                          <PillRight>
-                            <Icon
-                              icon="code"
-                            />
-                          </PillRight>
-                        </Button>
-                      </div>,
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "class",
-                      "props": Object {
-                        "alt": "A title",
-                        "height": "50px",
-                        "src": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-                        "width": "50px",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "class",
-                      "props": Object {
-                        "children": Array [
-                          <styled.span>
-                            A title
-                          </styled.span>,
-                          <styled.p>
-                            Description...
-                          </styled.p>,
-                          <styled.span>
-                            commited by 
-                             
-                          </styled.span>,
-                          <styled.span>
-                             - 
-                            d909438
-                          </styled.span>,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "A title",
-                          },
-                          "ref": null,
-                          "rendered": "A title",
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "Description...",
-                          },
-                          "ref": null,
-                          "rendered": "Description...",
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": Array [
-                              "commited by ",
-                              undefined,
-                              " ",
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            "commited by ",
-                            undefined,
-                            " ",
-                          ],
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": Array [
-                              " - ",
-                              "d909438",
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            " - ",
-                            "d909438",
-                          ],
-                          "type": [Function],
-                        },
-                      ],
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <Button
-                          light={true}
-                        >
-                          <PillLeft>
-                            <Link
-                              className="link"
-                              url=""
-                            >
-                              d909438
-                            </Link>
-                          </PillLeft>
-                          <PillRight>
-                            <Icon
-                              icon="code"
-                            />
-                          </PillRight>
-                        </Button>,
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "function",
-                        "props": Object {
-                          "children": Array [
-                            <PillLeft>
-                              <Link
-                                className="link"
-                                url=""
-                              >
-                                d909438
-                              </Link>
-                            </PillLeft>,
-                            <PillRight>
-                              <Icon
-                                icon="code"
-                              />
-                            </PillRight>,
-                          ],
-                          "light": true,
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": <Link
-                                className="link"
-                                url=""
-                              >
-                                d909438
-                              </Link>,
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": null,
-                              "key": null,
-                              "nodeType": "function",
-                              "props": Object {
-                                "children": "d909438",
-                                "className": "link",
-                                "url": "",
-                              },
-                              "ref": null,
-                              "rendered": "d909438",
-                              "type": [Function],
-                            },
-                            "type": [Function],
-                          },
-                          Object {
-                            "instance": null,
-                            "key": null,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": <Icon
-                                icon="code"
-                              />,
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": null,
-                              "key": null,
-                              "nodeType": "function",
-                              "props": Object {
-                                "icon": "code",
-                              },
-                              "ref": null,
-                              "rendered": null,
-                              "type": [Function],
-                            },
-                            "type": [Function],
-                          },
-                        ],
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                  ],
-                  "type": [Function],
-                },
-              ],
+              "rendered": null,
               "type": [Function],
             },
           ],
