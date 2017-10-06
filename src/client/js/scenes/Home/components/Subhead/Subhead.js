@@ -26,6 +26,10 @@ const Container = styled.div`
   
   ${media.phone`
     justify-content: center;
+    
+    .link {
+      color: ${props => props.theme.contrast('dark', 'secondary')};
+    }
 
     button {
       position: absolute;
@@ -42,7 +46,7 @@ const Subhead = () => (
   <Wrapper>
     <RestricitedContainer>
       <Container>
-        <Link url="https://github.com/OrencioRodolfo/orodolfo">OrencioRodolfo/orodolfo</Link>
+        <Link url="https://github.com/OrencioRodolfo/orodolfo" className="link">OrencioRodolfo / <b>orodolfo</b></Link>
         <Button>
           <PillLeft>
             <Icon icon="star" />
