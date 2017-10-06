@@ -20,10 +20,13 @@ ShallowWrapper {
       "children": <Container>
         <styled.div>
           <Link
-            className=""
+            className="link"
             url="https://github.com/OrencioRodolfo/orodolfo"
           >
-            OrencioRodolfo/orodolfo
+            OrencioRodolfo / 
+            <b>
+              orodolfo
+            </b>
           </Link>
           <Button>
             <PillLeft>
@@ -47,10 +50,13 @@ ShallowWrapper {
       "props": Object {
         "children": <styled.div>
           <Link
-            className=""
+            className="link"
             url="https://github.com/OrencioRodolfo/orodolfo"
           >
-            OrencioRodolfo/orodolfo
+            OrencioRodolfo / 
+            <b>
+              orodolfo
+            </b>
           </Link>
           <Button>
             <PillLeft>
@@ -73,10 +79,13 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Link
-              className=""
+              className="link"
               url="https://github.com/OrencioRodolfo/orodolfo"
             >
-              OrencioRodolfo/orodolfo
+              OrencioRodolfo / 
+              <b>
+                orodolfo
+              </b>
             </Link>,
             <Button>
               <PillLeft>
@@ -98,12 +107,30 @@ ShallowWrapper {
             "key": null,
             "nodeType": "function",
             "props": Object {
-              "children": "OrencioRodolfo/orodolfo",
-              "className": "",
+              "children": Array [
+                "OrencioRodolfo / ",
+                <b>
+                  orodolfo
+                </b>,
+              ],
+              "className": "link",
               "url": "https://github.com/OrencioRodolfo/orodolfo",
             },
             "ref": null,
-            "rendered": "OrencioRodolfo/orodolfo",
+            "rendered": Array [
+              "OrencioRodolfo / ",
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "orodolfo",
+                },
+                "ref": null,
+                "rendered": "orodolfo",
+                "type": "b",
+              },
+            ],
             "type": [Function],
           },
           Object {
@@ -184,10 +211,13 @@ ShallowWrapper {
         "children": <Container>
           <styled.div>
             <Link
-              className=""
+              className="link"
               url="https://github.com/OrencioRodolfo/orodolfo"
             >
-              OrencioRodolfo/orodolfo
+              OrencioRodolfo / 
+              <b>
+                orodolfo
+              </b>
             </Link>
             <Button>
               <PillLeft>
@@ -211,10 +241,13 @@ ShallowWrapper {
         "props": Object {
           "children": <styled.div>
             <Link
-              className=""
+              className="link"
               url="https://github.com/OrencioRodolfo/orodolfo"
             >
-              OrencioRodolfo/orodolfo
+              OrencioRodolfo / 
+              <b>
+                orodolfo
+              </b>
             </Link>
             <Button>
               <PillLeft>
@@ -237,10 +270,13 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Link
-                className=""
+                className="link"
                 url="https://github.com/OrencioRodolfo/orodolfo"
               >
-                OrencioRodolfo/orodolfo
+                OrencioRodolfo / 
+                <b>
+                  orodolfo
+                </b>
               </Link>,
               <Button>
                 <PillLeft>
@@ -262,12 +298,30 @@ ShallowWrapper {
               "key": null,
               "nodeType": "function",
               "props": Object {
-                "children": "OrencioRodolfo/orodolfo",
-                "className": "",
+                "children": Array [
+                  "OrencioRodolfo / ",
+                  <b>
+                    orodolfo
+                  </b>,
+                ],
+                "className": "link",
                 "url": "https://github.com/OrencioRodolfo/orodolfo",
               },
               "ref": null,
-              "rendered": "OrencioRodolfo/orodolfo",
+              "rendered": Array [
+                "OrencioRodolfo / ",
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "orodolfo",
+                  },
+                  "ref": null,
+                  "rendered": "orodolfo",
+                  "type": "b",
+                },
+              ],
               "type": [Function],
             },
             Object {
