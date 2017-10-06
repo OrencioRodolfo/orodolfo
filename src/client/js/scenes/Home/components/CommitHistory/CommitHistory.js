@@ -29,7 +29,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   display: flex;
   list-style: none;
-  padding: 10px 5px;
+  padding: 15px;
 
   &:not(:last-child) {
     border-bottom: 1px solid ${props => props.theme.color('background')};
@@ -51,9 +51,9 @@ const Body = styled.div`
 `;
 
 const Img = styled.img`
-  width: 50px;
-  height: 50px;
-  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  border-radius: 2px;
   margin-right: 10px;
   
   ${media.phone`
@@ -64,12 +64,20 @@ const Img = styled.img`
 
 const Title = styled.span`
   font-weight: ${props => props.theme.weight('semiBold')};
-  font-size: ${props => props.theme.textSetting('sm').fontSize};
+  font-size: ${props => props.theme.textSetting('nr').fontSize};
+  
+  ${media.phone`
+    font-size: ${props => props.theme.textSetting('sm').fontSize};
+  `}
 `;
 
 const Desc = styled.p`
   margin: 0;
-  ${props => props.theme.textSetting('xs')};
+  ${props => props.theme.textSetting('sm')};
+
+  ${media.phone`
+    font-size: ${props => props.theme.textSetting('xs')};
+  `}
 `;
 
 const Author = styled.span`
@@ -98,7 +106,20 @@ class CommitHistory extends Component {
   }
 
   renderHistory() {
-    return this.props.commits.map(commit => (
+    const years = Object.keys(this.props.commits).reverse();
+
+    return years.map(year => (
+      <div key={year}>
+        <p>{year}</p>
+        <Ul>
+          {this.renderCommitGroup(this.props.commits[year])}
+        </Ul>
+      </div>
+    ));
+  }
+
+  renderCommitGroup(commits) {
+    return commits.map(commit => (
       <Li key={commit._id}>
         <Img src={commit.image} width="50px" height="50px" alt={commit.title} />
         <Body>
@@ -123,16 +144,16 @@ class CommitHistory extends Component {
 
   render() {
     return (
-      <Ul>
+      <div>
         {this.renderHistory()}
-      </Ul>
+      </div>
     );
   }
 }
 
 CommitHistory.propTypes = {
   getHistory: PropTypes.func.isRequired,
-  commits: PropTypes.array.isRequired,
+  commits: PropTypes.object.isRequired,
 };
 
 function mapStateToProps(state) {
