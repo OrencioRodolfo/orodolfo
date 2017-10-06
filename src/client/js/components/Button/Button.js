@@ -1,3 +1,5 @@
+/*  eslint no-confusing-arrow: 0  */
+
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
@@ -10,17 +12,18 @@ const Btn = styled.button`
   ${props => props.theme.textSetting('sm')}; // font size and line height
   font-weight: ${props => props.theme.weight('semiBold')};
   color: ${props => props.theme.contrast('light')};
-  background: ${props => props.theme.color('background', 'light')};
+  background: ${props => props.light ? props.theme.color('background', 'lighter') : props.theme.color('background', 'light')};
   border: 1px solid ${props => props.theme.color('background')};
+  cursor: pointer;
 
   ${media.phone`
     ${props => props.theme.textSetting('xs')}
   `}
 `;
 
-const Button = ({ children }) => (
-  <Btn>
-    { children }
+const Button = props => (
+  <Btn {...props}>
+    { props.children }
   </Btn>
 );
 

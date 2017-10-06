@@ -1,0 +1,2 @@
+export const ABOUT_FETCHED = 'ABOUT_FETCHED';
+export const HISTORY_FETCHED = 'HISTORY_FETCHED';

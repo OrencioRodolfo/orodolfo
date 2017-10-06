@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commit history component Must render a list of commits 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitHistory
+    commits={
+      Object {
+        "2015": Array [
+          Object {
+            "_id": "59d678d9f51fea02ea1209b7",
+            "date": "2015-06-04T23:00:00.000Z",
+            "description": "Description...",
+            "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+            "hashAlias": "d909438",
+            "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+            "title": "A title",
+          },
+        ],
+        "2016": Array [
+          Object {
+            "_id": "59d678d9f51fea02ea1209b7",
+            "date": "2016-06-04T23:00:00.000Z",
+            "description": "Description...",
+            "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+            "hashAlias": "d909438",
+            "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+            "title": "A title",
+          },
+        ],
+      }
+    }
+    getHistory={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <p>
+            2016
+          </p>
+          <CommitGroup
+            commits={
+              Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2016-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
+              ]
+            }
+          />
+        </div>,
+        <div>
+          <p>
+            2015
+          </p>
+          <CommitGroup
+            commits={
+              Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2015-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
+              ]
+            }
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "2016",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              2016
+            </p>,
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2016-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2016",
+            },
+            "ref": null,
+            "rendered": "2016",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "commits": Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2016-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "2015",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              2015
+            </p>,
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2015-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2015",
+            },
+            "ref": null,
+            "rendered": "2015",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "commits": Array [
+                Object {
+                  "_id": "59d678d9f51fea02ea1209b7",
+                  "date": "2015-06-04T23:00:00.000Z",
+                  "description": "Description...",
+                  "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                  "hashAlias": "d909438",
+                  "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                  "title": "A title",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <p>
+              2016
+            </p>
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2016-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />
+          </div>,
+          <div>
+            <p>
+              2015
+            </p>
+            <CommitGroup
+              commits={
+                Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2015-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ]
+              }
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "2016",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                2016
+              </p>,
+              <CommitGroup
+                commits={
+                  Array [
+                    Object {
+                      "_id": "59d678d9f51fea02ea1209b7",
+                      "date": "2016-06-04T23:00:00.000Z",
+                      "description": "Description...",
+                      "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                      "hashAlias": "d909438",
+                      "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                      "title": "A title",
+                    },
+                  ]
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2016",
+              },
+              "ref": null,
+              "rendered": "2016",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "commits": Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2016-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "2015",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                2015
+              </p>,
+              <CommitGroup
+                commits={
+                  Array [
+                    Object {
+                      "_id": "59d678d9f51fea02ea1209b7",
+                      "date": "2015-06-04T23:00:00.000Z",
+                      "description": "Description...",
+                      "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                      "hashAlias": "d909438",
+                      "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                      "title": "A title",
+                    },
+                  ]
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2015",
+              },
+              "ref": null,
+              "rendered": "2015",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "commits": Array [
+                  Object {
+                    "_id": "59d678d9f51fea02ea1209b7",
+                    "date": "2015-06-04T23:00:00.000Z",
+                    "description": "Description...",
+                    "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                    "hashAlias": "d909438",
+                    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                    "title": "A title",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Commit history component Must render an empty list properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitHistory
+    commits={Object {}}
+    getHistory={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

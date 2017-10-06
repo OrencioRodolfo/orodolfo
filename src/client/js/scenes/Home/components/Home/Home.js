@@ -7,9 +7,9 @@ import PropTypes from 'prop-types';
 
 import { getAbout } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
-import RestrictedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
+import CommitHistory from '../CommitHistory/CommitHistory';
 import Footer from '../Footer/Footer';
 
 const HomeContainer = styled.div`
@@ -17,10 +17,19 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
+`;
 
-  .grow {
-    flex-grow: 1;
-  }
+const MainContent = styled.div`
+  max-width: 1012px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 12px;
+  margin: 0 auto;
+  flex-grow: 1;
+
+  ${media.phone`
+    padding: 0;
+  `}
 `;
 
 const Desc = styled.p`
@@ -44,9 +53,10 @@ class Home extends Component {
       <HomeContainer>
         <Header />
         <Subhead />
-        <RestrictedContainer className="grow">
+        <MainContent>
           <Desc>{this.props.description}</Desc>
-        </RestrictedContainer>
+          <CommitHistory />
+        </MainContent>
         <Footer />
       </HomeContainer>
     );
@@ -66,7 +76,7 @@ function matchDispatchToProps(dispatch) {
 
 function mapStateToProps(state) {
   return {
-    description: state.about ? state.about.description : '',
+    description: state.about.description,
   };
 }
 

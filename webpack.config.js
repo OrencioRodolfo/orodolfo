@@ -17,8 +17,11 @@ const config = {
     loaders: [
       {
         test: /\.js$/,
-        loader: ['babel-loader'],
+        loader: 'babel-loader',
         exclude: /node_modules/,
+        options: {
+          plugins: ['transform-object-rest-spread'],
+        },
       },
     ],
   },

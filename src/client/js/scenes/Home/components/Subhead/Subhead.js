@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   
   ${media.phone`
     position: relative;
+    padding: 15px 0;
     background-color: ${props => props.theme.color('foreground')};
     color: ${props => props.theme.contrast('dark')};
   `}
@@ -24,17 +25,23 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   
+  i {
+    margin-right: 5px;
+    color: ${props => props.theme.contrast('light', 'secondary')};
+  }
+
   ${media.phone`
     justify-content: center;
+    color: ${props => props.theme.contrast('dark')};
+    
+    i,
+    .link {
+      color: ${props => props.theme.contrast('dark')};
+    }
 
     button {
-      position: absolute;
-      right: 12px;
+      display: none;
     }
-  `}
-
-  ${media.iphone`
-    justify-content: flex-start;
   `}
 `;
 
@@ -42,7 +49,10 @@ const Subhead = () => (
   <Wrapper>
     <RestricitedContainer>
       <Container>
-        <Link url="https://github.com/OrencioRodolfo/orodolfo">OrencioRodolfo/orodolfo</Link>
+        <div>
+          <Icon icon="book" />
+          <Link url="https://github.com/OrencioRodolfo/orodolfo" className="link">OrencioRodolfo / <b>orodolfo</b></Link>
+        </div>
         <Button>
           <PillLeft>
             <Icon icon="star" />

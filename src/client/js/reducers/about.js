@@ -1,7 +1,14 @@
-export default (state = null, action) => {
+import { ABOUT_FETCHED } from '../actions/types';
+
+const INITIAL_STATE = { social: [], description: '' };
+
+export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case 'ABOUT_FETCHED':
-      return action.payload;
+    case ABOUT_FETCHED:
+      return {
+        ...state,
+        ...action.payload,
+      };
 
     default:
       return state;

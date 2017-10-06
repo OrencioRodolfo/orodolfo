@@ -23,13 +23,12 @@ ShallowWrapper {
       "children": Array [
         <Header />,
         <Subhead />,
-        <Container
-          className="grow"
-        >
+        <styled.div>
           <styled.p>
             
           </styled.p>
-        </Container>,
+          <Connect(CommitHistory) />
+        </styled.div>,
         <Footer />,
       ],
     },
@@ -56,25 +55,38 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": null,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
-          "children": <styled.p>
-            
-          </styled.p>,
-          "className": "grow",
+          "children": Array [
+            <styled.p>
+              
+            </styled.p>,
+            <Connect(CommitHistory) />,
+          ],
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "class",
-          "props": Object {
-            "children": "",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "",
-          "type": [Function],
-        },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
       Object {
@@ -98,13 +110,12 @@ ShallowWrapper {
         "children": Array [
           <Header />,
           <Subhead />,
-          <Container
-            className="grow"
-          >
+          <styled.div>
             <styled.p>
               
             </styled.p>
-          </Container>,
+            <Connect(CommitHistory) />
+          </styled.div>,
           <Footer />,
         ],
       },
@@ -131,25 +142,38 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": null,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
-            "children": <styled.p>
-              
-            </styled.p>,
-            "className": "grow",
+            "children": Array [
+              <styled.p>
+                
+              </styled.p>,
+              <Connect(CommitHistory) />,
+            ],
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "class",
-            "props": Object {
-              "children": "",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": [Function],
             },
-            "ref": null,
-            "rendered": "",
-            "type": [Function],
-          },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {
