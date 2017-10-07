@@ -39,7 +39,7 @@ const CommitListing = styled.div`
 const Head = styled.div`
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  padding-left: 20px;
   
   ${media.phone`
     padding-left: 0;
@@ -59,9 +59,8 @@ const Head = styled.div`
 const Title = styled.div`
   padding: 7px 0;
   color: ${props => props.theme.contrast('light', 'secondary')};
-  font-weight: ${props => props.theme.weight('semiBold')};
   flex-grow: 1;
-  ${props => props.theme.textSetting('nr')};
+  ${props => props.theme.textSetting('sm')};
   
   ${media.phone`
     padding: 7px 15px;

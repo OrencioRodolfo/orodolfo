@@ -51,8 +51,8 @@ const Body = styled.div`
 `;
 
 const Img = styled.img`
-  width: 50px;
-  height: 50px;
+  width: 36px;
+  height: 36px;
   border-radius: 3px;
   margin-right: 10px;
   
@@ -64,8 +64,8 @@ const Img = styled.img`
 
 const Title = styled.div`
   font-weight: ${props => props.theme.weight('semiBold')};
-  font-size: ${props => props.theme.textSetting('md').fontSize};
-  margin-bottom: 10px;
+  ${props => props.theme.textSetting('nr')};
+  margin-bottom: 5px;
   
   ${media.phone`
     font-size: ${props => props.theme.textSetting('sm').fontSize};

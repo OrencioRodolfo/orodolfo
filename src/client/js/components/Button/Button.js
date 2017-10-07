@@ -9,13 +9,13 @@ const Btn = styled.button`
   border-radius: 3px;
   padding: 0;
   display: flex;
-  ${props => props.theme.textSetting('nr')}; // font size and line height
+  ${props => props.theme.textSetting('xs')}; // font size and line height
   font-weight: ${props => props.theme.weight('semiBold')};
   color: ${props => props.theme.contrast('light')};
-  background-color: ${props => props.light ? '#fff' : '#eff3f6'};
+  background-color: ${props => props.light ? props.theme.color('background', 'lighter') : '#eff3f6'};
   border: 1px solid ${props => props.theme.color('background')};
   cursor: pointer;
-  line-height: 25px;
+  line-height: 20px;
 
   ${media.phone`
     ${props => props.theme.textSetting('xs')}
