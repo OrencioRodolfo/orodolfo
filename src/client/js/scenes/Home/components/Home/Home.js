@@ -26,6 +26,7 @@ const MainContent = styled.div`
   padding: 0 12px;
   margin: 0 auto;
   flex-grow: 1;
+  margin-bottom: 30px;
 
   ${media.phone`
     padding: 0;

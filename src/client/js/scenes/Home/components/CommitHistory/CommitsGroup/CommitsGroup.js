@@ -13,6 +13,7 @@ const Ul = styled.ul`
   margin: 10px 0;
   padding: 0;
   border: 1px solid ${props => props.theme.color('background')};
+  margin-left: 20px;
   
   ${media.phone`
     margin: 0;
