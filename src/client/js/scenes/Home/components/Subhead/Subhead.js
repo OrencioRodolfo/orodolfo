@@ -24,25 +24,32 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  i {
-    margin-right: 5px;
-    color: ${props => props.theme.contrast('light', 'secondary')};
-  }
 
   ${media.phone`
     justify-content: center;
     color: ${props => props.theme.contrast('dark')};
-    
-    i,
-    .link {
-      color: ${props => props.theme.contrast('dark')};
-    }
-
-    button {
-      display: none;
-    }
   `}
+    
+  button {
+    ${media.phone`
+      display: none;
+    `}  
+  }
+  
+  i.fa-book {
+    margin-right: 5px;
+    color: ${props => props.theme.contrast('light', 'secondary')};
+  }
+
+  i.fa-book,
+  .link {
+    ${props => props.theme.textSetting('md')};
+
+    ${media.phone`
+      color: ${props => props.theme.contrast('dark')};
+      ${props => props.theme.textSetting('nr')};
+    `}
+  }  
 `;
 
 const Subhead = () => (

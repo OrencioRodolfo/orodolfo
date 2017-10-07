@@ -29,11 +29,11 @@ const textSettings = {
     lineHeight: `${baseFontSize}rem`,
   },
   md: {
-    fontSize: '1.333rem',
+    fontSize: '1.22rem',
     lineHeight: `${baseFontSize * 2}`,
   },
   lg: {
-    fontSize: '1.778rem',
+    fontSize: '1.5rem',
     lineHeight: `${baseFontSize * 2}rem`,
   },
   xl: {
@@ -44,7 +44,7 @@ const textSettings = {
 
 // Font families
 const fontFamilies = {
-  primary: '-apple-system, BlinkMacSystemFont, sans-serif',
+  primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   secondary: 'Raleway',
 };
 

@@ -10,13 +10,12 @@ import Icon from '../../../../../components/Icon/Icon';
 import Link from '../../../../../components/Link/Link';
 
 const Ul = styled.ul`
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
   border: 1px solid ${props => props.theme.color('background')};
-  border-radius: 4px;
-
+  
   ${media.phone`
-    border-radius: 0;
+    margin: 0;
     border-right: 0;
     border-left: 0;
   `}
@@ -40,6 +39,10 @@ const Li = styled.li`
       display: none;
     `}
   }
+
+  i {
+    color: ${props => props.theme.color('primary')};
+  }
 `;
 
 const Body = styled.div`
@@ -47,9 +50,9 @@ const Body = styled.div`
 `;
 
 const Img = styled.img`
-  width: 36px;
-  height: 36px;
-  border-radius: 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
   margin-right: 10px;
   
   ${media.phone`
@@ -58,39 +61,41 @@ const Img = styled.img`
   `}
 `;
 
-const Title = styled.span`
+const Title = styled.div`
   font-weight: ${props => props.theme.weight('semiBold')};
-  font-size: ${props => props.theme.textSetting('nr').fontSize};
+  font-size: ${props => props.theme.textSetting('md').fontSize};
+  margin-bottom: 10px;
   
   ${media.phone`
     font-size: ${props => props.theme.textSetting('sm').fontSize};
-  `}
-`;
-
-const Desc = styled.p`
-  margin: 0;
-  ${props => props.theme.textSetting('sm')};
-
-  ${media.phone`
-    font-size: ${props => props.theme.textSetting('xs')};
+    margin-bottom: 0;
   `}
 `;
 
 const Author = styled.span`
-  ${props => props.theme.textSetting('xs')};
-  color: ${props => props.theme.contrast('light', 'secondary')};
+  ${props => props.theme.textSetting('sm')};
   float: left;
+  
+  ${media.phone`
+    color: ${props => props.theme.contrast('light', 'secondary')};
+    ${props => props.theme.textSetting('xs')};
+  `}
+`;
+
+const AuthorName = styled.span`
+  font-weight: ${props => props.theme.weight('semiBold')}
 `;
 
 const SmallHash = styled.span`
   display: none;
-  color: ${props => props.theme.contrast('light', 'secondary')};
   ${props => props.theme.textSetting('xs')};
-
+  
   ${media.phone`
+    color: ${props => props.theme.contrast('light', 'secondary')};
     display: block;
   `}
 `;
+
 
 const renderCommits = commits => (
   commits.map(commit => (
@@ -98,17 +103,16 @@ const renderCommits = commits => (
       <Img src={commit.image} width="50px" height="50px" alt={commit.title} />
       <Body>
         <Title>{commit.title}</Title>
-        <Desc>{commit.description}</Desc>
-        <Author>commited by {commit.author} </Author>
+        <Author>commited by <AuthorName>{commit.author}</AuthorName></Author>
         <SmallHash>&nbsp;- {commit.hashAlias}</SmallHash>
       </Body>
       <div>
         <Button light>
           <PillLeft>
-            <Link url="" className="link">{commit.hashAlias}</Link>
+            <Icon icon="copy" />
           </PillLeft>
           <PillRight>
-            <Icon icon="code" />
+            <Link url="" className="link">{commit.hashAlias}</Link>
           </PillRight>
         </Button>
       </div>

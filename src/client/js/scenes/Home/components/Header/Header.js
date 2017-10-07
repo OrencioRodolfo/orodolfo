@@ -14,6 +14,8 @@ const HeaderWrapper = styled.header`
 
 const Tag = styled.span`
   color: ${props => props.theme.contrast('dark', 'secondary')};
+  font-weight: ${props => props.theme.weight('semiBold')};
+  ${props => props.theme.textSetting('md')};
 `;
 
 const Header = () => (

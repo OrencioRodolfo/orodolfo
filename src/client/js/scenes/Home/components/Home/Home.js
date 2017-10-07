@@ -33,6 +33,8 @@ const MainContent = styled.div`
 `;
 
 const Desc = styled.p`
+  ${props => props.theme.textSetting('md')};
+
   ${media.phone`
     display: none;
   `}
