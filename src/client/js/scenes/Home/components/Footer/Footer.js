@@ -8,6 +8,7 @@ import Social from '../Social/Social';
 const ContentWrapper = styled.div`
   border-top: 1px solid ${props => props.theme.color('background')};
   padding: 20px 0;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +16,8 @@ const ContentWrapper = styled.div`
   ${media.phone`
     justify-content: center;
     padding: 10px 0;
-
+    margin-top: 15px;
+    
     .link {
       display: none;
     }

@@ -19,13 +19,19 @@ const CommitListing = styled.div`
     left: 0;
     z-index: -1;
     display: block;
-    width: 2px;
+    width: 1px;
     content: "";
     background-color: ${props => props.theme.color('background')};
     margin-top: 20px;
     
     ${media.phone`
       display: none;
+    `}
+  }
+
+  &:last-child ul {
+    ${media.phone`
+      border-bottom: 0;
     `}
   }
 `;
@@ -53,6 +59,7 @@ const Head = styled.div`
 const Title = styled.div`
   padding: 7px 0;
   color: ${props => props.theme.contrast('light', 'secondary')};
+  font-weight: ${props => props.theme.weight('semiBold')};
   flex-grow: 1;
   ${props => props.theme.textSetting('nr')};
   
