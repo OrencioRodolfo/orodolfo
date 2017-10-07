@@ -88,15 +88,12 @@ ShallowWrapper {
             width="50px"
           />
           <styled.div>
-            <styled.span>
+            <styled.div>
               A title
-            </styled.span>
-            <styled.p>
-              Description...
-            </styled.p>
+            </styled.div>
             <styled.span>
               commited by 
-               
+              <styled.span />
             </styled.span>
             <styled.span>
                - 
@@ -108,17 +105,17 @@ ShallowWrapper {
               light={true}
             >
               <PillLeft>
+                <Icon
+                  icon="copy"
+                />
+              </PillLeft>
+              <PillRight>
                 <Link
                   className="link"
                   url=""
                 >
                   d909438
                 </Link>
-              </PillLeft>
-              <PillRight>
-                <Icon
-                  icon="code"
-                />
               </PillRight>
             </Button>
           </div>
@@ -140,15 +137,12 @@ ShallowWrapper {
               width="50px"
             />,
             <styled.div>
-              <styled.span>
+              <styled.div>
                 A title
-              </styled.span>
-              <styled.p>
-                Description...
-              </styled.p>
+              </styled.div>
               <styled.span>
                 commited by 
-                 
+                <styled.span />
               </styled.span>
               <styled.span>
                  - 
@@ -160,17 +154,17 @@ ShallowWrapper {
                 light={true}
               >
                 <PillLeft>
+                  <Icon
+                    icon="copy"
+                  />
+                </PillLeft>
+                <PillRight>
                   <Link
                     className="link"
                     url=""
                   >
                     d909438
                   </Link>
-                </PillLeft>
-                <PillRight>
-                  <Icon
-                    icon="code"
-                  />
                 </PillRight>
               </Button>
             </div>,
@@ -198,15 +192,12 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": Array [
-                <styled.span>
+                <styled.div>
                   A title
-                </styled.span>,
-                <styled.p>
-                  Description...
-                </styled.p>,
+                </styled.div>,
                 <styled.span>
                   commited by 
-                   
+                  <styled.span />
                 </styled.span>,
                 <styled.span>
                    - 
@@ -232,28 +223,25 @@ ShallowWrapper {
                 "key": null,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "Description...",
-                },
-                "ref": null,
-                "rendered": "Description...",
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "class",
-                "props": Object {
                   "children": Array [
                     "commited by ",
-                    undefined,
-                    " ",
+                    <styled.span />,
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
                   "commited by ",
-                  undefined,
-                  " ",
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
                 ],
                 "type": [Function],
               },
@@ -286,17 +274,17 @@ ShallowWrapper {
                 light={true}
               >
                 <PillLeft>
+                  <Icon
+                    icon="copy"
+                  />
+                </PillLeft>
+                <PillRight>
                   <Link
                     className="link"
                     url=""
                   >
                     d909438
                   </Link>
-                </PillLeft>
-                <PillRight>
-                  <Icon
-                    icon="code"
-                  />
                 </PillRight>
               </Button>,
             },
@@ -308,23 +296,46 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <PillLeft>
+                    <Icon
+                      icon="copy"
+                    />
+                  </PillLeft>,
+                  <PillRight>
                     <Link
                       className="link"
                       url=""
                     >
                       d909438
                     </Link>
-                  </PillLeft>,
-                  <PillRight>
-                    <Icon
-                      icon="code"
-                    />
                   </PillRight>,
                 ],
                 "light": true,
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <Icon
+                      icon="copy"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": "copy",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
                 Object {
                   "instance": null,
                   "key": null,
@@ -349,29 +360,6 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "d909438",
-                    "type": [Function],
-                  },
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": <Icon
-                      icon="code"
-                    />,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "function",
-                    "props": Object {
-                      "icon": "code",
-                    },
-                    "ref": null,
-                    "rendered": null,
                     "type": [Function],
                   },
                   "type": [Function],
@@ -402,15 +390,12 @@ ShallowWrapper {
               width="50px"
             />
             <styled.div>
-              <styled.span>
+              <styled.div>
                 A title
-              </styled.span>
-              <styled.p>
-                Description...
-              </styled.p>
+              </styled.div>
               <styled.span>
                 commited by 
-                 
+                <styled.span />
               </styled.span>
               <styled.span>
                  - 
@@ -422,17 +407,17 @@ ShallowWrapper {
                 light={true}
               >
                 <PillLeft>
+                  <Icon
+                    icon="copy"
+                  />
+                </PillLeft>
+                <PillRight>
                   <Link
                     className="link"
                     url=""
                   >
                     d909438
                   </Link>
-                </PillLeft>
-                <PillRight>
-                  <Icon
-                    icon="code"
-                  />
                 </PillRight>
               </Button>
             </div>
@@ -454,15 +439,12 @@ ShallowWrapper {
                 width="50px"
               />,
               <styled.div>
-                <styled.span>
+                <styled.div>
                   A title
-                </styled.span>
-                <styled.p>
-                  Description...
-                </styled.p>
+                </styled.div>
                 <styled.span>
                   commited by 
-                   
+                  <styled.span />
                 </styled.span>
                 <styled.span>
                    - 
@@ -474,17 +456,17 @@ ShallowWrapper {
                   light={true}
                 >
                   <PillLeft>
+                    <Icon
+                      icon="copy"
+                    />
+                  </PillLeft>
+                  <PillRight>
                     <Link
                       className="link"
                       url=""
                     >
                       d909438
                     </Link>
-                  </PillLeft>
-                  <PillRight>
-                    <Icon
-                      icon="code"
-                    />
                   </PillRight>
                 </Button>
               </div>,
@@ -512,15 +494,12 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": Array [
-                  <styled.span>
+                  <styled.div>
                     A title
-                  </styled.span>,
-                  <styled.p>
-                    Description...
-                  </styled.p>,
+                  </styled.div>,
                   <styled.span>
                     commited by 
-                     
+                    <styled.span />
                   </styled.span>,
                   <styled.span>
                      - 
@@ -546,28 +525,25 @@ ShallowWrapper {
                   "key": null,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "Description...",
-                  },
-                  "ref": null,
-                  "rendered": "Description...",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "class",
-                  "props": Object {
                     "children": Array [
                       "commited by ",
-                      undefined,
-                      " ",
+                      <styled.span />,
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
                     "commited by ",
-                    undefined,
-                    " ",
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
                   ],
                   "type": [Function],
                 },
@@ -600,17 +576,17 @@ ShallowWrapper {
                   light={true}
                 >
                   <PillLeft>
+                    <Icon
+                      icon="copy"
+                    />
+                  </PillLeft>
+                  <PillRight>
                     <Link
                       className="link"
                       url=""
                     >
                       d909438
                     </Link>
-                  </PillLeft>
-                  <PillRight>
-                    <Icon
-                      icon="code"
-                    />
                   </PillRight>
                 </Button>,
               },
@@ -622,23 +598,46 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <PillLeft>
+                      <Icon
+                        icon="copy"
+                      />
+                    </PillLeft>,
+                    <PillRight>
                       <Link
                         className="link"
                         url=""
                       >
                         d909438
                       </Link>
-                    </PillLeft>,
-                    <PillRight>
-                      <Icon
-                        icon="code"
-                      />
                     </PillRight>,
                   ],
                   "light": true,
                 },
                 "ref": null,
                 "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <Icon
+                        icon="copy"
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "icon": "copy",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
                   Object {
                     "instance": null,
                     "key": null,
@@ -663,29 +662,6 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "d909438",
-                      "type": [Function],
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "function",
-                    "props": Object {
-                      "children": <Icon
-                        icon="code"
-                      />,
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "function",
-                      "props": Object {
-                        "icon": "code",
-                      },
-                      "ref": null,
-                      "rendered": null,
                       "type": [Function],
                     },
                     "type": [Function],

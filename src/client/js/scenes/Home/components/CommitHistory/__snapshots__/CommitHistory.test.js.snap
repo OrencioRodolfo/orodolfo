@@ -47,9 +47,12 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div>
-          <p>
+          <styled.div>
+            <span>
+              Commits on 
+            </span>
             2016
-          </p>
+          </styled.div>
           <CommitGroup
             commits={
               Array [
@@ -67,9 +70,12 @@ ShallowWrapper {
           />
         </div>,
         <div>
-          <p>
+          <styled.div>
+            <span>
+              Commits on 
+            </span>
             2015
-          </p>
+          </styled.div>
           <CommitGroup
             commits={
               Array [
@@ -96,9 +102,12 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p>
+            <styled.div>
+              <span>
+                Commits on 
+              </span>
               2016
-            </p>,
+            </styled.div>,
             <CommitGroup
               commits={
                 Array [
@@ -121,13 +130,31 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": "2016",
+              "children": Array [
+                <span>
+                  Commits on 
+                </span>,
+                "2016",
+              ],
             },
             "ref": null,
-            "rendered": "2016",
-            "type": "p",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Commits on ",
+                },
+                "ref": null,
+                "rendered": "Commits on ",
+                "type": "span",
+              },
+              "2016",
+            ],
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -159,9 +186,12 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p>
+            <styled.div>
+              <span>
+                Commits on 
+              </span>
               2015
-            </p>,
+            </styled.div>,
             <CommitGroup
               commits={
                 Array [
@@ -184,13 +214,31 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": null,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": "2015",
+              "children": Array [
+                <span>
+                  Commits on 
+                </span>,
+                "2015",
+              ],
             },
             "ref": null,
-            "rendered": "2015",
-            "type": "p",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Commits on ",
+                },
+                "ref": null,
+                "rendered": "Commits on ",
+                "type": "span",
+              },
+              "2015",
+            ],
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -227,9 +275,12 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div>
-            <p>
+            <styled.div>
+              <span>
+                Commits on 
+              </span>
               2016
-            </p>
+            </styled.div>
             <CommitGroup
               commits={
                 Array [
@@ -247,9 +298,12 @@ ShallowWrapper {
             />
           </div>,
           <div>
-            <p>
+            <styled.div>
+              <span>
+                Commits on 
+              </span>
               2015
-            </p>
+            </styled.div>
             <CommitGroup
               commits={
                 Array [
@@ -276,9 +330,12 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <p>
+              <styled.div>
+                <span>
+                  Commits on 
+                </span>
                 2016
-              </p>,
+              </styled.div>,
               <CommitGroup
                 commits={
                   Array [
@@ -301,13 +358,31 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
-                "children": "2016",
+                "children": Array [
+                  <span>
+                    Commits on 
+                  </span>,
+                  "2016",
+                ],
               },
               "ref": null,
-              "rendered": "2016",
-              "type": "p",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Commits on ",
+                  },
+                  "ref": null,
+                  "rendered": "Commits on ",
+                  "type": "span",
+                },
+                "2016",
+              ],
+              "type": [Function],
             },
             Object {
               "instance": null,
@@ -339,9 +414,12 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <p>
+              <styled.div>
+                <span>
+                  Commits on 
+                </span>
                 2015
-              </p>,
+              </styled.div>,
               <CommitGroup
                 commits={
                   Array [
@@ -364,13 +442,31 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": null,
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
-                "children": "2015",
+                "children": Array [
+                  <span>
+                    Commits on 
+                  </span>,
+                  "2015",
+                ],
               },
               "ref": null,
-              "rendered": "2015",
-              "type": "p",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Commits on ",
+                  },
+                  "ref": null,
+                  "rendered": "Commits on ",
+                  "type": "span",
+                },
+                "2015",
+              ],
+              "type": [Function],
             },
             Object {
               "instance": null,
