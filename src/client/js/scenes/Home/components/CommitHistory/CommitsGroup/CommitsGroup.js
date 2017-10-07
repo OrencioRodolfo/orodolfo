@@ -108,7 +108,7 @@ const renderCommits = commits => (
         <SmallHash>&nbsp;- {commit.hashAlias}</SmallHash>
       </Body>
       <div>
-        <Button light>
+        <Button light small>
           <PillLeft>
             <Icon icon="copy" />
           </PillLeft>

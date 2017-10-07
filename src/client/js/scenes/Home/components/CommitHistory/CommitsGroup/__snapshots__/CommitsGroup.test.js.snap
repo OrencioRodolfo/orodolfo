@@ -103,6 +103,7 @@ ShallowWrapper {
           <div>
             <Button
               light={true}
+              small={true}
             >
               <PillLeft>
                 <Icon
@@ -152,6 +153,7 @@ ShallowWrapper {
             <div>
               <Button
                 light={true}
+                small={true}
               >
                 <PillLeft>
                   <Icon
@@ -272,6 +274,7 @@ ShallowWrapper {
             "props": Object {
               "children": <Button
                 light={true}
+                small={true}
               >
                 <PillLeft>
                   <Icon
@@ -310,6 +313,7 @@ ShallowWrapper {
                   </PillRight>,
                 ],
                 "light": true,
+                "small": true,
               },
               "ref": null,
               "rendered": Array [
@@ -405,6 +409,7 @@ ShallowWrapper {
             <div>
               <Button
                 light={true}
+                small={true}
               >
                 <PillLeft>
                   <Icon
@@ -454,6 +459,7 @@ ShallowWrapper {
               <div>
                 <Button
                   light={true}
+                  small={true}
                 >
                   <PillLeft>
                     <Icon
@@ -574,6 +580,7 @@ ShallowWrapper {
               "props": Object {
                 "children": <Button
                   light={true}
+                  small={true}
                 >
                   <PillLeft>
                     <Icon
@@ -612,6 +619,7 @@ ShallowWrapper {
                     </PillRight>,
                   ],
                   "light": true,
+                  "small": true,
                 },
                 "ref": null,
                 "rendered": Array [

@@ -9,7 +9,7 @@ const Btn = styled.button`
   border-radius: 3px;
   padding: 0;
   display: flex;
-  ${props => props.theme.textSetting('xs')}; // font size and line height
+  ${props => props.small ? props.theme.textSetting('xs') : props.theme.textSetting('sm')}; // font size and line height
   font-weight: ${props => props.theme.weight('semiBold')};
   color: ${props => props.theme.contrast('light')};
   background-color: ${props => props.light ? props.theme.color('background', 'lighter') : '#eff3f6'};
