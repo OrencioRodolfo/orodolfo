@@ -20,7 +20,7 @@ const config = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
-          plugins: ['transform-object-rest-spread', 'transform-class-properties'],
+          plugins: ['transform-object-rest-spread'],
         },
       },
     ],
