@@ -1,4 +1,4 @@
-/* global fetch */
+
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -8,6 +8,7 @@ import CommitsGroup from './CommitsGroup/CommitsGroup';
 import { getHistory } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
 import Icon from '../../../../components/Icon/Icon';
+import { fetchHistory } from '../../services/history';
 
 const CommitListing = styled.div`
   position: relative;
@@ -47,7 +48,7 @@ const Head = styled.div`
 
   i.fa-circle-o {
     position: absolute;
-    left: -5px;
+    left: -6px;
     color: ${props => props.theme.color('background')};
 
     ${media.phone`
@@ -78,11 +79,9 @@ const Title = styled.div`
 
 class CommitHistory extends Component {
   componentWillMount() {
-    fetch(`${API_URL}/commit`)
-      .then(response => response.json())
-      .then((response) => {
-        this.props.getHistory(response);
-      });
+    fetchHistory().then((response) => {
+      this.props.getHistory(response);
+    });
   }
 
   renderHistory() {

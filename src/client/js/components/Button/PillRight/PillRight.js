@@ -6,7 +6,7 @@ import { media } from '../../../theme/style-utils';
 const Pill = styled.div`
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  padding: 6px 12px;
+  padding: 3px 12px;
   background-color: ${props => props.theme.color('background', 'lighter')};
 
   ${media.phone`

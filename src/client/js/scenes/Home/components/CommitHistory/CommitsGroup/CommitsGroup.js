@@ -8,6 +8,7 @@ import PillLeft from '../../../../../components/Button/PillLeft/PillLeft';
 import PillRight from '../../../../../components/Button/PillRight/PillRight';
 import Icon from '../../../../../components/Icon/Icon';
 import Link from '../../../../../components/Link/Link';
+import { monthNames } from '../../../services/months';
 
 const Ul = styled.ul`
   margin: 10px 0;
@@ -104,7 +105,12 @@ const renderCommits = commits => (
       <Img src={commit.image} width="50px" height="50px" alt={commit.title} />
       <Body>
         <Title>{commit.title}</Title>
-        <Author>commited by <AuthorName>{commit.author}</AuthorName></Author>
+        <Author>
+          <AuthorName>{commit.author}</AuthorName>
+          &nbsp;commited on
+          &nbsp;{monthNames[commit.date.getMonth()]}
+          &nbsp;{commit.date.getFullYear()}
+        </Author>
         <SmallHash>&nbsp;- {commit.hashAlias}</SmallHash>
       </Body>
       <div>

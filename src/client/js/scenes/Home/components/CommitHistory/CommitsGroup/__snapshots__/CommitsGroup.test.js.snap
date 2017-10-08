@@ -57,7 +57,7 @@ ShallowWrapper {
       Array [
         Object {
           "_id": "59d678d9f51fea02ea1209b7",
-          "date": "2016-06-04T23:00:00.000Z",
+          "date": 2016-06-04T00:00:00.000Z,
           "description": "Description...",
           "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
           "hashAlias": "d909438",
@@ -92,8 +92,11 @@ ShallowWrapper {
               A title
             </styled.div>
             <styled.span>
-              commited by 
               <styled.span />
+               commited on  
+              June
+               
+              2016
             </styled.span>
             <styled.span>
                - 
@@ -142,8 +145,11 @@ ShallowWrapper {
                 A title
               </styled.div>
               <styled.span>
-                commited by 
                 <styled.span />
+                 commited on  
+                June
+                 
+                2016
               </styled.span>
               <styled.span>
                  - 
@@ -198,8 +204,11 @@ ShallowWrapper {
                   A title
                 </styled.div>,
                 <styled.span>
-                  commited by 
                   <styled.span />
+                   commited on  
+                  June
+                   
+                  2016
                 </styled.span>,
                 <styled.span>
                    - 
@@ -226,13 +235,15 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": Array [
-                    "commited by ",
                     <styled.span />,
+                    " commited on  ",
+                    "June",
+                    " ",
+                    2016,
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
-                  "commited by ",
                   Object {
                     "instance": null,
                     "key": null,
@@ -244,6 +255,10 @@ ShallowWrapper {
                     "rendered": null,
                     "type": [Function],
                   },
+                  " commited on  ",
+                  "June",
+                  " ",
+                  2016,
                 ],
                 "type": [Function],
               },
@@ -398,8 +413,11 @@ ShallowWrapper {
                 A title
               </styled.div>
               <styled.span>
-                commited by 
                 <styled.span />
+                 commited on  
+                June
+                 
+                2016
               </styled.span>
               <styled.span>
                  - 
@@ -448,8 +466,11 @@ ShallowWrapper {
                   A title
                 </styled.div>
                 <styled.span>
-                  commited by 
                   <styled.span />
+                   commited on  
+                  June
+                   
+                  2016
                 </styled.span>
                 <styled.span>
                    - 
@@ -504,8 +525,11 @@ ShallowWrapper {
                     A title
                   </styled.div>,
                   <styled.span>
-                    commited by 
                     <styled.span />
+                     commited on  
+                    June
+                     
+                    2016
                   </styled.span>,
                   <styled.span>
                      - 
@@ -532,13 +556,15 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": Array [
-                      "commited by ",
                       <styled.span />,
+                      " commited on  ",
+                      "June",
+                      " ",
+                      2016,
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
-                    "commited by ",
                     Object {
                       "instance": null,
                       "key": null,
@@ -550,6 +576,10 @@ ShallowWrapper {
                       "rendered": null,
                       "type": [Function],
                     },
+                    " commited on  ",
+                    "June",
+                    " ",
+                    2016,
                   ],
                   "type": [Function],
                 },

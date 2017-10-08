@@ -17,7 +17,8 @@
         /Social
       /services
         /about
-
+        /history
+        /months
       /CommitHistory
         /components
           /Wrapper
@@ -28,16 +29,15 @@
               /Head
               /Commits
                 /Commit
-        /services
-          /history
+          
 
 ----------
 TODO:
 
-lista de commits
 link para o repo vir do server
-botao de star (indexedDB)
-pedidos HTTP em servico
+botao de star (total de stars no github)
+Dados de produção
+Três pontos "..." para expandir a mensagem de commit
 
 ---------
 

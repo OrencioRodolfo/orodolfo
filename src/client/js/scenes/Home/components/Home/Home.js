@@ -1,4 +1,3 @@
-/* global fetch */
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { bindActionCreators } from 'redux';
@@ -11,6 +10,7 @@ import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import CommitHistory from '../CommitHistory/CommitHistory';
 import Footer from '../Footer/Footer';
+import { fetchAbout } from '../../services/about';
 
 const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
@@ -40,14 +40,11 @@ const Desc = styled.p`
   `}
 `;
 
-
 class Home extends Component {
   componentDidMount() {
-    fetch(`${API_URL}/about`)
-      .then(response => response.json())
-      .then((response) => {
-        this.props.getAbout(response);
-      });
+    fetchAbout().then((response) => {
+      this.props.getAbout(response);
+    });
   }
 
   render() {
