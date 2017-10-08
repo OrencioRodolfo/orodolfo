@@ -92,11 +92,17 @@ ShallowWrapper {
               A title
             </styled.div>
             <styled.span>
-              <styled.span />
-               commited on  
-              June
-               
-              2016
+              <styled.span>
+                Commited by 
+                <styled.span />
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                 commited on  
+                June
+                 
+                2016
+              </styled.span>
             </styled.span>
             <styled.span>
                - 
@@ -145,11 +151,17 @@ ShallowWrapper {
                 A title
               </styled.div>
               <styled.span>
-                <styled.span />
-                 commited on  
-                June
-                 
-                2016
+                <styled.span>
+                  Commited by 
+                  <styled.span />
+                </styled.span>
+                <styled.span>
+                  <styled.span />
+                   commited on  
+                  June
+                   
+                  2016
+                </styled.span>
               </styled.span>
               <styled.span>
                  - 
@@ -204,11 +216,17 @@ ShallowWrapper {
                   A title
                 </styled.div>,
                 <styled.span>
-                  <styled.span />
-                   commited on  
-                  June
-                   
-                  2016
+                  <styled.span>
+                    Commited by 
+                    <styled.span />
+                  </styled.span>
+                  <styled.span>
+                    <styled.span />
+                     commited on  
+                    June
+                     
+                    2016
+                  </styled.span>
                 </styled.span>,
                 <styled.span>
                    - 
@@ -235,11 +253,17 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": Array [
-                    <styled.span />,
-                    " commited on  ",
-                    "June",
-                    " ",
-                    2016,
+                    <styled.span>
+                      Commited by 
+                      <styled.span />
+                    </styled.span>,
+                    <styled.span>
+                      <styled.span />
+                       commited on  
+                      June
+                       
+                      2016
+                    </styled.span>,
                   ],
                 },
                 "ref": null,
@@ -249,16 +273,61 @@ ShallowWrapper {
                     "key": null,
                     "nodeType": "class",
                     "props": Object {
-                      "children": undefined,
+                      "children": Array [
+                        "Commited by ",
+                        <styled.span />,
+                      ],
                     },
                     "ref": null,
-                    "rendered": null,
+                    "rendered": Array [
+                      "Commited by ",
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
                     "type": [Function],
                   },
-                  " commited on  ",
-                  "June",
-                  " ",
-                  2016,
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <styled.span />,
+                        " commited on  ",
+                        "June",
+                        " ",
+                        2016,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      " commited on  ",
+                      "June",
+                      " ",
+                      2016,
+                    ],
+                    "type": [Function],
+                  },
                 ],
                 "type": [Function],
               },
@@ -413,11 +482,17 @@ ShallowWrapper {
                 A title
               </styled.div>
               <styled.span>
-                <styled.span />
-                 commited on  
-                June
-                 
-                2016
+                <styled.span>
+                  Commited by 
+                  <styled.span />
+                </styled.span>
+                <styled.span>
+                  <styled.span />
+                   commited on  
+                  June
+                   
+                  2016
+                </styled.span>
               </styled.span>
               <styled.span>
                  - 
@@ -466,11 +541,17 @@ ShallowWrapper {
                   A title
                 </styled.div>
                 <styled.span>
-                  <styled.span />
-                   commited on  
-                  June
-                   
-                  2016
+                  <styled.span>
+                    Commited by 
+                    <styled.span />
+                  </styled.span>
+                  <styled.span>
+                    <styled.span />
+                     commited on  
+                    June
+                     
+                    2016
+                  </styled.span>
                 </styled.span>
                 <styled.span>
                    - 
@@ -525,11 +606,17 @@ ShallowWrapper {
                     A title
                   </styled.div>,
                   <styled.span>
-                    <styled.span />
-                     commited on  
-                    June
-                     
-                    2016
+                    <styled.span>
+                      Commited by 
+                      <styled.span />
+                    </styled.span>
+                    <styled.span>
+                      <styled.span />
+                       commited on  
+                      June
+                       
+                      2016
+                    </styled.span>
                   </styled.span>,
                   <styled.span>
                      - 
@@ -556,11 +643,17 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": Array [
-                      <styled.span />,
-                      " commited on  ",
-                      "June",
-                      " ",
-                      2016,
+                      <styled.span>
+                        Commited by 
+                        <styled.span />
+                      </styled.span>,
+                      <styled.span>
+                        <styled.span />
+                         commited on  
+                        June
+                         
+                        2016
+                      </styled.span>,
                     ],
                   },
                   "ref": null,
@@ -570,16 +663,61 @@ ShallowWrapper {
                       "key": null,
                       "nodeType": "class",
                       "props": Object {
-                        "children": undefined,
+                        "children": Array [
+                          "Commited by ",
+                          <styled.span />,
+                        ],
                       },
                       "ref": null,
-                      "rendered": null,
+                      "rendered": Array [
+                        "Commited by ",
+                        Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": undefined,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
                       "type": [Function],
                     },
-                    " commited on  ",
-                    "June",
-                    " ",
-                    2016,
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <styled.span />,
+                          " commited on  ",
+                          "June",
+                          " ",
+                          2016,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": undefined,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        " commited on  ",
+                        "June",
+                        " ",
+                        2016,
+                      ],
+                      "type": [Function],
+                    },
                   ],
                   "type": [Function],
                 },

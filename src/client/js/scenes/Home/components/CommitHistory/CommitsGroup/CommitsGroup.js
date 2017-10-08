@@ -98,6 +98,20 @@ const SmallHash = styled.span`
   `}
 `;
 
+const CommitedBy = styled.span`
+  display: none;
+  
+  ${media.phone`
+    display: block;
+  `}
+`;
+
+const CommitedOn = styled.span`
+  ${media.phone`
+    display: none;
+  `}
+`;
+
 
 const renderCommits = commits => (
   commits.map(commit => (
@@ -106,10 +120,15 @@ const renderCommits = commits => (
       <Body>
         <Title>{commit.title}</Title>
         <Author>
-          <AuthorName>{commit.author}</AuthorName>
-          &nbsp;commited on
-          &nbsp;{monthNames[commit.date.getMonth()]}
-          &nbsp;{commit.date.getFullYear()}
+          <CommitedBy>
+            Commited by <AuthorName>{commit.author}</AuthorName>
+          </CommitedBy>
+          <CommitedOn>
+            <AuthorName>{commit.author}</AuthorName>
+            &nbsp;commited on
+            &nbsp;{monthNames[commit.date.getMonth()]}
+            &nbsp;{commit.date.getFullYear()}
+          </CommitedOn>
         </Author>
         <SmallHash>&nbsp;- {commit.hashAlias}</SmallHash>
       </Body>
