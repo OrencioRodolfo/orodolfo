@@ -60,12 +60,12 @@ const Subhead = () => (
           <Icon icon="book" />
           <Link url="https://github.com/OrencioRodolfo/orodolfo" className="link">OrencioRodolfo / <b>orodolfo</b></Link>
         </div>
-        <Button>
+        <Button alt="Github stars" title="Github stars">
           <PillLeft>
             <Icon icon="star" />
-            Star
+            Stars
           </PillLeft>
-          <PillRight>0</PillRight>
+          <PillRight>36</PillRight>
         </Button>
       </Container>
     </RestricitedContainer>

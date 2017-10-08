@@ -37,7 +37,6 @@ TODO:
 link para o repo vir do server
 botao de star (total de stars no github)
 Dados de produção
-Três pontos "..." para expandir a mensagem de commit
 
 ---------
 
