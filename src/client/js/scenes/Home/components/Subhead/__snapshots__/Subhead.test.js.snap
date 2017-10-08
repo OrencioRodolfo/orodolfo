@@ -33,15 +33,18 @@ ShallowWrapper {
               </b>
             </Link>
           </div>
-          <Button>
+          <Button
+            alt="Github stars"
+            title="Github stars"
+          >
             <PillLeft>
               <Icon
                 icon="star"
               />
-              Star
+              Stars
             </PillLeft>
             <PillRight>
-              0
+              36
             </PillRight>
           </Button>
         </styled.div>
@@ -68,15 +71,18 @@ ShallowWrapper {
               </b>
             </Link>
           </div>
-          <Button>
+          <Button
+            alt="Github stars"
+            title="Github stars"
+          >
             <PillLeft>
               <Icon
                 icon="star"
               />
-              Star
+              Stars
             </PillLeft>
             <PillRight>
-              0
+              36
             </PillRight>
           </Button>
         </styled.div>,
@@ -102,15 +108,18 @@ ShallowWrapper {
                 </b>
               </Link>
             </div>,
-            <Button>
+            <Button
+              alt="Github stars"
+              title="Github stars"
+            >
               <PillLeft>
                 <Icon
                   icon="star"
                 />
-                Star
+                Stars
               </PillLeft>
               <PillRight>
-                0
+                36
               </PillRight>
             </Button>,
           ],
@@ -189,17 +198,19 @@ ShallowWrapper {
             "key": null,
             "nodeType": "function",
             "props": Object {
+              "alt": "Github stars",
               "children": Array [
                 <PillLeft>
                   <Icon
                     icon="star"
                   />
-                  Star
+                  Stars
                 </PillLeft>,
                 <PillRight>
-                  0
+                  36
                 </PillRight>,
               ],
+              "title": "Github stars",
             },
             "ref": null,
             "rendered": Array [
@@ -212,7 +223,7 @@ ShallowWrapper {
                     <Icon
                       icon="star"
                     />,
-                    "Star",
+                    "Stars",
                   ],
                 },
                 "ref": null,
@@ -228,7 +239,7 @@ ShallowWrapper {
                     "rendered": null,
                     "type": [Function],
                   },
-                  "Star",
+                  "Stars",
                 ],
                 "type": [Function],
               },
@@ -237,10 +248,10 @@ ShallowWrapper {
                 "key": null,
                 "nodeType": "function",
                 "props": Object {
-                  "children": "0",
+                  "children": "36",
                 },
                 "ref": null,
-                "rendered": "0",
+                "rendered": "36",
                 "type": [Function],
               },
             ],
@@ -275,15 +286,18 @@ ShallowWrapper {
                 </b>
               </Link>
             </div>
-            <Button>
+            <Button
+              alt="Github stars"
+              title="Github stars"
+            >
               <PillLeft>
                 <Icon
                   icon="star"
                 />
-                Star
+                Stars
               </PillLeft>
               <PillRight>
-                0
+                36
               </PillRight>
             </Button>
           </styled.div>
@@ -310,15 +324,18 @@ ShallowWrapper {
                 </b>
               </Link>
             </div>
-            <Button>
+            <Button
+              alt="Github stars"
+              title="Github stars"
+            >
               <PillLeft>
                 <Icon
                   icon="star"
                 />
-                Star
+                Stars
               </PillLeft>
               <PillRight>
-                0
+                36
               </PillRight>
             </Button>
           </styled.div>,
@@ -344,15 +361,18 @@ ShallowWrapper {
                   </b>
                 </Link>
               </div>,
-              <Button>
+              <Button
+                alt="Github stars"
+                title="Github stars"
+              >
                 <PillLeft>
                   <Icon
                     icon="star"
                   />
-                  Star
+                  Stars
                 </PillLeft>
                 <PillRight>
-                  0
+                  36
                 </PillRight>
               </Button>,
             ],
@@ -431,17 +451,19 @@ ShallowWrapper {
               "key": null,
               "nodeType": "function",
               "props": Object {
+                "alt": "Github stars",
                 "children": Array [
                   <PillLeft>
                     <Icon
                       icon="star"
                     />
-                    Star
+                    Stars
                   </PillLeft>,
                   <PillRight>
-                    0
+                    36
                   </PillRight>,
                 ],
+                "title": "Github stars",
               },
               "ref": null,
               "rendered": Array [
@@ -454,7 +476,7 @@ ShallowWrapper {
                       <Icon
                         icon="star"
                       />,
-                      "Star",
+                      "Stars",
                     ],
                   },
                   "ref": null,
@@ -470,7 +492,7 @@ ShallowWrapper {
                       "rendered": null,
                       "type": [Function],
                     },
-                    "Star",
+                    "Stars",
                   ],
                   "type": [Function],
                 },
@@ -479,10 +501,10 @@ ShallowWrapper {
                   "key": null,
                   "nodeType": "function",
                   "props": Object {
-                    "children": "0",
+                    "children": "36",
                   },
                   "ref": null,
-                  "rendered": "0",
+                  "rendered": "36",
                   "type": [Function],
                 },
               ],
