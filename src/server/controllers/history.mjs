@@ -8,7 +8,7 @@ function getCommits(req, res) {
   MongoClient.connect(config.db.url, (err, db) => {
     const collection = db.collection('commits');
     // Find some documents
-    collection.find().toArray((error, doc) => {
+    collection.find().sort({ date: 1 }).toArray((error, doc) => {
       res.json(doc);
     });
 
