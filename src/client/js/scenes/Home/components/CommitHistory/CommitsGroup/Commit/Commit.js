@@ -108,6 +108,10 @@ const SmallHash = styled.span`
   `}
 `;
 
+const HashAlias = styled.span`
+  color: ${props => props.theme.color()};
+`;
+
 const CommitedBy = styled.span`
   display: none;
   
@@ -168,6 +172,26 @@ class Commit extends Component {
     return null;
   }
 
+  renderHashBtn() {
+    const { commit } = this.props;
+    if (commit.link && commit.link.length > 0) {
+      return (
+        <HashBtnContainer>
+          <Link url={commit.link}>
+            <Button light small>
+              <PillLeft>
+                <Icon icon="copy" />
+              </PillLeft>
+              <PillRight><HashAlias>{commit.hashAlias}</HashAlias></PillRight>
+            </Button>
+          </Link>
+        </HashBtnContainer>
+      );
+    }
+
+    return null;
+  }
+
   render() {
     const { commit } = this.props;
     if (Object.keys(commit).length) {
@@ -186,8 +210,7 @@ class Commit extends Component {
                 </CommitedBy>
                 <CommitedOn>
                   <AuthorName>{commit.author}</AuthorName>
-                  &nbsp;commited on
-                  &nbsp;{monthNames[commit.date.getMonth()]}
+                  &nbsp;commited on {monthNames[commit.date.getMonth()]}
                   &nbsp;{commit.date.getFullYear()}
                 </CommitedOn>
               </Author>
@@ -195,16 +218,7 @@ class Commit extends Component {
             </Message>
             {this.renderDescription()}
           </Body>
-          <HashBtnContainer>
-            <Button light small>
-              <PillLeft>
-                <Icon icon="copy" />
-              </PillLeft>
-              <PillRight>
-                <Link url="" className="link">{commit.hashAlias}</Link>
-              </PillRight>
-            </Button>
-          </HashBtnContainer>
+          {this.renderHashBtn()}
         </Li>
       );
     }
