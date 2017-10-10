@@ -178,11 +178,15 @@ class Commit extends Component {
       return (
         <HashBtnContainer>
           <Link url={commit.link}>
-            <Button light small>
+            <Button light small title="Related link">
               <PillLeft>
-                <Icon icon="copy" />
+                <Icon icon="link" />
               </PillLeft>
-              <PillRight><HashAlias>{commit.hashAlias}</HashAlias></PillRight>
+              <PillRight>
+                <HashAlias>
+                  {commit._id.substring(commit._id.length - 7)}
+                </HashAlias>
+              </PillRight>
             </Button>
           </Link>
         </HashBtnContainer>

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { media } from '../../../../theme/style-utils';
 import Link from '../../../../components/Link/Link';
+import Icon from '../../../../components/Icon/Icon';
 import RestricitedContainer from '../../../../components/Containers/Restricited/Restricited';
 import Social from '../Social/Social';
 
@@ -32,7 +33,7 @@ const Footer = () => (
           url="mailto:orenciorodolfo@gmail.com"
           className="link"
         >
-          orenciorodolfo@gmail.com
+          <Icon icon="envelope-o fa-lg" />
         </Link>
         <Social />
       </ContentWrapper>

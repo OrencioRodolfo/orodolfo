@@ -43,6 +43,14 @@ if (process.env.NODE_ENV !== 'production') {
     'webpack/hot/only-dev-server',
     ...config.entry,
   ];
+  config.devServer = {
+    proxy: {
+      '/': {
+        target: 'http://localhost:3000',
+        secure: false,
+      },
+    },
+  };
 } else {
   config.plugins = [
     new webpack.DefinePlugin({
