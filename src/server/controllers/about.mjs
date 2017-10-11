@@ -22,7 +22,8 @@ function queryAbout() {
 
 function queryGithubStars() {
   const apiURL = 'https://api.github.com/users';
-  const { clientID, clientSecret } = env.githubAuth;
+  const clientID = process.env.GITHUB_CLIENT_ID || env.githubAuth.clientID;
+  const clientSecret = process.env.GITHUB_CLIENT_SECRET || env.githubAuth.clientSecret;
 
   return axios.all([
     axios.get(`${apiURL}/OrencioRodolfo/repos?client_id=${clientID}&client_secret=${clientSecret}`),
