@@ -31,14 +31,6 @@
                 /Commit
           
 
-----------
-TODO:
-
-link para o repo vir do server
-botao de star (total de stars no github)
-
----------
-
 Remote mongo connection:
 mongo ds141284.mlab.com:41284/heroku_fnks1hn2 -u RodolfoGoncalves -p orag1991
 

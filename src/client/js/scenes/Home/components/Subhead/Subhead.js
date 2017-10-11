@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { media } from '../../../../theme/style-utils';
 import RestricitedContainer from '../../../../components/Containers/Restricited/Restricited';
@@ -52,24 +54,44 @@ const Container = styled.div`
   }  
 `;
 
-const Subhead = () => (
-  <Wrapper>
-    <RestricitedContainer>
-      <Container>
-        <div>
-          <Icon icon="book" />
-          <Link url="https://github.com/OrencioRodolfo/orodolfo" className="link">OrencioRodolfo / <b>orodolfo</b></Link>
-        </div>
-        <Button alt="Github stars" title="Github stars">
-          <PillLeft>
-            <Icon icon="star" />
-            Stars
-          </PillLeft>
-          <PillRight>36</PillRight>
-        </Button>
-      </Container>
-    </RestricitedContainer>
-  </Wrapper>
-);
+class Subhead extends Component {
+  render() {
+    return (
+      <Wrapper>
+        <RestricitedContainer>
+          <Container>
+            <div>
+              <Icon icon="book" />
+              <Link url={this.props.repo} className="link">OrencioRodolfo / <b>orodolfo</b></Link>
+            </div>
+            <Button alt="Github stars" title="Github stars">
+              <PillLeft>
+                <Icon icon="star" />
+                Stars
+              </PillLeft>
+              <PillRight>{this.props.totalStars}</PillRight>
+            </Button>
+          </Container>
+        </RestricitedContainer>
+      </Wrapper>
+    );
+  }
+}
 
-export default Subhead;
+Subhead.propTypes = {
+  repo: PropTypes.string.isRequired,
+  totalStars: PropTypes.number.isRequired,
+};
+
+function mapStateToProps(state) {
+  return {
+    repo: state.about.repository,
+    totalStars: state.about.githubStars,
+  };
+}
+
+export default connect(mapStateToProps)(Subhead);
+
+export {
+  Subhead,
+};
