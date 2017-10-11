@@ -1,6 +1,6 @@
 import { ABOUT_FETCHED } from '../actions/types';
 
-const INITIAL_STATE = { social: [], description: '', repository: '' };
+const INITIAL_STATE = { social: [], description: '', repository: '', githubStars: 0 };
 
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
