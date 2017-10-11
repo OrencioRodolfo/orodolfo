@@ -2,13 +2,13 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { media } from '../../../../../../theme/style-utils';
-import Button from '../../../../../../components/Button/Button';
-import PillLeft from '../../../../../../components/Button/PillLeft/PillLeft';
-import PillRight from '../../../../../../components/Button/PillRight/PillRight';
-import Icon from '../../../../../../components/Icon/Icon';
-import Link from '../../../../../../components/Link/Link';
-import { monthNames } from '../../../../services/months';
+import { media } from '../../../../theme/style-utils';
+import Button from '../../../../components/Button/Button';
+import PillLeft from '../../../../components/Button/PillLeft/PillLeft';
+import PillRight from '../../../../components/Button/PillRight/PillRight';
+import Icon from '../../../../components/Icon/Icon';
+import Link from '../../../../components/Link/Link';
+import { monthNames } from '../../services/months';
 
 const Li = styled.li`
   display: flex;

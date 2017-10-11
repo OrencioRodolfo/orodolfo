@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import CommitsGroup from './CommitsGroup/CommitsGroup';
+import CommitsGroup from '../CommitsGroup/CommitsGroup';
 import { getHistory } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
 import Icon from '../../../../components/Icon/Icon';
