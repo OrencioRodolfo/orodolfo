@@ -7,6 +7,13 @@ const app = express();
 app.set('port', (process.env.PORT || 3000));
 
 app.use(cors());
+
+// Add headers
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.use('/', express.static(`${process.cwd()}/public`));
 app.get('/', (req, res) => res.sendFile(`${process.cwd()}/../index.html`));
 
