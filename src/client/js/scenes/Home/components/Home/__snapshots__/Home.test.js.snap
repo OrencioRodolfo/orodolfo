@@ -22,7 +22,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Header />,
-        <Subhead />,
+        <Connect(Subhead) />,
         <styled.div>
           <styled.p>
             
@@ -46,7 +46,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": null,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {},
         "ref": null,
         "rendered": null,
@@ -109,7 +109,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Header />,
-          <Subhead />,
+          <Connect(Subhead) />,
           <styled.div>
             <styled.p>
               
@@ -133,7 +133,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": null,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {},
           "ref": null,
           "rendered": null,

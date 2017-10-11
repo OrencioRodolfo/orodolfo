@@ -94,4 +94,5 @@ export default connect(mapStateToProps)(Subhead);
 
 export {
   Subhead,
+  mapStateToProps,
 };
