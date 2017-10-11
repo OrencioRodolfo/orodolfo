@@ -1,6 +1,7 @@
 import Mongo from 'mongodb';
 import axios from 'axios';
 import config from '../config.mjs';
+import env from '../../../env';
 
 const MongoClient = Mongo.MongoClient;
 
@@ -21,14 +22,18 @@ function queryAbout() {
 
 function queryGithubStars() {
   const apiURL = 'https://api.github.com/users';
+  const { clientID, clientSecret } = env.githubAuth;
+
   return axios.all([
-    axios.get(`${apiURL}/OrencioRodolfo/repos`),
-    axios.get(`${apiURL}/Exictos-DCS/repos`),
-    axios.get(`${apiURL}/webmadeira/repos`),
+    axios.get(`${apiURL}/OrencioRodolfo/repos?client_id=${clientID}&client_secret=${clientSecret}`),
+    axios.get(`${apiURL}/Exictos-DCS/repos?client_id=${clientID}&client_secret=${clientSecret}`),
+    axios.get(`${apiURL}/webmadeira/repos?client_id=${clientID}&client_secret=${clientSecret}`),
   ]).then(axios.spread((repos1, repos2, repos3) => {
     const repos = [...repos1.data, ...repos2.data, ...repos3.data];
     return repos.reduce((totalStars, repo) => totalStars + repo.stargazers_count, 0);
-  }));
+  })).catch((e) => {
+    console.error(e);
+  });
 }
 
 function get(req, res) {
