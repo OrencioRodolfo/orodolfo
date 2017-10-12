@@ -15,8 +15,7 @@ describe('Commit component', () => {
       title: 'A title',
       description: 'Description...',
       image: 'https://avatars0.githubusercontent.com/u/4216535?v=4&s=72',
-      hash: 'd9094385acf7d47c7c5c6f7ceb6866b54f9b602d',
-      hashAlias: 'd909438',
+      link: 'sample.com',
     };
     const wrapper = shallow(<Commit commit={commit} />);
     expect(wrapper).toMatchSnapshot();

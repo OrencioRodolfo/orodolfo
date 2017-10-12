@@ -2,8 +2,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { media } from '../../../../../theme/style-utils';
-import Commit from './Commit/Commit';
+import { media } from '../../../../theme/style-utils';
+import Commit from '../Commit/Commit';
 
 const Ul = styled.ul`
   margin: 10px 0;
