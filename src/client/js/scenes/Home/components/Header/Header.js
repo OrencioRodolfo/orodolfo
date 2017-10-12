@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { media } from '../../../../theme/style-utils';
 import RestricitedContainer from '../../../../components/Containers/Restricited/Restricited';
 import SpaceBwContainer from '../../../../components/Containers/SpaceBetween/SpaceBetween';
+import Link from '../../../../components/Link/Link';
 import Social from '../Social/Social';
 
 const HeaderWrapper = styled.header`
@@ -22,7 +23,9 @@ const Header = () => (
   <HeaderWrapper>
     <RestricitedContainer>
       <SpaceBwContainer>
-        <Tag>@ogoncalves</Tag>
+        <Link url="https://twitter.com/orenciorodolfo">
+          <Tag>@orenciogoncalves</Tag>
+        </Link>
         <Social />
       </SpaceBwContainer>
     </RestricitedContainer>

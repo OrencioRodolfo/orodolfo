@@ -64,13 +64,15 @@ class Subhead extends Component {
               <Icon icon="book" />
               <Link url={this.props.repo} className="link">OrencioRodolfo / <b>orodolfo</b></Link>
             </div>
-            <Button alt="Github stars" title="Github stars">
-              <PillLeft>
-                <Icon icon="star" />
-                Stars
-              </PillLeft>
-              <PillRight>{this.props.totalStars}</PillRight>
-            </Button>
+            <Link url="https://github.com/OrencioRodolfo">
+              <Button alt="Github stars" title="Github stars">
+                <PillLeft>
+                  <Icon icon="star" />
+                  Stars
+                </PillLeft>
+                <PillRight>{this.props.totalStars}</PillRight>
+              </Button>
+            </Link>
           </Container>
         </RestricitedContainer>
       </Wrapper>

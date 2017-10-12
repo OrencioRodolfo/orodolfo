@@ -98,16 +98,6 @@ const AuthorName = styled.span`
   font-weight: ${props => props.theme.weight('semiBold')}
 `;
 
-const SmallHash = styled.span`
-  display: none;
-  ${props => props.theme.textSetting('xs')};
-  
-  ${media.phone`
-    color: ${props => props.theme.contrast('light', 'secondary')};
-    display: block;
-  `}
-`;
-
 const HashAlias = styled.span`
   color: ${props => props.theme.color()};
 `;
@@ -215,7 +205,9 @@ class Commit extends Component {
             <Message>
               <Author>
                 <CommitedBy>
-                  Commited by <AuthorName>{commit.author}</AuthorName> - <Link url={commit.link}>{this.getCommitHash()}</Link>
+                  Commited by
+                  &nbsp;<AuthorName>{commit.author}</AuthorName> -
+                  &nbsp;<Link url={commit.link}>{this.getCommitHash()}</Link>
                 </CommitedBy>
                 <CommitedOn>
                   <AuthorName>{commit.author}</AuthorName>

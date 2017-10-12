@@ -77,9 +77,9 @@ ShallowWrapper {
           <styled.div>
             <styled.span>
               <styled.span>
-                Commited by 
+                Commited by  
                 <styled.span />
-                 - 
+                 -  
                 <Link
                   className=""
                   url="sample.com"
@@ -157,9 +157,9 @@ ShallowWrapper {
             <styled.div>
               <styled.span>
                 <styled.span>
-                  Commited by 
+                  Commited by  
                   <styled.span />
-                   - 
+                   -  
                   <Link
                     className=""
                     url="sample.com"
@@ -232,9 +232,9 @@ ShallowWrapper {
             "props": Object {
               "children": <styled.span>
                 <styled.span>
-                  Commited by 
+                  Commited by  
                   <styled.span />
-                   - 
+                   -  
                   <Link
                     className=""
                     url="sample.com"
@@ -259,9 +259,9 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <styled.span>
-                    Commited by 
+                    Commited by  
                     <styled.span />
-                     - 
+                     -  
                     <Link
                       className=""
                       url="sample.com"
@@ -286,9 +286,9 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": Array [
-                      "Commited by ",
+                      "Commited by  ",
                       <styled.span />,
-                      " - ",
+                      " -  ",
                       <Link
                         className=""
                         url="sample.com"
@@ -299,7 +299,7 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": Array [
-                    "Commited by ",
+                    "Commited by  ",
                     Object {
                       "instance": null,
                       "key": null,
@@ -311,7 +311,7 @@ ShallowWrapper {
                       "rendered": null,
                       "type": [Function],
                     },
-                    " - ",
+                    " -  ",
                     Object {
                       "instance": null,
                       "key": null,
@@ -529,9 +529,9 @@ ShallowWrapper {
             <styled.div>
               <styled.span>
                 <styled.span>
-                  Commited by 
+                  Commited by  
                   <styled.span />
-                   - 
+                   -  
                   <Link
                     className=""
                     url="sample.com"
@@ -609,9 +609,9 @@ ShallowWrapper {
               <styled.div>
                 <styled.span>
                   <styled.span>
-                    Commited by 
+                    Commited by  
                     <styled.span />
-                     - 
+                     -  
                     <Link
                       className=""
                       url="sample.com"
@@ -684,9 +684,9 @@ ShallowWrapper {
               "props": Object {
                 "children": <styled.span>
                   <styled.span>
-                    Commited by 
+                    Commited by  
                     <styled.span />
-                     - 
+                     -  
                     <Link
                       className=""
                       url="sample.com"
@@ -711,9 +711,9 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <styled.span>
-                      Commited by 
+                      Commited by  
                       <styled.span />
-                       - 
+                       -  
                       <Link
                         className=""
                         url="sample.com"
@@ -738,9 +738,9 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "children": Array [
-                        "Commited by ",
+                        "Commited by  ",
                         <styled.span />,
-                        " - ",
+                        " -  ",
                         <Link
                           className=""
                           url="sample.com"
@@ -751,7 +751,7 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": Array [
-                      "Commited by ",
+                      "Commited by  ",
                       Object {
                         "instance": null,
                         "key": null,
@@ -763,7 +763,7 @@ ShallowWrapper {
                         "rendered": null,
                         "type": [Function],
                       },
-                      " - ",
+                      " -  ",
                       Object {
                         "instance": null,
                         "key": null,
