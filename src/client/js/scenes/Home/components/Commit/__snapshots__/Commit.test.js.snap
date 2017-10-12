@@ -38,9 +38,8 @@ ShallowWrapper {
         "_id": "59d678d9f51fea02ea1209b7",
         "date": 2016-06-04T00:00:00.000Z,
         "description": "Description...",
-        "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
-        "hashAlias": "d909438",
         "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+        "link": "sample.com",
         "title": "A title",
       }
     }
@@ -80,6 +79,13 @@ ShallowWrapper {
               <styled.span>
                 Commited by 
                 <styled.span />
+                 - 
+                <Link
+                  className=""
+                  url="sample.com"
+                >
+                  a1209b7
+                </Link>
               </styled.span>
               <styled.span>
                 <styled.span />
@@ -89,13 +95,31 @@ ShallowWrapper {
                 2016
               </styled.span>
             </styled.span>
-            <styled.span>
-               - 
-              d909438
-            </styled.span>
           </styled.div>
         </styled.div>,
-        null,
+        <styled.div>
+          <Link
+            className=""
+            url="sample.com"
+          >
+            <Button
+              light={true}
+              small={true}
+              title="Related link"
+            >
+              <PillLeft>
+                <Icon
+                  icon="link"
+                />
+              </PillLeft>
+              <PillRight>
+                <styled.span>
+                  a1209b7
+                </styled.span>
+              </PillRight>
+            </Button>
+          </Link>
+        </styled.div>,
       ],
     },
     "ref": null,
@@ -135,6 +159,13 @@ ShallowWrapper {
                 <styled.span>
                   Commited by 
                   <styled.span />
+                   - 
+                  <Link
+                    className=""
+                    url="sample.com"
+                  >
+                    a1209b7
+                  </Link>
                 </styled.span>
                 <styled.span>
                   <styled.span />
@@ -143,10 +174,6 @@ ShallowWrapper {
                    
                   2016
                 </styled.span>
-              </styled.span>
-              <styled.span>
-                 - 
-                d909438
               </styled.span>
             </styled.div>,
             null,
@@ -203,137 +230,275 @@ ShallowWrapper {
             "key": null,
             "nodeType": "class",
             "props": Object {
-              "children": Array [
+              "children": <styled.span>
                 <styled.span>
+                  Commited by 
+                  <styled.span />
+                   - 
+                  <Link
+                    className=""
+                    url="sample.com"
+                  >
+                    a1209b7
+                  </Link>
+                </styled.span>
+                <styled.span>
+                  <styled.span />
+                   commited on 
+                  June
+                   
+                  2016
+                </styled.span>
+              </styled.span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
                   <styled.span>
                     Commited by 
                     <styled.span />
-                  </styled.span>
+                     - 
+                    <Link
+                      className=""
+                      url="sample.com"
+                    >
+                      a1209b7
+                    </Link>
+                  </styled.span>,
                   <styled.span>
                     <styled.span />
                      commited on 
                     June
                      
                     2016
-                  </styled.span>
-                </styled.span>,
-                <styled.span>
-                   - 
-                  d909438
-                </styled.span>,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "class",
-                "props": Object {
-                  "children": Array [
-                    <styled.span>
-                      Commited by 
-                      <styled.span />
-                    </styled.span>,
-                    <styled.span>
-                      <styled.span />
-                       commited on 
-                      June
-                       
-                      2016
-                    </styled.span>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": Array [
-                        "Commited by ",
-                        <styled.span />,
-                      ],
-                    },
-                    "ref": null,
-                    "rendered": Array [
+                  </styled.span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
                       "Commited by ",
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": undefined,
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
+                      <styled.span />,
+                      " - ",
+                      <Link
+                        className=""
+                        url="sample.com"
+                      >
+                        a1209b7
+                      </Link>,
                     ],
-                    "type": [Function],
                   },
-                  Object {
-                    "instance": null,
-                    "key": null,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": Array [
-                        <styled.span />,
-                        " commited on ",
-                        "June",
-                        " ",
-                        2016,
-                      ],
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": null,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": undefined,
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
+                  "ref": null,
+                  "rendered": Array [
+                    "Commited by ",
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
                       },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " - ",
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "a1209b7",
+                        "className": "",
+                        "url": "sample.com",
+                      },
+                      "ref": null,
+                      "rendered": "a1209b7",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <styled.span />,
                       " commited on ",
                       "June",
                       " ",
                       2016,
                     ],
-                    "type": [Function],
                   },
-                ],
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "class",
-                "props": Object {
-                  "children": Array [
-                    " - ",
-                    "d909438",
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " commited on ",
+                    "June",
+                    " ",
+                    2016,
                   ],
+                  "type": [Function],
                 },
-                "ref": null,
-                "rendered": Array [
-                  " - ",
-                  "d909438",
-                ],
-                "type": [Function],
-              },
-            ],
+              ],
+              "type": [Function],
+            },
             "type": [Function],
           },
           null,
         ],
         "type": [Function],
       },
-      null,
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Link
+            className=""
+            url="sample.com"
+          >
+            <Button
+              light={true}
+              small={true}
+              title="Related link"
+            >
+              <PillLeft>
+                <Icon
+                  icon="link"
+                />
+              </PillLeft>
+              <PillRight>
+                <styled.span>
+                  a1209b7
+                </styled.span>
+              </PillRight>
+            </Button>
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Button
+              light={true}
+              small={true}
+              title="Related link"
+            >
+              <PillLeft>
+                <Icon
+                  icon="link"
+                />
+              </PillLeft>
+              <PillRight>
+                <styled.span>
+                  a1209b7
+                </styled.span>
+              </PillRight>
+            </Button>,
+            "className": "",
+            "url": "sample.com",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <PillLeft>
+                  <Icon
+                    icon="link"
+                  />
+                </PillLeft>,
+                <PillRight>
+                  <styled.span>
+                    a1209b7
+                  </styled.span>
+                </PillRight>,
+              ],
+              "light": true,
+              "small": true,
+              "title": "Related link",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Icon
+                    icon="link"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": "link",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <styled.span>
+                    a1209b7
+                  </styled.span>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "a1209b7",
+                  },
+                  "ref": null,
+                  "rendered": "a1209b7",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
     ],
     "type": [Function],
   },
@@ -366,6 +531,13 @@ ShallowWrapper {
                 <styled.span>
                   Commited by 
                   <styled.span />
+                   - 
+                  <Link
+                    className=""
+                    url="sample.com"
+                  >
+                    a1209b7
+                  </Link>
                 </styled.span>
                 <styled.span>
                   <styled.span />
@@ -375,13 +547,31 @@ ShallowWrapper {
                   2016
                 </styled.span>
               </styled.span>
-              <styled.span>
-                 - 
-                d909438
-              </styled.span>
             </styled.div>
           </styled.div>,
-          null,
+          <styled.div>
+            <Link
+              className=""
+              url="sample.com"
+            >
+              <Button
+                light={true}
+                small={true}
+                title="Related link"
+              >
+                <PillLeft>
+                  <Icon
+                    icon="link"
+                  />
+                </PillLeft>
+                <PillRight>
+                  <styled.span>
+                    a1209b7
+                  </styled.span>
+                </PillRight>
+              </Button>
+            </Link>
+          </styled.div>,
         ],
       },
       "ref": null,
@@ -421,6 +611,13 @@ ShallowWrapper {
                   <styled.span>
                     Commited by 
                     <styled.span />
+                     - 
+                    <Link
+                      className=""
+                      url="sample.com"
+                    >
+                      a1209b7
+                    </Link>
                   </styled.span>
                   <styled.span>
                     <styled.span />
@@ -429,10 +626,6 @@ ShallowWrapper {
                      
                     2016
                   </styled.span>
-                </styled.span>
-                <styled.span>
-                   - 
-                  d909438
                 </styled.span>
               </styled.div>,
               null,
@@ -489,137 +682,275 @@ ShallowWrapper {
               "key": null,
               "nodeType": "class",
               "props": Object {
-                "children": Array [
+                "children": <styled.span>
                   <styled.span>
+                    Commited by 
+                    <styled.span />
+                     - 
+                    <Link
+                      className=""
+                      url="sample.com"
+                    >
+                      a1209b7
+                    </Link>
+                  </styled.span>
+                  <styled.span>
+                    <styled.span />
+                     commited on 
+                    June
+                     
+                    2016
+                  </styled.span>
+                </styled.span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
                     <styled.span>
                       Commited by 
                       <styled.span />
-                    </styled.span>
+                       - 
+                      <Link
+                        className=""
+                        url="sample.com"
+                      >
+                        a1209b7
+                      </Link>
+                    </styled.span>,
                     <styled.span>
                       <styled.span />
                        commited on 
                       June
                        
                       2016
-                    </styled.span>
-                  </styled.span>,
-                  <styled.span>
-                     - 
-                    d909438
-                  </styled.span>,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": Array [
-                      <styled.span>
-                        Commited by 
-                        <styled.span />
-                      </styled.span>,
-                      <styled.span>
-                        <styled.span />
-                         commited on 
-                        June
-                         
-                        2016
-                      </styled.span>,
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "class",
-                      "props": Object {
-                        "children": Array [
-                          "Commited by ",
-                          <styled.span />,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
+                    </styled.span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
                         "Commited by ",
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": undefined,
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
+                        <styled.span />,
+                        " - ",
+                        <Link
+                          className=""
+                          url="sample.com"
+                        >
+                          a1209b7
+                        </Link>,
                       ],
-                      "type": [Function],
                     },
-                    Object {
-                      "instance": null,
-                      "key": null,
-                      "nodeType": "class",
-                      "props": Object {
-                        "children": Array [
-                          <styled.span />,
-                          " commited on ",
-                          "June",
-                          " ",
-                          2016,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": null,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": undefined,
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
+                    "ref": null,
+                    "rendered": Array [
+                      "Commited by ",
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
                         },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      " - ",
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "a1209b7",
+                          "className": "",
+                          "url": "sample.com",
+                        },
+                        "ref": null,
+                        "rendered": "a1209b7",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <styled.span />,
                         " commited on ",
                         "June",
                         " ",
                         2016,
                       ],
-                      "type": [Function],
                     },
-                  ],
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": Array [
-                      " - ",
-                      "d909438",
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      " commited on ",
+                      "June",
+                      " ",
+                      2016,
                     ],
+                    "type": [Function],
                   },
-                  "ref": null,
-                  "rendered": Array [
-                    " - ",
-                    "d909438",
-                  ],
-                  "type": [Function],
-                },
-              ],
+                ],
+                "type": [Function],
+              },
               "type": [Function],
             },
             null,
           ],
           "type": [Function],
         },
-        null,
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Link
+              className=""
+              url="sample.com"
+            >
+              <Button
+                light={true}
+                small={true}
+                title="Related link"
+              >
+                <PillLeft>
+                  <Icon
+                    icon="link"
+                  />
+                </PillLeft>
+                <PillRight>
+                  <styled.span>
+                    a1209b7
+                  </styled.span>
+                </PillRight>
+              </Button>
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Button
+                light={true}
+                small={true}
+                title="Related link"
+              >
+                <PillLeft>
+                  <Icon
+                    icon="link"
+                  />
+                </PillLeft>
+                <PillRight>
+                  <styled.span>
+                    a1209b7
+                  </styled.span>
+                </PillRight>
+              </Button>,
+              "className": "",
+              "url": "sample.com",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <PillLeft>
+                    <Icon
+                      icon="link"
+                    />
+                  </PillLeft>,
+                  <PillRight>
+                    <styled.span>
+                      a1209b7
+                    </styled.span>
+                  </PillRight>,
+                ],
+                "light": true,
+                "small": true,
+                "title": "Related link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <Icon
+                      icon="link"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": "link",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <styled.span>
+                      a1209b7
+                    </styled.span>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "a1209b7",
+                    },
+                    "ref": null,
+                    "rendered": "a1209b7",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
       ],
       "type": [Function],
     },

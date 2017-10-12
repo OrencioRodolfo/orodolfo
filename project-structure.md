@@ -31,6 +31,15 @@
                 /Commit
           
 
+------------------------------------
+TODO:
+Nav bar
+routing
+number of commits
+number of repos
+
+------------------------------------
+
 Remote mongo connection:
 mongo ds141284.mlab.com:41284/heroku_fnks1hn2 -u RodolfoGoncalves -p orag1991
 

@@ -143,6 +143,11 @@ class Commit extends Component {
     };
   }
 
+  getCommitHash() {
+    const { commit } = this.props;
+    return commit._id.substring(commit._id.length - 7);
+  }
+
   toggleDescription() {
     this.setState({
       expanded: !this.state.expanded,
@@ -184,7 +189,7 @@ class Commit extends Component {
               </PillLeft>
               <PillRight>
                 <HashAlias>
-                  {commit._id.substring(commit._id.length - 7)}
+                  {this.getCommitHash()}
                 </HashAlias>
               </PillRight>
             </Button>
@@ -210,7 +215,7 @@ class Commit extends Component {
             <Message>
               <Author>
                 <CommitedBy>
-                  Commited by <AuthorName>{commit.author}</AuthorName>
+                  Commited by <AuthorName>{commit.author}</AuthorName> - <Link url={commit.link}>{this.getCommitHash()}</Link>
                 </CommitedBy>
                 <CommitedOn>
                   <AuthorName>{commit.author}</AuthorName>
@@ -218,7 +223,6 @@ class Commit extends Component {
                   &nbsp;{commit.date.getFullYear()}
                 </CommitedOn>
               </Author>
-              <SmallHash>&nbsp;- {commit.hashAlias}</SmallHash>
             </Message>
             {this.renderDescription()}
           </Body>
