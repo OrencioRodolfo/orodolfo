@@ -191,6 +191,20 @@ class Commit extends Component {
     return null;
   }
 
+  renderHashLink() {
+    const { commit } = this.props;
+    if (commit.link && commit.link.length > 0) {
+      return (
+        <span>
+          &nbsp;-
+          &nbsp;<Link url={commit.link} className="link">{this.getCommitHash()}</Link>
+        </span>
+      );
+    }
+
+    return null;
+  }
+
   render() {
     const { commit } = this.props;
     if (Object.keys(commit).length) {
@@ -206,8 +220,8 @@ class Commit extends Component {
               <Author>
                 <CommitedBy>
                   Commited by
-                  &nbsp;<AuthorName>{commit.author}</AuthorName> -
-                  &nbsp;<Link url={commit.link}>{this.getCommitHash()}</Link>
+                  &nbsp;<AuthorName>{commit.author}</AuthorName>
+                  {this.renderHashLink()}
                 </CommitedBy>
                 <CommitedOn>
                   <AuthorName>{commit.author}</AuthorName>
