@@ -79,13 +79,15 @@ ShallowWrapper {
               <styled.span>
                 Commited by  
                 <styled.span />
-                 -  
-                <Link
-                  className=""
-                  url="sample.com"
-                >
-                  a1209b7
-                </Link>
+                <span>
+                   -  
+                  <Link
+                    className="link"
+                    url="sample.com"
+                  >
+                    a1209b7
+                  </Link>
+                </span>
               </styled.span>
               <styled.span>
                 <styled.span />
@@ -159,13 +161,15 @@ ShallowWrapper {
                 <styled.span>
                   Commited by  
                   <styled.span />
-                   -  
-                  <Link
-                    className=""
-                    url="sample.com"
-                  >
-                    a1209b7
-                  </Link>
+                  <span>
+                     -  
+                    <Link
+                      className="link"
+                      url="sample.com"
+                    >
+                      a1209b7
+                    </Link>
+                  </span>
                 </styled.span>
                 <styled.span>
                   <styled.span />
@@ -234,13 +238,15 @@ ShallowWrapper {
                 <styled.span>
                   Commited by  
                   <styled.span />
-                   -  
-                  <Link
-                    className=""
-                    url="sample.com"
-                  >
-                    a1209b7
-                  </Link>
+                  <span>
+                     -  
+                    <Link
+                      className="link"
+                      url="sample.com"
+                    >
+                      a1209b7
+                    </Link>
+                  </span>
                 </styled.span>
                 <styled.span>
                   <styled.span />
@@ -261,13 +267,15 @@ ShallowWrapper {
                   <styled.span>
                     Commited by  
                     <styled.span />
-                     -  
-                    <Link
-                      className=""
-                      url="sample.com"
-                    >
-                      a1209b7
-                    </Link>
+                    <span>
+                       -  
+                      <Link
+                        className="link"
+                        url="sample.com"
+                      >
+                        a1209b7
+                      </Link>
+                    </span>
                   </styled.span>,
                   <styled.span>
                     <styled.span />
@@ -288,13 +296,15 @@ ShallowWrapper {
                     "children": Array [
                       "Commited by  ",
                       <styled.span />,
-                      " -  ",
-                      <Link
-                        className=""
-                        url="sample.com"
-                      >
-                        a1209b7
-                      </Link>,
+                      <span>
+                         -  
+                        <Link
+                          className="link"
+                          url="sample.com"
+                        >
+                          a1209b7
+                        </Link>
+                      </span>,
                     ],
                   },
                   "ref": null,
@@ -311,19 +321,39 @@ ShallowWrapper {
                       "rendered": null,
                       "type": [Function],
                     },
-                    " -  ",
                     Object {
                       "instance": null,
                       "key": null,
-                      "nodeType": "function",
+                      "nodeType": "host",
                       "props": Object {
-                        "children": "a1209b7",
-                        "className": "",
-                        "url": "sample.com",
+                        "children": Array [
+                          " -  ",
+                          <Link
+                            className="link"
+                            url="sample.com"
+                          >
+                            a1209b7
+                          </Link>,
+                        ],
                       },
                       "ref": null,
-                      "rendered": "a1209b7",
-                      "type": [Function],
+                      "rendered": Array [
+                        " -  ",
+                        Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "a1209b7",
+                            "className": "link",
+                            "url": "sample.com",
+                          },
+                          "ref": null,
+                          "rendered": "a1209b7",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "span",
                     },
                   ],
                   "type": [Function],
@@ -531,13 +561,15 @@ ShallowWrapper {
                 <styled.span>
                   Commited by  
                   <styled.span />
-                   -  
-                  <Link
-                    className=""
-                    url="sample.com"
-                  >
-                    a1209b7
-                  </Link>
+                  <span>
+                     -  
+                    <Link
+                      className="link"
+                      url="sample.com"
+                    >
+                      a1209b7
+                    </Link>
+                  </span>
                 </styled.span>
                 <styled.span>
                   <styled.span />
@@ -611,13 +643,15 @@ ShallowWrapper {
                   <styled.span>
                     Commited by  
                     <styled.span />
-                     -  
-                    <Link
-                      className=""
-                      url="sample.com"
-                    >
-                      a1209b7
-                    </Link>
+                    <span>
+                       -  
+                      <Link
+                        className="link"
+                        url="sample.com"
+                      >
+                        a1209b7
+                      </Link>
+                    </span>
                   </styled.span>
                   <styled.span>
                     <styled.span />
@@ -686,13 +720,15 @@ ShallowWrapper {
                   <styled.span>
                     Commited by  
                     <styled.span />
-                     -  
-                    <Link
-                      className=""
-                      url="sample.com"
-                    >
-                      a1209b7
-                    </Link>
+                    <span>
+                       -  
+                      <Link
+                        className="link"
+                        url="sample.com"
+                      >
+                        a1209b7
+                      </Link>
+                    </span>
                   </styled.span>
                   <styled.span>
                     <styled.span />
@@ -713,13 +749,15 @@ ShallowWrapper {
                     <styled.span>
                       Commited by  
                       <styled.span />
-                       -  
-                      <Link
-                        className=""
-                        url="sample.com"
-                      >
-                        a1209b7
-                      </Link>
+                      <span>
+                         -  
+                        <Link
+                          className="link"
+                          url="sample.com"
+                        >
+                          a1209b7
+                        </Link>
+                      </span>
                     </styled.span>,
                     <styled.span>
                       <styled.span />
@@ -740,13 +778,15 @@ ShallowWrapper {
                       "children": Array [
                         "Commited by  ",
                         <styled.span />,
-                        " -  ",
-                        <Link
-                          className=""
-                          url="sample.com"
-                        >
-                          a1209b7
-                        </Link>,
+                        <span>
+                           -  
+                          <Link
+                            className="link"
+                            url="sample.com"
+                          >
+                            a1209b7
+                          </Link>
+                        </span>,
                       ],
                     },
                     "ref": null,
@@ -763,19 +803,39 @@ ShallowWrapper {
                         "rendered": null,
                         "type": [Function],
                       },
-                      " -  ",
                       Object {
                         "instance": null,
                         "key": null,
-                        "nodeType": "function",
+                        "nodeType": "host",
                         "props": Object {
-                          "children": "a1209b7",
-                          "className": "",
-                          "url": "sample.com",
+                          "children": Array [
+                            " -  ",
+                            <Link
+                              className="link"
+                              url="sample.com"
+                            >
+                              a1209b7
+                            </Link>,
+                          ],
                         },
                         "ref": null,
-                        "rendered": "a1209b7",
-                        "type": [Function],
+                        "rendered": Array [
+                          " -  ",
+                          Object {
+                            "instance": null,
+                            "key": null,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": "a1209b7",
+                              "className": "link",
+                              "url": "sample.com",
+                            },
+                            "ref": null,
+                            "rendered": "a1209b7",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "span",
                       },
                     ],
                     "type": [Function],
