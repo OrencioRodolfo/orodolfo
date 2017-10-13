@@ -5,7 +5,7 @@
   },
   "globals": {
     "document": 1,
-    "API_URL": 1
+    "ENV_PRODUCTION": 1
   },
   "rules": {
     "jsx-a11y/href-no-hash": "off",

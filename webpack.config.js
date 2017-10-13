@@ -31,7 +31,7 @@ const config = {
       filename: 'index.html',
     }),
     new webpack.DefinePlugin({
-      API_URL: process.env.NODE_ENV !== 'production' ? JSON.stringify('http://localhost:3000') : JSON.stringify('http://www.orodolfo.com'),
+      ENV_PRODUCTION: process.env.NODE_ENV === 'production',
     }),
   ],
 };

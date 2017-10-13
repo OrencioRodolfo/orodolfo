@@ -38,6 +38,12 @@ routing
 number of commits
 number of repos
 
+adicionar "respos" endpoint com:
+ - total de stars
+ - lista de repositórios
+
+Analytics
+
 ------------------------------------
 
 Remote mongo connection:
