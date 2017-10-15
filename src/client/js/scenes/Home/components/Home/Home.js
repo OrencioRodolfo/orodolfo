@@ -3,11 +3,13 @@ import styled from 'styled-components';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import { getAbout } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
+import Navigation from '../Navigation/Navigation';
 import CommitHistory from '../CommitHistory/CommitHistory';
 import Footer from '../Footer/Footer';
 import { fetchAbout } from '../../services/about';
@@ -40,6 +42,12 @@ const Desc = styled.p`
   `}
 `;
 
+const About = () => (
+  <div>
+    <h2>About</h2>
+  </div>
+)
+
 class Home extends Component {
   componentDidMount() {
     fetchAbout().then((response) => {
@@ -52,10 +60,17 @@ class Home extends Component {
       <HomeContainer>
         <Header />
         <Subhead />
-        <MainContent>
-          <Desc>{this.props.description}</Desc>
-          <CommitHistory />
-        </MainContent>
+        <Router>
+          <div>
+            <MainContent>
+              <Desc>{this.props.description}</Desc>
+              <Navigation />
+              <Route path="/commits" component={CommitHistory} />
+              <Route path="/organizations" component={About} />
+              <Route path="/repos" component={CommitHistory} />
+            </MainContent>
+          </div>
+        </Router>
         <Footer />
       </HomeContainer>
     );

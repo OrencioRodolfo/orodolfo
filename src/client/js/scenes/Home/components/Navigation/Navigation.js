@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import RoundedContainer from '../../../../components/Containers/Rounded/Rounded';
 import Icon from '../../../../components/Icon/Icon';
 
@@ -26,19 +27,25 @@ class Navigation extends Component {
       <RoundedContainer>
         <List>
           <Item>
-            <Icon icon="clock-o" />
-            <Stat>21</Stat>
-            commits
+            <Link to="/commits">
+              <Icon icon="clock-o" />
+              <Stat>21</Stat>
+              commits
+            </Link>
           </Item>
           <Item>
-            <Icon icon="users" />
-            <Stat>3</Stat>
-            organizations
+            <Link to="/organizations">
+              <Icon icon="users" />
+              <Stat>3</Stat>
+              organizations
+            </Link>
           </Item>
           <Item>
-            <Icon icon="github-alt" />
-            <Stat>5</Stat>
-            repos
+            <Link to="/repos">
+              <Icon icon="github-alt" />
+              <Stat>5</Stat>
+              repos
+            </Link>
           </Item>
         </List>
       </RoundedContainer>
