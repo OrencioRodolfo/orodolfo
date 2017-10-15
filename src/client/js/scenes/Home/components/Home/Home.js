@@ -42,12 +42,6 @@ const Desc = styled.p`
   `}
 `;
 
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-)
-
 class Home extends Component {
   componentDidMount() {
     fetchAbout().then((response) => {
@@ -65,9 +59,10 @@ class Home extends Component {
             <MainContent>
               <Desc>{this.props.description}</Desc>
               <Navigation />
-              <Route path="/commits" component={CommitHistory} />
-              <Route path="/organizations" component={About} />
-              <Route path="/repos" component={CommitHistory} />
+              <Route exact path="/" component={CommitHistory} />
+              <Route exact path="/commits" component={CommitHistory} />
+              <Route exact path="/organizations" component={CommitHistory} />
+              <Route exact path="/repos" component={CommitHistory} />
             </MainContent>
           </div>
         </Router>

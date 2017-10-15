@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import RoundedContainer from '../../../../components/Containers/Rounded/Rounded';
+import PropTypes from 'prop-types';
 import Icon from '../../../../components/Icon/Icon';
+
+const RoundedContainer = styled.div`
+  border-radius: 3px;
+  border: 1px solid ${props => props.theme.color('background')};
+  margin: 20px 0;
+  border-bottom: 3px solid ${props => props.theme.color('accent')};
+`;
 
 const List = styled.ul`
   margin: 0;
@@ -14,6 +22,15 @@ const Item = styled.li`
   display: inline-block;
   margin: 0;
   padding: 10px;
+
+  a {
+    text-decoration: none;
+    color: ${props => props.theme.contrast('light')}
+  }
+
+  .active {
+    color: ${props => props.theme.color()};
+  }
 `;
 
 const Stat = styled.span` 
@@ -22,35 +39,98 @@ const Stat = styled.span`
 `;
 
 class Navigation extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeLink: 0,
+      links: [
+        {
+          url: '/organizations',
+          icon: 'users',
+          stat: 3,
+          desc: 'organizations',
+        },
+        {
+          url: '/repos',
+          icon: 'github-alt',
+          stat: 5,
+          desc: 'repos',
+        },
+      ],
+    };
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      links: [
+        {
+          url: '/commits',
+          icon: 'clock-o',
+          stat: nextProps.totalCommits,
+          desc: 'commits',
+          active: true,
+        },
+        ...this.state.links,
+      ],
+    });
+  }
+
+  setActiveLink(id) {
+    this.setState({
+      activeLink: id,
+    });
+  }
+
+  renderLinks() {
+    if (this.state.links) {
+      return this.state.links.map((item, index) => (
+        <Item key={item.url}>
+          <Link
+            to={item.url}
+            className={index === this.state.activeLink ? 'active' : ''}
+            onClick={() => this.setActiveLink(index)}
+          >
+            <Icon icon={item.icon} />
+            <Stat>{item.stat}</Stat>
+            {item.desc}
+          </Link>
+        </Item>
+      ));
+    }
+
+    return null;
+  }
+
   render() {
     return (
       <RoundedContainer>
         <List>
-          <Item>
-            <Link to="/commits">
-              <Icon icon="clock-o" />
-              <Stat>21</Stat>
-              commits
-            </Link>
-          </Item>
-          <Item>
-            <Link to="/organizations">
-              <Icon icon="users" />
-              <Stat>3</Stat>
-              organizations
-            </Link>
-          </Item>
-          <Item>
-            <Link to="/repos">
-              <Icon icon="github-alt" />
-              <Stat>5</Stat>
-              repos
-            </Link>
-          </Item>
+          {this.renderLinks()}
         </List>
       </RoundedContainer>
     );
   }
 }
 
-export default Navigation;
+Navigation.propTypes = {
+  totalCommits: PropTypes.number.isRequired,
+};
+
+function mapStateToProps(state) {
+  const { commits } = state.history;
+  let commitsCounter = 0;
+  Object.keys(commits).forEach((key) => {
+    commitsCounter += commits[key].length || 0;
+  });
+
+  return {
+    totalCommits: commitsCounter,
+  };
+}
+
+export default connect(mapStateToProps)(Navigation);
+
+export {
+  Navigation,
+  mapStateToProps,
+};

@@ -34,8 +34,6 @@
 ------------------------------------
 TODO:
 Nav bar
-routing
-number of commits
 number of repos
 
 adicionar "respos" endpoint com:
