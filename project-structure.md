@@ -34,11 +34,19 @@
 ------------------------------------
 TODO:
 Nav bar
-number of repos
+ - number of repos
+ - number of organizations
+
+Página de organizações
+ - serviço
+ - componente
 
 adicionar "respos" endpoint com:
  - total de stars
  - lista de repositórios
+
+ /organizations
+  - lista de organizations
 
 ------------------------------------
 
@@ -47,155 +55,32 @@ mongo ds141284.mlab.com:41284/heroku_fnks1hn2 -u RodolfoGoncalves -p orag1991
 
 db.commits.insert([{"date":"2016-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2016-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2016-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2015-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2015-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2015-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2014-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2014-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2014-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"},{"date":"2014-06-04T23:00:00.000Z","title":"A title","description":"Description...","image":"https://avatars0.githubusercontent.com/u/4216535?v=4&s=72","hash":"d9094385acf7d47c7c5c6f7ceb6866b54f9b602d","hashAlias":"d909438","author":"OrencioRdolfo"}])
 
-1991 - hello world
-2008 - IT technician
-2011 - Licenciatura
-2013 - Acin
-2015 - Exictos
-2015 - Mestrado
-2015 - OpenDataHub
-2015 - Offline first
-2016 - dcs-icon-font
-2016 - PostCSS demo
-2016 - WebMadeira organization + event
-2016 - WebMadeira talk
-2017 - Flexbox course
-2017 - codeweek talk
-2017 - React Native + React JS (demos)
+db.getCollection('organizations').insert([
+  {
+      "name" : "ACIN iCloud Solutions",
+      "description" : "Working as a fullstack web developer developer, in Acin iCloud Solutions a had the following responsibilities:<br>- Web Development on the acinGov platform, a procurement platform;<br>- Plan, architecture and prototype new solutions;<br>- Implementation of webservices for communication with external services to acinGov platform.<br>- Validation and documentation of new solutions;<br>- Software Deployment and maintenance",
+      "image" : "http://www.acin.pt/img/brand/logotipo.png",
+      "start_date" : new Date(2013, 01, 12),
+      "end_date" : new Date(2015, 12, 05)   
+  },
 
-db.commits.insert([
   {
-    "date": "1991-04-27T23:00:00.000Z",
-    "title": "Hello world",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo"
+      "name" : "Web Madeira",
+      "description" : "A 4-hours not-for-profit by-the-community and for-the-community conference about web development",
+      "image" : "http://webmadeira.herokuapp.com/img/logo.svg",
+      "start_date" : new Date(2016, 12, 23),
+      "end_date" : new Date(2016, 12, 23)
   },
   {
-    "date": "2008-06-20T23:00:00.000Z",
-    "title": "IT technician",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "description": "At the hightschool I introduced some programming concepts and got my first diploma as \"IT technician\"",
-    "author": "OrencioRdolfo"
+      "name" : "Udemy",
+      "description" : "I'm passionate about learning and sharing knowledge and because of that I've become an Udemy instructor. Flexbox: The complete guide is about a new CSS 3 module for building layouts and it is my first experience as a tutor.",
+      "image" : "https://www.udemy.com/staticx/udemy/images/v5/logo-green.svg",
+      "start_date" : new Date(2017, 08, 01)
   },
   {
-    "date": "2011-07-15T23:00:00.000Z",
-    "title": "Graduation",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "description": "Decided to follow the programming path and finished my graduation as a Informatic Engineer",
-    "author": "OrencioRdolfo"
-  },
-  {
-    "date": "2013-02-12T23:00:00.000Z",
-    "title": "ACIN iCloud Solutions - Full stack web developer",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "description": "My first professional experience was at ACIN where I had a great experience. Had the opportunity to work as a full-stack developer with essentially PHP, MySQL, JS and CSS",
-    "author": "OrencioRdolfo",
-    "link": "http://www.acin.pt/",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2015-12-07T23:00:00.000Z",
-    "title": "Exictos - Front end developer",
-    "description": "With the purpose of learning new stuff and specifying my knowledge on a more specific stack, working at Exictos has been great and have made me a JS lover. Working with AngularJS, React Native, ES6, Sass, jQuery, Service workers...",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "http://www.exictos.com/",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2016-06-22T23:00:00.000Z",
-    "title": "Master's degree",
-    "description": "Decided to keep on with my studies along with my roles at ACIN and then Exictos. Have built a web platform to manage and publicate scientific datasets about any matter. Used stuff like NodeJS, MongoDB + Replication + Clustering, AngularJS, Less, Grunt...",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/OrencioRodolfo/OpenDataHub",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2016-06-22T23:00:00.000Z",
-    "title": "OpenDataHub",
-    "description": "An open source project related to my Master's degree. Available at github and built with NodeJS, MongoDB + Replication + Clustering, AngularJS, Less, Grunt...",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/OrencioRodolfo/OpenDataHub",
-    "hashAlias": "d909438"
-  }
-])
-
-db.commits.insert([
-  {
-    "date": "2016-06-03T23:00:00.000Z",
-    "title": "dcs-icon-font",
-    "description": "At Exictos, we had been strugling about SVG icons, and paths and web fonts with limited icon sets so... We decided to create our own! Had the opportunity to build a web font generator to use icons as a web font, and it has been used in much of our projects. \"We eat our food.\"",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/Exictos-DCS/dcs-icon-font",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2016-07-08T23:00:00.000Z",
-    "title": "Offline first web apps",
-    "description": "Have been listening about Offline first web apps and services workers and so on... And at Exictos gave me the opportunity to study and build a demo about it. Then I've created the \"Exictos\" organization at github and made the demo publicly available. Thank you guys!",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/OrencioRodolfo/offline-first-apps",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2016-07-08T23:00:00.000Z",
-    "title": "PostCSS + Atomic Design",
-    "description": "PostCSS, the new thing! And I wanna to know it. Since the best way to learn something is by doing it, I and a friend of mine have built a landing page using PostCSS and following the Atomic Design tecnique. This was the page for the \"Web Madeira\" meetup.",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/webmadeira/landing-page",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2016-12-23T23:00:00.000Z",
-    "title": "Web Madeira Meetup",
-    "description": "One of the greatest self accomplishments. As an organizer and speaker, me and group of speakers talked and discussed about different topics about web development with the attendees, it was a wonderful experience. The event's landing page was built with PostCSS and Atomic desing, the topics on my talk.",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/webmadeira",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2017-04-20T23:00:00.000Z",
-    "title": "Udemy course - Flexbox",
-    "description": "I really believe in the sentence \"You never really know something until you know how to teach it\", and I love to share knowledge. So I decided to take my first experience as an instructor at Udemy. Result: Some networking and deeper knowledge about Flexbox!",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://www.udemy.com/user/rodolfo-goncalves-2/",
-    "hashAlias": "d909438"
-  }
-])
-
-db.commits.insert([
-  {
-    "date": "2017-08-10T23:00:00.000Z",
-    "title": "Whynotcarrental",
-    "description": "Wanted to have the experience of dealing with the customer and trying to specify requirements and mockups and all that, and this project is exactly that. Build with Laravel, MySQl, Angular, Sass...",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "http://www.whynotcarrental.com/",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2017-08-10T23:00:00.000Z",
-    "title": "Codeweek talk",
-    "description": "One of the things that I most appretiate at Exictos are the people and the seeking for improvement. I'm a big fan of Git, Git flow, CI and CD and had the opportunity to promote the migration of several projets to Git and changing all the development cycle. Now I have the opportunity to share this experience at one of the Codeweek's event as speaker!",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://prezi.com/rrv3i6tusl8a/development-cycle/",
-    "hashAlias": "d909438"
-  },
-  {
-    "date": "2017-10-10T23:00:00.000Z",
-    "title": "Personal page",
-    "description": "My personal page is one of my achievements that I would share with you. It could be a simple HTML page with hardcoded content and come CSS but... I did it the hard way. I have been learning about ReactJS and React Native and this page is my ReactJS + Redux demo.",
-    "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
-    "author": "OrencioRdolfo",
-    "link": "https://github.com/OrencioRodolfo/orodolfo",
-    "hashAlias": "d909438"
+      "name" : "Exictos",
+      "description" : "As Front End Web Developer, I contribute essentially on Internet Banking solutions.<br>Although I have been participating in different projects, my major focus is over a new Internet Banking project that relies in an omnichannel strategy and implements an architecture based in mini-apps and micro-services.",
+      "image" : "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAPtAAAAJDJmZjlmY2QzLWU0ZGUtNDk0Mi1hMWNhLTJjYjk1ZjFkMGVkNw.png",
+      "start_date" : new Date(2016, 12, 23)
   }
 ])
