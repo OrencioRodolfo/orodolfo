@@ -78,6 +78,7 @@ class Home extends Component {
 
 Home.propTypes = {
   getAbout: PropTypes.func.isRequired,
+  getOrganizations: PropTypes.func.isRequired,
   description: PropTypes.string.isRequired,
 };
 
