@@ -5,7 +5,7 @@ import { Navigation, mapStateToProps } from './Navigation';
 describe('Navigation component', () => {
   it('Must render a navigation with the totals', () => {
     const container = shallow(
-      <Navigation totalCommits={31} />,
+      <Navigation totalCommits={31} totalOrganizations={10} />,
     );
 
     expect(container).toMatchSnapshot();
@@ -17,10 +17,12 @@ describe('Navigation component', () => {
         history: {
           commits: {},
         },
+        organizations: [],
       };
       const result = mapStateToProps(defaultState);
       const expected = {
         totalCommits: 0,
+        totalOrganizations: 0,
       };
       expect(result).toEqual(expected);
     });
@@ -42,10 +44,16 @@ describe('Navigation component', () => {
             ],
           },
         },
+        organizations: [
+          {},
+          {},
+          {},
+        ],
       };
       const result = mapStateToProps(state);
       const expected = {
         totalCommits: 6,
+        totalOrganizations: 3,
       };
       expect(result).toEqual(expected);
     });

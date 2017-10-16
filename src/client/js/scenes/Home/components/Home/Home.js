@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { getAbout } from '../../../../actions';
+import { getAbout, getOrganizations } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
@@ -13,6 +13,7 @@ import Navigation from '../Navigation/Navigation';
 import CommitHistory from '../CommitHistory/CommitHistory';
 import Footer from '../Footer/Footer';
 import { fetchAbout } from '../../services/about';
+import { fetchOrganizations } from '../../services/organizations';
 
 const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
@@ -47,6 +48,9 @@ class Home extends Component {
     fetchAbout().then((response) => {
       this.props.getAbout(response);
     });
+    fetchOrganizations().then((response) => {
+      this.props.getOrganizations(response);
+    });
   }
 
   render() {
@@ -61,7 +65,7 @@ class Home extends Component {
               <Navigation />
               <Route exact path="/" component={CommitHistory} />
               <Route exact path="/commits" component={CommitHistory} />
-              <Route exact path="/organizations" component={CommitHistory} />
+              <Route exact path="/orgs" component={CommitHistory} />
               <Route exact path="/repos" component={CommitHistory} />
             </MainContent>
           </div>
@@ -80,6 +84,7 @@ Home.propTypes = {
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({
     getAbout,
+    getOrganizations,
   }, dispatch);
 }
 

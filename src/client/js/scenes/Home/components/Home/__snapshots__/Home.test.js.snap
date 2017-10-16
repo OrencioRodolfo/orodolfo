@@ -43,7 +43,7 @@ ShallowWrapper {
               <Route
                 component={[Function]}
                 exact={true}
-                path="/organizations"
+                path="/orgs"
               />
               <Route
                 component={[Function]}
@@ -100,7 +100,7 @@ ShallowWrapper {
               <Route
                 component={[Function]}
                 exact={true}
-                path="/organizations"
+                path="/orgs"
               />
               <Route
                 component={[Function]}
@@ -134,7 +134,7 @@ ShallowWrapper {
               <Route
                 component={[Function]}
                 exact={true}
-                path="/organizations"
+                path="/orgs"
               />
               <Route
                 component={[Function]}
@@ -167,7 +167,7 @@ ShallowWrapper {
                 <Route
                   component={[Function]}
                   exact={true}
-                  path="/organizations"
+                  path="/orgs"
                 />,
                 <Route
                   component={[Function]}
@@ -231,7 +231,7 @@ ShallowWrapper {
                 "props": Object {
                   "component": [Function],
                   "exact": true,
-                  "path": "/organizations",
+                  "path": "/orgs",
                 },
                 "ref": null,
                 "rendered": null,
@@ -298,7 +298,7 @@ ShallowWrapper {
                 <Route
                   component={[Function]}
                   exact={true}
-                  path="/organizations"
+                  path="/orgs"
                 />
                 <Route
                   component={[Function]}
@@ -355,7 +355,7 @@ ShallowWrapper {
                 <Route
                   component={[Function]}
                   exact={true}
-                  path="/organizations"
+                  path="/orgs"
                 />
                 <Route
                   component={[Function]}
@@ -389,7 +389,7 @@ ShallowWrapper {
                 <Route
                   component={[Function]}
                   exact={true}
-                  path="/organizations"
+                  path="/orgs"
                 />
                 <Route
                   component={[Function]}
@@ -422,7 +422,7 @@ ShallowWrapper {
                   <Route
                     component={[Function]}
                     exact={true}
-                    path="/organizations"
+                    path="/orgs"
                   />,
                   <Route
                     component={[Function]}
@@ -486,7 +486,7 @@ ShallowWrapper {
                   "props": Object {
                     "component": [Function],
                     "exact": true,
-                    "path": "/organizations",
+                    "path": "/orgs",
                   },
                   "ref": null,
                   "rendered": null,

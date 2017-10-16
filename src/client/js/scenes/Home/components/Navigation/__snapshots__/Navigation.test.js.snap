@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Navigation
     totalCommits={31}
+    totalOrganizations={10}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -25,13 +26,29 @@ ShallowWrapper {
             className="active"
             onClick={[Function]}
             replace={false}
+            to="/commits"
+          >
+            <Icon
+              icon="clock-o"
+            />
+            <styled.span>
+              0
+            </styled.span>
+            commits
+          </Link>
+        </styled.li>
+        <styled.li>
+          <Link
+            className=""
+            onClick={[Function]}
+            replace={false}
             to="/organizations"
           >
             <Icon
               icon="users"
             />
             <styled.span>
-              3
+              0
             </styled.span>
             organizations
           </Link>
@@ -47,7 +64,7 @@ ShallowWrapper {
               icon="github-alt"
             />
             <styled.span>
-              5
+              0
             </styled.span>
             repos
           </Link>
@@ -66,13 +83,29 @@ ShallowWrapper {
               className="active"
               onClick={[Function]}
               replace={false}
+              to="/commits"
+            >
+              <Icon
+                icon="clock-o"
+              />
+              <styled.span>
+                0
+              </styled.span>
+              commits
+            </Link>
+          </styled.li>,
+          <styled.li>
+            <Link
+              className=""
+              onClick={[Function]}
+              replace={false}
               to="/organizations"
             >
               <Icon
                 icon="users"
               />
               <styled.span>
-                3
+                0
               </styled.span>
               organizations
             </Link>
@@ -88,7 +121,7 @@ ShallowWrapper {
                 icon="github-alt"
               />
               <styled.span>
-                5
+                0
               </styled.span>
               repos
             </Link>
@@ -99,11 +132,81 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "/organizations",
+          "key": "/commits",
           "nodeType": "class",
           "props": Object {
             "children": <Link
               className="active"
+              onClick={[Function]}
+              replace={false}
+              to="/commits"
+            >
+              <Icon
+                icon="clock-o"
+              />
+              <styled.span>
+                0
+              </styled.span>
+              commits
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Icon
+                  icon="clock-o"
+                />,
+                <styled.span>
+                  0
+                </styled.span>,
+                "commits",
+              ],
+              "className": "active",
+              "onClick": [Function],
+              "replace": false,
+              "to": "/commits",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": "clock-o",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": 0,
+                },
+                "ref": null,
+                "rendered": 0,
+                "type": [Function],
+              },
+              "commits",
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "/organizations",
+          "nodeType": "class",
+          "props": Object {
+            "children": <Link
+              className=""
               onClick={[Function]}
               replace={false}
               to="/organizations"
@@ -112,7 +215,7 @@ ShallowWrapper {
                 icon="users"
               />
               <styled.span>
-                3
+                0
               </styled.span>
               organizations
             </Link>,
@@ -128,11 +231,11 @@ ShallowWrapper {
                   icon="users"
                 />,
                 <styled.span>
-                  3
+                  0
                 </styled.span>,
                 "organizations",
               ],
-              "className": "active",
+              "className": "",
               "onClick": [Function],
               "replace": false,
               "to": "/organizations",
@@ -155,10 +258,10 @@ ShallowWrapper {
                 "key": null,
                 "nodeType": "class",
                 "props": Object {
-                  "children": 3,
+                  "children": 0,
                 },
                 "ref": null,
-                "rendered": 3,
+                "rendered": 0,
                 "type": [Function],
               },
               "organizations",
@@ -182,7 +285,7 @@ ShallowWrapper {
                 icon="github-alt"
               />
               <styled.span>
-                5
+                0
               </styled.span>
               repos
             </Link>,
@@ -198,7 +301,7 @@ ShallowWrapper {
                   icon="github-alt"
                 />,
                 <styled.span>
-                  5
+                  0
                 </styled.span>,
                 "repos",
               ],
@@ -225,10 +328,10 @@ ShallowWrapper {
                 "key": null,
                 "nodeType": "class",
                 "props": Object {
-                  "children": 5,
+                  "children": 0,
                 },
                 "ref": null,
-                "rendered": 5,
+                "rendered": 0,
                 "type": [Function],
               },
               "repos",
@@ -254,13 +357,29 @@ ShallowWrapper {
               className="active"
               onClick={[Function]}
               replace={false}
+              to="/commits"
+            >
+              <Icon
+                icon="clock-o"
+              />
+              <styled.span>
+                0
+              </styled.span>
+              commits
+            </Link>
+          </styled.li>
+          <styled.li>
+            <Link
+              className=""
+              onClick={[Function]}
+              replace={false}
               to="/organizations"
             >
               <Icon
                 icon="users"
               />
               <styled.span>
-                3
+                0
               </styled.span>
               organizations
             </Link>
@@ -276,7 +395,7 @@ ShallowWrapper {
                 icon="github-alt"
               />
               <styled.span>
-                5
+                0
               </styled.span>
               repos
             </Link>
@@ -295,13 +414,29 @@ ShallowWrapper {
                 className="active"
                 onClick={[Function]}
                 replace={false}
+                to="/commits"
+              >
+                <Icon
+                  icon="clock-o"
+                />
+                <styled.span>
+                  0
+                </styled.span>
+                commits
+              </Link>
+            </styled.li>,
+            <styled.li>
+              <Link
+                className=""
+                onClick={[Function]}
+                replace={false}
                 to="/organizations"
               >
                 <Icon
                   icon="users"
                 />
                 <styled.span>
-                  3
+                  0
                 </styled.span>
                 organizations
               </Link>
@@ -317,7 +452,7 @@ ShallowWrapper {
                   icon="github-alt"
                 />
                 <styled.span>
-                  5
+                  0
                 </styled.span>
                 repos
               </Link>
@@ -328,11 +463,81 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "/organizations",
+            "key": "/commits",
             "nodeType": "class",
             "props": Object {
               "children": <Link
                 className="active"
+                onClick={[Function]}
+                replace={false}
+                to="/commits"
+              >
+                <Icon
+                  icon="clock-o"
+                />
+                <styled.span>
+                  0
+                </styled.span>
+                commits
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Icon
+                    icon="clock-o"
+                  />,
+                  <styled.span>
+                    0
+                  </styled.span>,
+                  "commits",
+                ],
+                "className": "active",
+                "onClick": [Function],
+                "replace": false,
+                "to": "/commits",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": "clock-o",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": 0,
+                  },
+                  "ref": null,
+                  "rendered": 0,
+                  "type": [Function],
+                },
+                "commits",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "/organizations",
+            "nodeType": "class",
+            "props": Object {
+              "children": <Link
+                className=""
                 onClick={[Function]}
                 replace={false}
                 to="/organizations"
@@ -341,7 +546,7 @@ ShallowWrapper {
                   icon="users"
                 />
                 <styled.span>
-                  3
+                  0
                 </styled.span>
                 organizations
               </Link>,
@@ -357,11 +562,11 @@ ShallowWrapper {
                     icon="users"
                   />,
                   <styled.span>
-                    3
+                    0
                   </styled.span>,
                   "organizations",
                 ],
-                "className": "active",
+                "className": "",
                 "onClick": [Function],
                 "replace": false,
                 "to": "/organizations",
@@ -384,10 +589,10 @@ ShallowWrapper {
                   "key": null,
                   "nodeType": "class",
                   "props": Object {
-                    "children": 3,
+                    "children": 0,
                   },
                   "ref": null,
-                  "rendered": 3,
+                  "rendered": 0,
                   "type": [Function],
                 },
                 "organizations",
@@ -411,7 +616,7 @@ ShallowWrapper {
                   icon="github-alt"
                 />
                 <styled.span>
-                  5
+                  0
                 </styled.span>
                 repos
               </Link>,
@@ -427,7 +632,7 @@ ShallowWrapper {
                     icon="github-alt"
                   />,
                   <styled.span>
-                    5
+                    0
                   </styled.span>,
                   "repos",
                 ],
@@ -454,10 +659,10 @@ ShallowWrapper {
                   "key": null,
                   "nodeType": "class",
                   "props": Object {
-                    "children": 5,
+                    "children": 0,
                   },
                   "ref": null,
-                  "rendered": 5,
+                  "rendered": 0,
                   "type": [Function],
                 },
                 "repos",

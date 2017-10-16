@@ -45,15 +45,22 @@ class Navigation extends Component {
       activeLink: 0,
       links: [
         {
+          url: '/commits',
+          icon: 'clock-o',
+          stat: 0,
+          desc: 'commits',
+          active: true,
+        },
+        {
           url: '/organizations',
           icon: 'users',
-          stat: 3,
+          stat: 0,
           desc: 'organizations',
         },
         {
           url: '/repos',
           icon: 'github-alt',
-          stat: 5,
+          stat: 0,
           desc: 'repos',
         },
       ],
@@ -70,7 +77,18 @@ class Navigation extends Component {
           desc: 'commits',
           active: true,
         },
-        ...this.state.links,
+        {
+          url: '/orgs',
+          icon: 'users',
+          stat: nextProps.totalOrganizations,
+          desc: 'organizations',
+        },
+        {
+          url: '/repos',
+          icon: 'github-alt',
+          stat: 0,
+          desc: 'repos',
+        },
       ],
     });
   }
@@ -114,6 +132,7 @@ class Navigation extends Component {
 
 Navigation.propTypes = {
   totalCommits: PropTypes.number.isRequired,
+  totalOrganizations: PropTypes.number.isRequired,
 };
 
 function mapStateToProps(state) {
@@ -125,6 +144,7 @@ function mapStateToProps(state) {
 
   return {
     totalCommits: commitsCounter,
+    totalOrganizations: state.organizations.length,
   };
 }
 
