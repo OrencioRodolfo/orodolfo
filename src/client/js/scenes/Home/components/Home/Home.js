@@ -5,15 +5,17 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { getAbout, getOrganizations } from '../../../../actions';
+import { getAbout, getOrganizations, getHistory } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
 import Header from '../Header/Header';
 import Subhead from '../Subhead/Subhead';
 import Navigation from '../Navigation/Navigation';
 import CommitHistory from '../CommitHistory/CommitHistory';
+import Organizations from '../Organizations/Organizations';
 import Footer from '../Footer/Footer';
 import { fetchAbout } from '../../services/about';
 import { fetchOrganizations } from '../../services/organizations';
+import { fetchHistory } from '../../services/history';
 
 const HomeContainer = styled.div`
   font-family: ${props => props.theme.fontFamily('primary')};
@@ -51,6 +53,9 @@ class Home extends Component {
     fetchOrganizations().then((response) => {
       this.props.getOrganizations(response);
     });
+    fetchHistory().then((response) => {
+      this.props.getHistory(response);
+    });
   }
 
   render() {
@@ -65,7 +70,7 @@ class Home extends Component {
               <Navigation />
               <Route exact path="/" component={CommitHistory} />
               <Route exact path="/commits" component={CommitHistory} />
-              <Route exact path="/orgs" component={CommitHistory} />
+              <Route exact path="/orgs" component={Organizations} />
               <Route exact path="/repos" component={CommitHistory} />
             </MainContent>
           </div>
@@ -79,6 +84,7 @@ class Home extends Component {
 Home.propTypes = {
   getAbout: PropTypes.func.isRequired,
   getOrganizations: PropTypes.func.isRequired,
+  getHistory: PropTypes.func.isRequired,
   description: PropTypes.string.isRequired,
 };
 
@@ -86,6 +92,7 @@ function matchDispatchToProps(dispatch) {
   return bindActionCreators({
     getAbout,
     getOrganizations,
+    getHistory,
   }, dispatch);
 }
 

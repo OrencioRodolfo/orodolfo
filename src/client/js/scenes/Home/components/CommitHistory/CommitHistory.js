@@ -1,14 +1,11 @@
 
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import CommitsGroup from '../CommitsGroup/CommitsGroup';
-import { getHistory } from '../../../../actions';
 import { media } from '../../../../theme/style-utils';
 import Icon from '../../../../components/Icon/Icon';
-import { fetchHistory } from '../../services/history';
 
 const CommitListing = styled.div`
   position: relative;
@@ -78,12 +75,6 @@ const Title = styled.div`
 `;
 
 class CommitHistory extends Component {
-  componentWillMount() {
-    fetchHistory().then((response) => {
-      this.props.getHistory(response);
-    });
-  }
-
   renderHistory() {
     const years = Object.keys(this.props.commits).reverse();
 
@@ -108,7 +99,6 @@ class CommitHistory extends Component {
 }
 
 CommitHistory.propTypes = {
-  getHistory: PropTypes.func.isRequired,
   commits: PropTypes.object.isRequired,
 };
 
@@ -118,13 +108,7 @@ function mapStateToProps(state) {
   };
 }
 
-function matchDispatchToProps(dispatch) {
-  return bindActionCreators({
-    getHistory,
-  }, dispatch);
-}
-
-export default connect(mapStateToProps, matchDispatchToProps)(CommitHistory);
+export default connect(mapStateToProps)(CommitHistory);
 export {
   CommitHistory,
   mapStateToProps,

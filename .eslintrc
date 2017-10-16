@@ -5,7 +5,8 @@
   },
   "globals": {
     "document": 1,
-    "ENV_PRODUCTION": 1
+    "ENV_PRODUCTION": 1,
+    "window": 1
   },
   "rules": {
     "jsx-a11y/href-no-hash": "off",

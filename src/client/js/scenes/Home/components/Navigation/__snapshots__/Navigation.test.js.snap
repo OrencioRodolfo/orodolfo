@@ -42,7 +42,7 @@ ShallowWrapper {
             className=""
             onClick={[Function]}
             replace={false}
-            to="/organizations"
+            to="/orgs"
           >
             <Icon
               icon="users"
@@ -99,7 +99,7 @@ ShallowWrapper {
               className=""
               onClick={[Function]}
               replace={false}
-              to="/organizations"
+              to="/orgs"
             >
               <Icon
                 icon="users"
@@ -202,14 +202,14 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "/organizations",
+          "key": "/orgs",
           "nodeType": "class",
           "props": Object {
             "children": <Link
               className=""
               onClick={[Function]}
               replace={false}
-              to="/organizations"
+              to="/orgs"
             >
               <Icon
                 icon="users"
@@ -238,7 +238,7 @@ ShallowWrapper {
               "className": "",
               "onClick": [Function],
               "replace": false,
-              "to": "/organizations",
+              "to": "/orgs",
             },
             "ref": null,
             "rendered": Array [
@@ -373,7 +373,7 @@ ShallowWrapper {
               className=""
               onClick={[Function]}
               replace={false}
-              to="/organizations"
+              to="/orgs"
             >
               <Icon
                 icon="users"
@@ -430,7 +430,7 @@ ShallowWrapper {
                 className=""
                 onClick={[Function]}
                 replace={false}
-                to="/organizations"
+                to="/orgs"
               >
                 <Icon
                   icon="users"
@@ -533,14 +533,14 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "/organizations",
+            "key": "/orgs",
             "nodeType": "class",
             "props": Object {
               "children": <Link
                 className=""
                 onClick={[Function]}
                 replace={false}
-                to="/organizations"
+                to="/orgs"
               >
                 <Icon
                   icon="users"
@@ -569,7 +569,7 @@ ShallowWrapper {
                 "className": "",
                 "onClick": [Function],
                 "replace": false,
-                "to": "/organizations",
+                "to": "/orgs",
               },
               "ref": null,
               "rendered": Array [

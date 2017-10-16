@@ -52,7 +52,7 @@ class Navigation extends Component {
           active: true,
         },
         {
-          url: '/organizations',
+          url: '/orgs',
           icon: 'users',
           stat: 0,
           desc: 'organizations',
@@ -65,6 +65,15 @@ class Navigation extends Component {
         },
       ],
     };
+  }
+
+  componentWillMount() {
+    const currentRoute = window.location.href.replace(/.*((:[0-9])*|(.*.com))\//, '/');
+    const currentItemIndex = this.state.links.findIndex(item => item.url === currentRoute);
+
+    this.setState({
+      activeLink: currentItemIndex >= 0 ? currentItemIndex : 0,
+    });
   }
 
   componentWillReceiveProps(nextProps) {

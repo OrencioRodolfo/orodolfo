@@ -30,7 +30,7 @@ describe('Commit history component', () => {
 
   it('Must render an empty list properly', () => {
     const container = shallow(
-      <CommitHistory getHistory={() => null} commits={{}} />,
+      <CommitHistory commits={{}} />,
     );
 
     expect(container).toMatchSnapshot();
@@ -38,7 +38,7 @@ describe('Commit history component', () => {
 
   it('Must render a list of commits', () => {
     const wrapper = shallow(
-      <CommitHistory getHistory={() => null} commits={commits} />,
+      <CommitHistory commits={commits} />,
     );
 
     expect(wrapper).toMatchSnapshot();
