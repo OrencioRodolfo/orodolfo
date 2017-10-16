@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { media } from '../../../../theme/style-utils';
 
 const Ul = styled.ul`
-  padding: 10px;
+  padding: 0;
   margin: 0;
+
+  ${media.phone`
+    padding: 0 5px;  
+  `}
 `;
 
 const Li = styled.li`
@@ -14,11 +19,20 @@ const Li = styled.li`
   padding: 0;
   margin: 15px 0;
   list-style: none;
+
+  ${media.tablet`
+    flex-direction: column;
+    align-items: center;
+  `}
 `;
 
 const Title = styled.div`
   ${props => props.theme.textSetting('md')};
   font-weight: ${props => props.theme.weight('semiBold')};
+
+  ${media.tablet`
+    display: none;
+  `}
 `;
 
 const Description = styled.div`

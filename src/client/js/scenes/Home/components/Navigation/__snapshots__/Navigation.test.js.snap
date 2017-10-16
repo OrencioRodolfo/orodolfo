@@ -53,22 +53,6 @@ ShallowWrapper {
             organizations
           </Link>
         </styled.li>
-        <styled.li>
-          <Link
-            className=""
-            onClick={[Function]}
-            replace={false}
-            to="/repos"
-          >
-            <Icon
-              icon="github-alt"
-            />
-            <styled.span>
-              0
-            </styled.span>
-            repos
-          </Link>
-        </styled.li>
       </styled.ul>,
     },
     "ref": null,
@@ -108,22 +92,6 @@ ShallowWrapper {
                 0
               </styled.span>
               organizations
-            </Link>
-          </styled.li>,
-          <styled.li>
-            <Link
-              className=""
-              onClick={[Function]}
-              replace={false}
-              to="/repos"
-            >
-              <Icon
-                icon="github-alt"
-              />
-              <styled.span>
-                0
-              </styled.span>
-              repos
             </Link>
           </styled.li>,
         ],
@@ -270,76 +238,6 @@ ShallowWrapper {
           },
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": "/repos",
-          "nodeType": "class",
-          "props": Object {
-            "children": <Link
-              className=""
-              onClick={[Function]}
-              replace={false}
-              to="/repos"
-            >
-              <Icon
-                icon="github-alt"
-              />
-              <styled.span>
-                0
-              </styled.span>
-              repos
-            </Link>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <Icon
-                  icon="github-alt"
-                />,
-                <styled.span>
-                  0
-                </styled.span>,
-                "repos",
-              ],
-              "className": "",
-              "onClick": [Function],
-              "replace": false,
-              "to": "/repos",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "function",
-                "props": Object {
-                  "icon": "github-alt",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": null,
-                "nodeType": "class",
-                "props": Object {
-                  "children": 0,
-                },
-                "ref": null,
-                "rendered": 0,
-                "type": [Function],
-              },
-              "repos",
-            ],
-            "type": [Function],
-          },
-          "type": [Function],
-        },
       ],
       "type": [Function],
     },
@@ -384,22 +282,6 @@ ShallowWrapper {
               organizations
             </Link>
           </styled.li>
-          <styled.li>
-            <Link
-              className=""
-              onClick={[Function]}
-              replace={false}
-              to="/repos"
-            >
-              <Icon
-                icon="github-alt"
-              />
-              <styled.span>
-                0
-              </styled.span>
-              repos
-            </Link>
-          </styled.li>
         </styled.ul>,
       },
       "ref": null,
@@ -439,22 +321,6 @@ ShallowWrapper {
                   0
                 </styled.span>
                 organizations
-              </Link>
-            </styled.li>,
-            <styled.li>
-              <Link
-                className=""
-                onClick={[Function]}
-                replace={false}
-                to="/repos"
-              >
-                <Icon
-                  icon="github-alt"
-                />
-                <styled.span>
-                  0
-                </styled.span>
-                repos
               </Link>
             </styled.li>,
           ],
@@ -596,76 +462,6 @@ ShallowWrapper {
                   "type": [Function],
                 },
                 "organizations",
-              ],
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "/repos",
-            "nodeType": "class",
-            "props": Object {
-              "children": <Link
-                className=""
-                onClick={[Function]}
-                replace={false}
-                to="/repos"
-              >
-                <Icon
-                  icon="github-alt"
-                />
-                <styled.span>
-                  0
-                </styled.span>
-                repos
-              </Link>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
-                  <Icon
-                    icon="github-alt"
-                  />,
-                  <styled.span>
-                    0
-                  </styled.span>,
-                  "repos",
-                ],
-                "className": "",
-                "onClick": [Function],
-                "replace": false,
-                "to": "/repos",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "function",
-                  "props": Object {
-                    "icon": "github-alt",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": null,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": 0,
-                  },
-                  "ref": null,
-                  "rendered": 0,
-                  "type": [Function],
-                },
-                "repos",
               ],
               "type": [Function],
             },

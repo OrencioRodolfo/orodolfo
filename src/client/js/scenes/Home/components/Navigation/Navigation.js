@@ -4,12 +4,17 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Icon from '../../../../components/Icon/Icon';
+import { media } from '../../../../theme/style-utils';
 
 const RoundedContainer = styled.div`
   border-radius: 3px;
   border: 1px solid ${props => props.theme.color('background')};
   margin: 20px 0;
   border-bottom: 3px solid ${props => props.theme.color('accent')};
+  
+  ${media.phone`
+    margin: 0;  
+  `}
 `;
 
 const List = styled.ul`
@@ -27,6 +32,30 @@ const Item = styled.li`
     text-decoration: none;
     color: ${props => props.theme.contrast('light')}
   }
+
+  ${media.phone`
+    a {
+      display: flex;
+      align-items: center;
+
+      span {
+        order: 1;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: ${props => props.theme.color('foreground')};
+        color: ${props => props.theme.contrast('dark')};
+        ${props => props.theme.textSetting('xs')};
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        text-align: center;
+      }
+      
+      i {
+        display: none;
+      }
+    }
+  `}
 
   .active {
     color: ${props => props.theme.color()};
@@ -57,12 +86,6 @@ class Navigation extends Component {
           stat: 0,
           desc: 'organizations',
         },
-        {
-          url: '/repos',
-          icon: 'github-alt',
-          stat: 0,
-          desc: 'repos',
-        },
       ],
     };
   }
@@ -91,12 +114,6 @@ class Navigation extends Component {
           icon: 'users',
           stat: nextProps.totalOrganizations,
           desc: 'organizations',
-        },
-        {
-          url: '/repos',
-          icon: 'github-alt',
-          stat: 0,
-          desc: 'repos',
         },
       ],
     });
