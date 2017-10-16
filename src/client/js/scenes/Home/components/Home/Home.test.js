@@ -5,7 +5,7 @@ import { Home } from './Home';
 describe('Home component', () => {
   it('Must render properly', () => {
     const container = shallow(
-      <Home getAbout={() => null} description="" />,
+      <Home getAbout={() => null} getOrganizations={() => null} description="" />,
     );
 
     expect(container).toMatchSnapshot();
