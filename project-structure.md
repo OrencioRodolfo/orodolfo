@@ -33,20 +33,9 @@
 
 ------------------------------------
 TODO:
-Nav bar
- - number of repos
- - number of organizations
-
-Página de organizações
- - serviço
- - componente
-
 adicionar "respos" endpoint com:
  - total de stars
  - lista de repositórios
-
- /organizations
-  - lista de organizations
 
 ------------------------------------
 
