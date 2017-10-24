@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { media } from '../../../../theme/style-utils';
+import Link from '../../../../components/Link/Link';
 
 const Ul = styled.ul`
   padding: 0;
@@ -50,7 +51,9 @@ class Organizations extends Component {
   renderOrganizations() {
     return this.props.organizations.map(organization => (
       <Li key={organization.name}>
-        <Img src={organization.image} alt={organization.name} />
+        <Link url={organization.link}>
+          <Img src={organization.image} alt={organization.name} />
+        </Link>
         <div>
           <Title>{organization.name}</Title>
           <Description>{organization.description}</Description>
