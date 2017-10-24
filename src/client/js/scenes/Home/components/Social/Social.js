@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     `}
   }
   > a:last-child {
-    margin: 0;
+    margin-right: 0;
   }
 `;
 
